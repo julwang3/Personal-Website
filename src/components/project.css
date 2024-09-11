@@ -1,0 +1,125 @@
+.project-layout349 {
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  align-items: center;
+}
+.project-max-width {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: flex-start;
+}
+.project-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1.5;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.project-section-title {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: stretch;
+  align-items: initial;
+  flex-direction: column;
+}
+.project-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.project-container3 {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  flex-direction: row;
+}
+.project-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+}
+.project-text12 {
+  display: inline-block;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.project-image-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  justify-content: flex-end;
+}
+.project-placeholder-image {
+  width: 90%;
+  align-items: flex-start;
+}
+.project-text13 {
+  display: inline-block;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.project-text17 {
+  display: inline-block;
+}
+.project-text18 {
+  display: inline-block;
+}
+.project-text19 {
+  display: inline-block;
+}
+.project-text20 {
+  display: inline-block;
+}
+.project-text21 {
+  display: inline-block;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.project-text22 {
+  display: inline-block;
+}
+.project-text23 {
+  display: inline-block;
+}
+
+@media(max-width: 1200px) {
+  .project-technologies-used {
+    font-style: italic;
+    font-weight: bold;
+  }
+  .project-placeholder-image {
+    width: 100%;
+  }
+  .project-text14 {
+    font-weight: 700;
+  }
+  .project-text15 {
+    font-weight: 700;
+  }
+}
+@media(max-width: 991px) {
+  .project-max-width {
+    flex-direction: column-reverse;
+  }
+  .project-image-container {
+    padding-top: 0;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .project-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+}
