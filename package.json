@@ -1,6 +1,7 @@
 {
   "name": "julia-wang",
   "version": "1.0.0",
+  "homepage": "https://jlwang03.github.io",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.1.0",
@@ -12,6 +13,8 @@
     "react-router-dom": "^5.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test --env=jsdom",
@@ -33,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "react-scripts": "^5.0.1"
   }
 }
