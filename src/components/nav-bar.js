@@ -37,9 +37,9 @@ const NavBar = (props) => {
                 <span className="nav-bar-text3 thq-link">About</span>
               </Fragment>
             </Link>
-            <a href={props.resumeLink} className="nav-bar-link6">
+            <a href={props.archiveLink} className="nav-bar-link6" target="_blank" rel="noopener noreferrer">
               <Fragment>
-                <span className="nav-bar-text6 thq-link">Resume</span>
+                <span className="nav-bar-text6 thq-link">Archive</span>
               </Fragment>
             </a>
           </nav>
@@ -104,7 +104,7 @@ const NavBar = (props) => {
 
 NavBar.defaultProps = {
   rootClassName: '',
-  resumeLink: 'https://www.linkedin.com/in/julialywang/',
+  archiveLink: 'https://julwang.itch.io/',
   logoSrc:
     'https://www.linkedin.com/in/julialywang/',
   logoAlt: 'logo',

@@ -5,6 +5,9 @@
   padding-bottom: var(--dl-space-space-twounits);
   align-items: center;
 }
+.project-layout350 {
+  align-items: flex-start;
+}
 .project-max-width {
   gap: var(--dl-space-space-twounits);
   display: flex;
@@ -58,7 +61,6 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding-top: var(--dl-space-space-oneandhalfunits);
   justify-content: flex-end;
 }
 .project-placeholder-image {
