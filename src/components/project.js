@@ -10,106 +10,110 @@ const Project = (props) => {
     <div
       className={`project-layout349 thq-section-padding ${props.rootClassName} `}
     >
-      <div className="project-max-width thq-section-max-width">
-        <div className="project-content">
-          <div className="project-section-title">
-            <div className="project-container1">
-              <h2>
-                <Fragment>
-                  <h2 className="project-text22 thq-heading-2">
-                    {props.projectName}
-                  </h2>
-                </Fragment>
-              </h2>
-              <div className="project-container2">
-                <span>
+      <div className="project-layout350"
+      >
+        <div className="project-max-width thq-section-max-width">
+          <div className="project-content">
+            <div className="project-section-title">
+              <div className="project-container1">
+                <h2>
                   <Fragment>
-                    <span className="project-text17 thq-body-large">
-                      {props.roleTitle}
-                    </span>
+                    <h2 className="project-text22 thq-heading-2">
+                      {props.projectName}
+                    </h2>
                   </Fragment>
-                </span>
-                <span>
-                  <Fragment>
-                    <span className="project-text19 thq-body-large">
-                        •  
-                    </span>
-                  </Fragment>
-                </span>
-                <span>
-                  <Fragment>
-                    <span className="project-text20 thq-body-large">
-                      {props.timeline}
-                    </span>
-                  </Fragment>
-                </span>
-              </div>
-              {props.tags ?? (
-                <div className="project-container3">
-                  <label>
+                </h2>
+                <div className="project-container2">
+                  <span>
                     <Fragment>
-                      <label className="project-text23 label">
-                        Software Engineering
-                      </label>
+                      <span className="project-text17 thq-body-large">
+                        {props.roleTitle}
+                      </span>
                     </Fragment>
-                  </label>
-                  <label>
-                    <Fragment>
-                      <label className="project-text18 label">
-                        Game Development
-                      </label>
-                    </Fragment>
-                  </label>
-                </div>
-              )}
-            </div>
-            <p>
-              <Fragment>
-                <p className="project-text21 thq-body-large">
-                  {props.shortDescription ?? 
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit." + 
-                  "Suspendisse varius enim in eros elementum tristique. Duis" + 
-                  "cursus, mi quis viverra ornare, eros dolor interdum nulla," + 
-                  "ut commodo diam libero vitae erat. Suspendisse varius enim" + 
-                  "in eros elementum tristique. Duis cursus, mi quis viverra" + 
-                  "ornare, eros dolor interdum nulla."}
-                </p>
-              </Fragment>
-            </p>
-            <p className="project-technologies-used">
-              <Fragment>
-                <p className="project-text13 thq-body-large"><b>
-                  <span className="project-text14">Tools</span>
-                  <span className="project-text15">
-                    :
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
                   </span>
-                    <span>{props.toolsUsed}</span>
-                </b></p>
-              </Fragment>
-            </p>
+                  <span>
+                    <Fragment>
+                      <span className="project-text19 thq-body-large">
+                          •  
+                      </span>
+                    </Fragment>
+                  </span>
+                  <span>
+                    <Fragment>
+                      <span className="project-text20 thq-body-large">
+                        {props.timeline}
+                      </span>
+                    </Fragment>
+                  </span>
+                </div>
+                {props.tags ?? (
+                  <div className="project-container3">
+                    <label>
+                      <Fragment>
+                        <label className="project-text23 label">
+                          Software Engineering
+                        </label>
+                      </Fragment>
+                    </label>
+                    <label>
+                      <Fragment>
+                        <label className="project-text18 label">
+                          Game Development
+                        </label>
+                      </Fragment>
+                    </label>
+                  </div>
+                )}
+              </div>
+              <p>
+                <Fragment>
+                  <p className="project-text21 thq-body-large">
+                    {props.shortDescription ?? 
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit." + 
+                    "Suspendisse varius enim in eros elementum tristique. Duis" + 
+                    "cursus, mi quis viverra ornare, eros dolor interdum nulla," + 
+                    "ut commodo diam libero vitae erat. Suspendisse varius enim" + 
+                    "in eros elementum tristique. Duis cursus, mi quis viverra" + 
+                    "ornare, eros dolor interdum nulla."}
+                  </p>
+                </Fragment>
+              </p>
+              <p className="project-technologies-used">
+                <Fragment>
+                  <p className="project-text13 thq-body-large"><b>
+                    <span className="project-text14">Tools</span>
+                    <span className="project-text15">
+                      :
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                      <span>{props.toolsUsed}</span>
+                  </b></p>
+                </Fragment>
+              </p>
+            </div>
+          </div>
+          <div className="project-image-container">
+            <img
+              alt={props.projectImageAlt}
+              src={props.projectImage}
+              className="project-placeholder-image thq-img-ratio-16-9"
+            />
           </div>
         </div>
-        <div className="project-image-container">
-          <img
-            alt={props.projectImageAlt}
-            src={props.projectImage}
-            className="project-placeholder-image thq-img-ratio-16-9"
-          />
+        <div className="project-actions">
+          <LearnMore
+            longDescription={props.longDescription}
+            longDescriptionMore={props.longDescriptionMore}
+            resumeBullet1={props.resumeBullet1}
+            resumeBullet2={props.resumeBullet2}
+            resumeBullet3={props.resumeBullet3}
+            resumeBullet4={props.resumeBullet4}
+          ></LearnMore>
         </div>
-      </div>
-      <div className="project-actions">
-        <LearnMore
-          longDescription={props.longDescription}
-          longDescriptionMore={props.longDescriptionMore}
-          resumeBullet1={props.resumeBullet1}
-          resumeBullet2={props.resumeBullet2}
-          resumeBullet3={props.resumeBullet3}
-        ></LearnMore>
       </div>
     </div>
   )

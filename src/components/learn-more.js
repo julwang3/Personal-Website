@@ -57,15 +57,18 @@ const LearnMore = (props) => {
                 {props.longDescriptionMore ?? "Lorem ipsum dolor sit amet..."}
               </span>
               <ul className="list">
-                <li className="thq-body-large list-item">
+                {props.resumeBullet1 != '' && <li className="thq-body-large list-item">
                   {props.resumeBullet1 ?? "Text"}
-                </li>
-                <li className="thq-body-large list-item">
+                </li>}
+                {props.resumeBullet2 != '' && <li className="thq-body-large list-item">
                   {props.resumeBullet2 ?? "Text"}
-                </li>
-                <li className="thq-body-large list-item">
+                </li>}
+                {props.resumeBullet3 != '' && <li className="thq-body-large list-item">
                   {props.resumeBullet3 ?? "Text"}
-                </li>
+                </li>}
+                {props.resumeBullet4 != '' && <li className="thq-body-large list-item">
+                  {props.resumeBullet4 ?? "Text"}
+                </li>}
               </ul>
             </div>
           </div>
@@ -82,6 +85,7 @@ LearnMore.defaultProps = {
   resumeBullet1: '',
   resumeBullet2: '',
   resumeBullet3: '',
+  resumeBullet4: '',
 }
 
 LearnMore.propTypes = {
@@ -91,6 +95,7 @@ LearnMore.propTypes = {
   resumeBullet1: PropTypes.string,
   resumeBullet2: PropTypes.string,
   resumeBullet3: PropTypes.string,
+  resumeBullet4: PropTypes.string,
 }
 
 export default LearnMore
