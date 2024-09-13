@@ -8,7 +8,7 @@
   --dl-size-size-xxlarge: 288px;
   --dl-size-size-maxwidth: 1400px;
   --dl-color-theme-accent1: #a58abdff;
-  --dl-color-theme-accent2: #F5D1B0;
+  --dl-color-theme-accent2: #f5d1b0;
   --dl-radius-radius-round: 50%;
   --dl-color-theme-primary1: rgb(195, 83, 100);
   --dl-color-theme-primary2: #ce7784ff;
@@ -20,8 +20,8 @@
   --dl-radius-radius-radius8: 8px;
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
-  --dl-color-theme-secondary1: #FFFFFF;
-  --dl-color-theme-secondary2: #FBF1EB;
+  --dl-color-theme-secondary1: #ffffff;
+  --dl-color-theme-secondary2: #fbf1eb;
   --dl-space-space-threeunits: 48px;
   --dl-color-theme-neutral-dark: #434375ff;
   --dl-radius-radius-cardradius: 8px;
@@ -334,7 +334,7 @@
   border-radius: var(--dl-radius-radius-round);
 }
 .thq-button-icon:hover {
-  color: var(--dl-color-theme-accent1);
+  color: var(--dl-color-theme-primary2);
 }
 .thq-icon-medium {
   width: var(--dl-size-size-small);

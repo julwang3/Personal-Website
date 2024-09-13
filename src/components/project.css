@@ -119,6 +119,12 @@
     justify-content: center;
   }
 }
+@media(max-width: 767px) {
+  .project-layout349 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
 @media(max-width: 479px) {
   .project-actions {
     width: 100%;
