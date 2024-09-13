@@ -2,5 +2,5 @@
 
 To push the React app to GitHub Pages with a commit message, run:
 ```
-npm run deploy -- -m "Deploy React app to GitHub Pages"
+npm run deploy -- -m "[Description] - [Latest Commit ID]"
 ```
