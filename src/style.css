@@ -7,11 +7,12 @@
   --dl-space-space-unit: 16px;
   --dl-size-size-xxlarge: 288px;
   --dl-size-size-maxwidth: 1400px;
-  --dl-color-theme-accent1: #a58abdff;
+  --dl-color-theme-accent1: rgb(168, 135, 196);
   --dl-color-theme-accent2: #f5d1b0;
+  --dl-color-theme-accent3: rgb(128, 139, 207);
   --dl-radius-radius-round: 50%;
-  --dl-color-theme-primary1: rgb(195, 83, 100);
-  --dl-color-theme-primary2: #ce7784ff;
+  --dl-color-theme-primary1: rgb(205, 82, 101);
+  --dl-color-theme-primary2: rgb(223, 120, 135);
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
   --dl-space-space-twounits: 32px;
@@ -21,7 +22,7 @@
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
   --dl-color-theme-secondary1: #ffffff;
-  --dl-color-theme-secondary2: #fbf1eb;
+  --dl-color-theme-secondary2: rgb(255, 243, 237);
   --dl-space-space-threeunits: 48px;
   --dl-color-theme-neutral-dark: #434375ff;
   --dl-radius-radius-cardradius: 8px;
@@ -29,7 +30,7 @@
   --dl-radius-radius-inputradius: 24px;
   --dl-radius-radius-buttonradius: 24px;
   --dl-space-space-oneandhalfunits: 24px;
-  --dl-gradient-theme-neutral-light: linear-gradient(180deg, rgb(253, 237, 229) 0.00%,rgb(204, 225, 255) 99.00%);
+  --dl-gradient-theme-neutral-light: linear-gradient(180deg, rgb(255, 243, 237) 0.00%,rgb(204, 225, 255) 99.00%);
 }
 .button {
   color: var(--dl-color-theme-neutral-dark);
@@ -491,14 +492,12 @@
   font-size: 0.75em;
   align-items: center;
   padding-top: 6px;
-  border-color: var(--dl-color-theme-accent1);
   border-width: 1px;
   padding-left: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-buttonradius);
   padding-right: var(--dl-space-space-halfunit);
   padding-bottom: 6px;
   justify-content: center;
-  background-color: var(--dl-color-theme-accent1);
 }
 .Content {
   font-size: 16px;

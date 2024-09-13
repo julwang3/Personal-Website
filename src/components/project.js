@@ -34,7 +34,7 @@ const Project = (props) => {
                   <span>
                     <Fragment>
                       <span className="project-text19 thq-body-large">
-                          •  
+                        •
                       </span>
                     </Fragment>
                   </span>
@@ -50,14 +50,14 @@ const Project = (props) => {
                   <div className="project-container3">
                     <label>
                       <Fragment>
-                        <label className="project-text23 label">
+                        <label className="project-swe label">
                           Software Engineering
                         </label>
                       </Fragment>
                     </label>
                     <label>
                       <Fragment>
-                        <label className="project-text18 label">
+                        <label className="project-gd label">
                           Game Development
                         </label>
                       </Fragment>

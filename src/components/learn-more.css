@@ -18,8 +18,7 @@
   padding: var(--dl-space-space-halfunit);
   align-self: flex-start;
   align-items: center;
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  padding-right: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
   flex-direction: row;
 }
 .learn-more-icons-container {

@@ -33,14 +33,14 @@ const Home = (props) => {
           <div className="project-container3">
             <label>
               <Fragment>
-                <label className="project-text23 label">
+                <label className="project-swe label">
                   Software Engineering
                 </label>
               </Fragment>
             </label>
             <label>
               <Fragment>
-                <label className="project-text18 label">
+                <label className="project-gd label">
                   Game Development
                 </label>
               </Fragment>
@@ -78,7 +78,7 @@ const Home = (props) => {
           <div className="project-container3">
             <label>
               <Fragment>
-                <label className="project-text18 label">
+                <label className="project-gd label">
                   Game Development
                 </label>
               </Fragment>
@@ -117,7 +117,7 @@ const Home = (props) => {
           <div className="project-container3">
             <label>
               <Fragment>
-                <label className="project-text18 label">
+                <label className="project-swe label">
                 Software Engineering
                 </label>
               </Fragment>
@@ -154,7 +154,7 @@ const Home = (props) => {
           <div className="project-container3">
             <label>
               <Fragment>
-                <label className="project-text18 label">
+                <label className="project-gd label">
                 Game Development
                 </label>
               </Fragment>
@@ -163,7 +163,7 @@ const Home = (props) => {
         }
 
         shortDescription="2D psychological puzzle RPG where you control a young boy named Will and cleanse corruption by solving meta-puzzles, tweaking system files, and battling reality-warping monsters."
-        toolsUsed="C#, Unity 2D, Perforce"
+        toolsUsed="C#, Perforce, Unity 2D"
 
         longDescription="Lorem ipsum dolor sit amet. Est eaque sint ut blanditiis 
                         sunt autdelenitsdfsadfi illum non repudiandae voluptatem. Aut 
@@ -191,7 +191,7 @@ const Home = (props) => {
           <div className="project-container3">
             <label>
               <Fragment>
-                <label className="project-text18 label">
+                <label className="project-gd label">
                 Game Development
                 </label>
               </Fragment>
