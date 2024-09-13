@@ -1,4 +1,4 @@
-# jlwang03.github.io
+# julwang3.github.io
 
 To push the React app to GitHub Pages with a commit message, run:
 ```
