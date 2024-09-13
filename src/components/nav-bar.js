@@ -34,12 +34,17 @@ const NavBar = (props) => {
             </Link>
             <Link to="/about" className="nav-bar-link51">
               <Fragment>
-                <span className="nav-bar-text3 thq-link">About</span>
+                <span className="nav-bar-text6 thq-link">About</span>
               </Fragment>
             </Link>
             <a href={props.archiveLink} className="nav-bar-link6" target="_blank" rel="noopener noreferrer">
               <Fragment>
                 <span className="nav-bar-text6 thq-link">Archive</span>
+              </Fragment>
+            </a>
+            <a href={props.resumeLink} className="nav-bar-link6 thq-nav-button-filled" target="_blank" rel="noopener noreferrer">
+              <Fragment>
+                <span className="nav-bar-text3">Resume</span>
               </Fragment>
             </a>
           </nav>
@@ -61,17 +66,22 @@ const NavBar = (props) => {
             <nav className="nav-bar-links2">
             <Link to="/" className="nav-bar-link41">
               <Fragment>
-                <span className="nav-bar-text5 thq-link">Work</span>
+                <span className="nav-bar-text6 thq-link">Work</span>
               </Fragment>
             </Link>
             <Link to="/about" className="nav-bar-link51">
               <Fragment>
-                <span className="nav-bar-text3 thq-link">About</span>
+                <span className="nav-bar-text6 thq-link">About</span>
               </Fragment>
             </Link>
             <a href={props.archiveLink} className="nav-bar-link6" target="_blank" rel="noopener noreferrer">
               <Fragment>
                 <span className="nav-bar-text6 thq-link">Archive</span>
+              </Fragment>
+            </a>
+            <a href={props.resumeLink} className="nav-bar-link6" target="_blank" rel="noopener noreferrer">
+              <Fragment>
+                <span className="nav-bar-text5 thq-link">Resume</span>
               </Fragment>
             </a>
             </nav>
@@ -138,6 +148,7 @@ const NavBar = (props) => {
 NavBar.defaultProps = {
   rootClassName: '',
   archiveLink: 'https://julwang.itch.io/',
+  resumeLink: 'https://julwang.itch.io/',
   logoSrc:
     'https://www.linkedin.com/in/julialywang/',
   logoAlt: 'logo',

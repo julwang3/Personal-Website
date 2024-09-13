@@ -22,7 +22,7 @@ const AboutMe = (props) => {
               <p className="about-me-text12 thq-body-large thq-section-max-width">
                 <span>
                   Hi there! I’m <b>Julia</b>, a software engineer and game developer currently pursuing
-                  a B.S. and M.S. in <b>Computer Science</b> with a minor in <b>Immersive Media</b> at 
+                  a B.S. in <b>Computer Science</b> with a minor in <b>Immersive Media</b> at 
                   the University of Southern California.
                 </span>
                 <br></br>
