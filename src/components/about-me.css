@@ -1,5 +1,9 @@
 .about-me-layout349 {
   overflow: hidden;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .about-me-max-width {
   gap: var(--dl-space-space-threeunits);
@@ -83,5 +87,11 @@
   }
   .about-me-image-container {
     width: 320px;
+  }
+}
+@media(max-width: 767px) {
+  .about-me-layout349 {
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
   }
 }

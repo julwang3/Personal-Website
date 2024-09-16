@@ -1,4 +1,8 @@
 .project-layout349 {
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-twounits);
   align-items: center;
 }
 .project-layout350 {
@@ -118,6 +122,12 @@
   .project-image-container {
     padding-top: 0;
     justify-content: center;
+  }
+}
+@media(max-width: 767px) {
+  .project-layout349 {
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
   }
 }
 @media(max-width: 479px) {
