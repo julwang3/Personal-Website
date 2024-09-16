@@ -98,11 +98,11 @@ const Project = (props) => {
           </div>
           <div className="project-image-container">
             {/* Project Image Linked */}
-            { props.projectImageLink && <a href={props.projectImageLink} target="_blank" rel="noopener noreferrer">
+            { props.projectImageLink && <a href={props.projectImageLink} className="project-placeholder-image" target="_blank" rel="noopener noreferrer">
               <img
                 alt={props.projectImageAlt}
                 src={props.projectImage}
-                className="project-placeholder-image thq-img-ratio-16-9"
+                className="thq-img-ratio-16-9"
               />
             </a>}
             {/* Project Image Not Linked */}
