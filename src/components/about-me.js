@@ -37,7 +37,7 @@ const AboutMe = (props) => {
                 <br></br>
                 <br></br>
                 <span>
-                  As a <b>game developer</b>, , I’m passionate about developing <b>interactive and immersive experiences</b> that 
+                  As a <b>game developer</b>, I’m passionate about developing <b>interactive and immersive experiences</b> that 
                   tell stories and evoke emotions that can <b>bring people together</b>, deepening our understanding of ourselves 
                   and one another. I am always eager to <b>explore </b> innovative ways to use technology and push the boundaries of
                   storytelling — whether it’s through experimenting with alternative controllers, virtual reality, or other

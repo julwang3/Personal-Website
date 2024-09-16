@@ -41,7 +41,7 @@
   flex-direction: row;
 }
 .project-container3 {
-  gap: 4px;
+  gap: var(--dl-space-space-quarterunit);
   display: flex;
   align-items: flex-start;
   padding-top: var(--dl-space-space-halfunit);

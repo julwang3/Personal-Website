@@ -97,11 +97,22 @@ const Project = (props) => {
             </div>
           </div>
           <div className="project-image-container">
-            <img
-              alt={props.projectImageAlt}
-              src={props.projectImage}
-              className="project-placeholder-image thq-img-ratio-16-9"
-            />
+            {/* Project Image Linked */}
+            { props.projectImageLink && <a href={props.projectImageLink} target="_blank" rel="noopener noreferrer">
+              <img
+                alt={props.projectImageAlt}
+                src={props.projectImage}
+                className="project-placeholder-image thq-img-ratio-16-9"
+              />
+            </a>}
+            {/* Project Image Not Linked */}
+            { !props.projectImageLink &&
+              <img
+                alt={props.projectImageAlt}
+                src={props.projectImage}
+                className="project-placeholder-image thq-img-ratio-16-9"
+              />
+            }
           </div>
         </div>
         <div className="project-actions">
@@ -112,6 +123,7 @@ const Project = (props) => {
             resumeBullet2={props.resumeBullet2}
             resumeBullet3={props.resumeBullet3}
             resumeBullet4={props.resumeBullet4}
+            relevantLinks={props.relevantLinks}
           ></LearnMore>
         </div>
       </div>
@@ -132,9 +144,11 @@ Project.defaultProps = {
   resumeBullet1: '',
   resumeBullet2: '',
   resumeBullet3: '',
+  relevantLinks: [],
+  projectImageLink: '',
   projectImage:
     'https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&ixlib=rb-4.0.3&w=1400',
-    projectImageAlt: 'Image',
+  projectImageAlt: 'Image',
 }
 
 Project.propTypes = {
@@ -150,6 +164,8 @@ Project.propTypes = {
   resumeBullet1: PropTypes.string,
   resumeBullet2: PropTypes.string,
   resumeBullet3: PropTypes.string,
+  relevantLinks: PropTypes.array,
+  projectImageLink: PropTypes.string,
   projectImage: PropTypes.string,
   projectImageAlt: PropTypes.string,
 }
