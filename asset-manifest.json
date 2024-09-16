@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8597604.css",
-    "main.js": "/static/js/main.91f22f6f.js",
+    "main.css": "/static/css/main.28b478be.css",
+    "main.js": "/static/js/main.a4ea6342.js",
     "static/media/freewill.png": "/static/media/freewill.3fe132350a1c79759aca.png",
     "static/media/ict.png": "/static/media/ict.f2da09262e37c278314b.png",
     "static/media/sphere.jpg": "/static/media/sphere.eae3fc6f194f8fd66c1e.jpg",
     "static/media/blossom.jpg": "/static/media/blossom.f0c582ca3e9d05f9f353.jpg",
+    "static/media/portrait.jpg": "/static/media/portrait.5296d80e03bfe3678b90.jpg",
     "static/media/poseidon.jpg": "/static/media/poseidon.3d10f04944d556008d7f.jpg",
-    "static/media/selfportrait.jpg": "/static/media/selfportrait.f8e54a19ed3b1b6ac9e2.jpg",
     "index.html": "/index.html",
-    "main.b8597604.css.map": "/static/css/main.b8597604.css.map",
-    "main.91f22f6f.js.map": "/static/js/main.91f22f6f.js.map"
+    "main.28b478be.css.map": "/static/css/main.28b478be.css.map",
+    "main.a4ea6342.js.map": "/static/js/main.a4ea6342.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8597604.css",
-    "static/js/main.91f22f6f.js"
+    "static/css/main.28b478be.css",
+    "static/js/main.a4ea6342.js"
   ]
 }
