@@ -45,7 +45,7 @@ const Footer = (props) => {
               </svg>
             </a>
             <a
-              href="https://github.com/jlwang03"
+              href="https://github.com/julwang3"
               target="_blank"
               rel="noreferrer noopener"
               className="footer-link3"
