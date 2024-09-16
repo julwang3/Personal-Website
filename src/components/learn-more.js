@@ -11,30 +11,43 @@ const LearnMore = (props) => {
       className={`learn-more-faq8 thq-section-padding ${props.rootClassName} `}
     >
       <div className="learn-more-faq1">
-        <div
-          onClick={() => setFaq1Visibile(!faq1Visibile)}
-          className="learn-more-trigger thq-button-filled"
-        >
-          <p>
-            <Fragment>
-              <p className="learn-more-text6 thq-body-large">Learn More</p>
-            </Fragment>
-          </p>
-          <div className="learn-more-icons-container">
-            {!faq1Visibile && (
-              <div>
-                <svg viewBox="0 0 1024 1024" className="learn-more-icon1">
-                  <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                </svg>
-              </div>
-            )}
-            {faq1Visibile && (
-              <div>
-                <svg viewBox="0 0 1024 1024" className="learn-more-icon3">
-                  <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
-                </svg>
-              </div>
-            )}
+        <div className="learn-more-buttons">
+          {/* Learn More */}
+          <div
+            onClick={() => setFaq1Visibile(!faq1Visibile)}
+            className="learn-more-trigger thq-button-filled"
+          >
+            <p>
+              <Fragment>
+                <p className="learn-more-text6 thq-body-large">Learn More</p>
+              </Fragment>
+            </p>
+            <div className="learn-more-icons-container">
+              {!faq1Visibile && (
+                <div>
+                  <svg viewBox="0 0 1024 1024" className="learn-more-icon1">
+                    <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+                  </svg>
+                </div>
+              )}
+              {faq1Visibile && (
+                <div>
+                  <svg viewBox="0 0 1024 1024" className="learn-more-icon3">
+                    <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
+                  </svg>
+                </div>
+              )}
+            </div>
+          </div>
+          {/* Relevant Links */}
+          <div className="learn-more-relevant-links">
+            { props.relevantLinks && props.relevantLinks.map((link) => (
+              <a href={link.url} className="learn-more-button-filled" target="_blank" rel="noopener noreferrer">
+                <Fragment>
+                  <span className="learn-more-text6 thq-body-large">{link.name}</span>
+                </Fragment>
+              </a>
+            ))}
           </div>
         </div>
         {faq1Visibile && (
@@ -86,6 +99,7 @@ LearnMore.defaultProps = {
   resumeBullet2: '',
   resumeBullet3: '',
   resumeBullet4: '',
+  relevantLinks: [], // [ { name: 'Link-Name', url: 'URL-Link' }, ... ]
 }
 
 LearnMore.propTypes = {
@@ -96,6 +110,7 @@ LearnMore.propTypes = {
   resumeBullet2: PropTypes.string,
   resumeBullet3: PropTypes.string,
   resumeBullet4: PropTypes.string,
+  relevantLinks: PropTypes.array
 }
 
 export default LearnMore

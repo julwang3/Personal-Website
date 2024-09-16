@@ -66,6 +66,7 @@ const Home = (props) => {
         resumeBullet4="Tackled and resolved a critical bug in the in-built debug panel used by developers when debugging and testing builds and further developed the feature so that logs can be cleared and saved across all platforms."
 
         rootClassName="projectroot-class-name"
+        projectImageLink='https://www.thesphere.com/'
         projectImage={MSGSphere}
       ></Project>
 
@@ -76,6 +77,13 @@ const Home = (props) => {
         timeline="February 2023 – May 2024"
         tags={
           <div className="project-container3">
+            <label>
+              <Fragment>
+                <label className="project-swe label">
+                  Software Engineering
+                </label>
+              </Fragment>
+            </label>
             <label>
               <Fragment>
                 <label className="project-gd label">
@@ -105,6 +113,7 @@ const Home = (props) => {
         resumeBullet3="Delivered prototype in collaboration with 4 engineers demonstrating how Artificial Intelligence education is achieved through gameplay experience and goals in 2 months."
 
         rootClassName="projectroot-class-name"
+        projectImageLink='https://ict.usc.edu/'
         projectImage={ICT}
       ></Project>
 
@@ -178,7 +187,13 @@ const Home = (props) => {
         resumeBullet2="Programmed wrapper for Steamworks API in Unity, enabling further user engagement through Steam Achievements."
         resumeBullet3="Animated in-game cutscenes with Unity’s animator and timeline to convey a sense of fear and helplessness."
 
+        relevantLinks={[
+          { name: 'Website', url: 'https://www.freewillgame.com/' },
+          { name: 'Steam', url: 'https://store.steampowered.com/app/2571880/Free_Will/' },
+        ]}
+
         rootClassName="projectroot-class-name"
+        projectImageLink='https://www.freewillgame.com/'
         projectImage={FreeWill}
       ></Project>
 
@@ -199,7 +214,7 @@ const Home = (props) => {
           </div>
         }
 
-        shortDescription="Interactive novel brought to life with a pop-up book controller telling the coming-of-age story of a Chinese-American girl named Aspen as she navigates her self of identity amidst the weight of external pressures, labels, and expectations."
+        shortDescription="Interactive novel brought to life with a pop-up book controller telling the coming-of-age story of a Chinese-American girl named Aspen as she navigates her self of identity amidst the weight of external pressures, labels, and expectations. Featured at the Game Developer's Conference 2023."
         toolsUsed="C#, C, Git, Unity 2D, Arduino"
 
         longDescription="Lorem ipsum dolor sit amet. Est eaque sint ut blanditiis 
@@ -214,7 +229,13 @@ const Home = (props) => {
         resumeBullet1="Collaborated regularly with the creative director and 4+ designers to design and engineer puzzles that furthered the story's central themes on self-labels, image, and reconciliation for an alternative controller."
         resumeBullet2="Innovated tactile puzzle mechanics in C and C# that received external sensor input detecting physical interactions including touch, dial turns, and item placement."
 
+        relevantLinks={[
+          { name: 'Website', url: 'https://blossom-901ae0.webflow.io/' },
+          { name: 'alt.ctrl.GDC 2023', url: 'https://gdconf.com/news/here-are-outstanding-games-coming-altctrlgdc-gdc-2023' },
+        ]}
+
         rootClassName="projectroot-class-name"
+        projectImageLink='https://blossom-901ae0.webflow.io/'
         projectImage={Blossom}
       ></Project>
       

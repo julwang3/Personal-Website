@@ -156,7 +156,8 @@ NavBar.defaultProps = {
 
 NavBar.propTypes = {
   rootClassName: PropTypes.string,
-  contactLink: PropTypes.string,
+  archiveLink: PropTypes.string,
+  resumeLink: PropTypes.string,
   logoSrc: PropTypes.string,
   logoAlt: PropTypes.string,
 }
