@@ -1,9 +1,5 @@
 .about-me-layout349 {
   overflow: hidden;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-fiveunits);
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .about-me-max-width {
   gap: var(--dl-space-space-threeunits);
@@ -12,7 +8,7 @@
 }
 .about-me-content {
   gap: var(--dl-space-space-oneandhalfunits);
-  flex: 2.5;
+  flex: 2;
   display: flex;
   align-items: flex-start;
   flex-direction: column;

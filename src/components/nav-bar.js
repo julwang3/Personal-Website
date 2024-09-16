@@ -42,7 +42,7 @@ const NavBar = (props) => {
                 <span className="nav-bar-text6 thq-link">Archive</span>
               </Fragment>
             </a>
-            {/* <a href={props.resumeLink} className="nav-bar-link6 thq-nav-button-filled" target="_blank" rel="noopener noreferrer">
+            {/* <a href={props.resumeLink} className="nav-bar-link6 thq-link-button-filled" target="_blank" rel="noopener noreferrer">
               <Fragment>
                 <span className="nav-bar-text3">Resume</span>
               </Fragment>

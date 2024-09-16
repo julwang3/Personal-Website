@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import './about-me.css'
-import portrait from '../images/selfportrait.jpg'
+import portrait from '../images/portrait.jpg'
 
 const AboutMe = (props) => {
   return (
