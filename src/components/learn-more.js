@@ -19,7 +19,7 @@ const LearnMore = (props) => {
           >
             <p>
               <Fragment>
-                <p className="learn-more-text6 thq-body-large">Learn More</p>
+                <p className="learn-more-text5 thq-body-large">Learn More</p>
               </Fragment>
             </p>
             <div className="learn-more-icons-container">
