@@ -72,6 +72,12 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.learn-more-text5 {
+  display: inline-block;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
 .learn-more-text6 {
   display: inline-block;
   font-style: normal;
@@ -108,5 +114,14 @@
 @media(max-width: 767px) {
   .learn-more-faq8 {
     padding: 0;
+  }
+}
+@media(max-width: 479px) {
+  .learn-more-button-filled {
+    max-width: 100px;
+  }
+  .learn-more-text6 {
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
