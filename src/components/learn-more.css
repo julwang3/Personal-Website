@@ -7,6 +7,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   flex-direction: column;
+  box-sizing: border-box;
 }
 .learn-more-faq1 {
   width: 100%;
@@ -114,14 +115,5 @@
 @media(max-width: 767px) {
   .learn-more-faq8 {
     padding: 0;
-  }
-}
-@media(max-width: 479px) {
-  .learn-more-button-filled {
-    max-width: 100px;
-  }
-  .learn-more-text6 {
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 }
