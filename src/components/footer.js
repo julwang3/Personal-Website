@@ -13,7 +13,7 @@ const Footer = (props) => {
       <div className="footer-max-width thq-section-max-width">
         <div className="footer-credits">
           <div className="footer-social-links">
-            <a href="mailto:jlwang@usc.edu?subject=" className="footer-link1">
+            <a href="mailto:jlwang98@gmail.com?subject=" className="footer-link1">
               <svg
                 width="24"
                 height="24"

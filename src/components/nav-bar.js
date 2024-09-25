@@ -87,7 +87,7 @@ const NavBar = (props) => {
             </nav>
           </div>
           <div className="nav-bar-icon-group">
-            <a href="mailto:jlwang@usc.edu?subject=" className="footer-link1">
+            <a href="mailto:jlwang98@gmail.com?subject=" className="footer-link1">
               <svg
                 width="24"
                 height="24"
