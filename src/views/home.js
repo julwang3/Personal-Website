@@ -49,7 +49,7 @@ const Home = (props) => {
         }
 
         shortDescription="Live entertainment and media company creating immersive entertainment experiences and advancing visual, audio, and interactive technologies at cutting-edge venues like the Sphere in Las Vegas."
-        toolsUsed="C#, Git, Unity 3D, Oculus Quest, Atlassian"
+        toolsUsed="C#, Git, Unity 3D, Jira, Confluence, Bitbucket, Oculus Quest 2"
 
         longDescription="Lorem ipsum dolor sit amet. Est eaque sint ut blanditiis 
                         sunt autdelenitsdfsadfi illum non repudiandae voluptatem. Aut 
@@ -61,8 +61,8 @@ const Home = (props) => {
           </span>
         }
         resumeBullet1="Worked on a multiuser Virtual Reality and Desktop application used by creatives at the Sphere for simulataneous media playback and reviewing."
-        resumeBullet2="Implemented user-facing features that optimized user experiences by making user interface panels moveable in three-dimensional Virtual Reality space."
-        resumeBullet3="Iterated through the Agile software development cycle, communicating closely with the team to design an architecture solution and create a detailed technical specification for moveable panels."
+        resumeBullet2="Implemented moveable user interface panels in 2D and 3D space, optimizing user experience and productivity."
+        resumeBullet3="Communicated closely with the engineering team to design architecture solution, create detailed technical specification for, and prototype moveable panels using Agile methodologies."
         resumeBullet4="Tackled and resolved a critical bug in the in-built debug panel used by developers when debugging and testing builds and further developed the feature so that logs can be cleared and saved across all platforms."
 
         rootClassName="projectroot-class-name"
@@ -73,7 +73,7 @@ const Home = (props) => {
       {/* USC ICT */}
       <Project
         projectName="USC Institute for Creative Technologies"
-        roleTitle="Game Developer"
+        roleTitle="Game Engineer"
         timeline="February 2023 – May 2024"
         tags={
           <div className="project-container3">
@@ -104,13 +104,13 @@ const Home = (props) => {
         longDescriptionMore={
           <div>
           <span>
-            As a <b>Game Developer</b> at the USC Institute for Creative Technologies, I worked on the development of interactive experiences centered around <b>Artificial Intelligence education</b> under Dr. Ning Wang. More specifically, I…
+            As a <b>Game Engineer</b> at the USC Institute for Creative Technologies, I worked on the development of interactive experiences centered around <b>Artificial Intelligence education</b> under Dr. Ning Wang. More specifically, I…
           </span>
           </div>
         }
-        resumeBullet1="Designed and developed a 3D first-person game aiming to help the general public learn more about foundational concepts, ethics, and applications of Artificial Intelligence in an engaging manner."
-        resumeBullet2="Integrated face landmark detection and face swap activity through MediaPipe Solutions API that is part of Virtual Human Exhibit at Berkeley’s Lawrence Hall of Science with 100+ visitors a day."
-        resumeBullet3="Delivered prototype in collaboration with 4 engineers demonstrating how Artificial Intelligence education is achieved through gameplay experience and goals in 2 months."
+        resumeBullet1="Collaborated with 5 researchers and engineers to design and develop a 3D first-person game aiming to help the general public learn more about foundational concepts, ethics, and applications of Artificial Intelligence in an engaging manner."
+        resumeBullet2="Integrated face landmark detection and swap through MediaPipe Solutions API that is part of Virtual Human Exhibit at Berkeley’s Lawrence Hall of Science with 100+ visitors a day."
+        resumeBullet3="Delivered and conceptualized prototypes featuring 3D gameplay interactions and sequences demonstrating how Artificial Intelligence education is achieved through gameplay experience and interactive narratives."
 
         rootClassName="projectroot-class-name"
         projectImageLink='https://ict.usc.edu/'
@@ -120,7 +120,7 @@ const Home = (props) => {
       {/* POSEIDON */}
       <Project
         projectName="POSEIDON Mission Control"
-        roleTitle="Backend Engineer"
+        roleTitle="Backend Software Engineer"
         timeline="January 2024 – May 2024"
         tags={
           <div className="project-container3">
@@ -135,7 +135,7 @@ const Home = (props) => {
         }
 
         shortDescription="Portable mission control and planning software designed to streamline satellite mission operations and provide a centralized platform for orbit calculations, predictions, and automatic event scheduling."
-        toolsUsed="Python, Git, Atlassian"
+        toolsUsed="Python, Git, Jira, Confluence"
 
         longDescription="Lorem ipsum dolor sit amet. Est eaque sint ut blanditiis 
                         sunt autdelenitsdfsadfi illum non repudiandae voluptatem. Aut 
@@ -143,12 +143,13 @@ const Home = (props) => {
                         Cumexercitationem eveniet in omnis animi in corporis nulla."
         longDescriptionMore={
           <span>
-            POSEIDON Mission Control was developed for the the MAVERIC CubeSat project led by Professor David Barnhart at the USC Information Sciences Institute. As a <b>Backend Engineer</b>, I...
+            POSEIDON Mission Control was developed for the the MAVERIC CubeSat project led by Professor David Barnhart at the USC Information Sciences Institute. As a <b>Backend Software Engineer</b>, I...
           </span>
         }
-        resumeBullet1="Automated creating, updating, and deleting of events using Python API calls to the Google Calendar API, allowing for more efficient event scheduling and notification."
-        resumeBullet2="Integrated and defined API calls for two-line element data retrieval, providing orbital information on a given satellite."
-        resumeBullet3="Corresponded with shareholders working on the MAVERIC CubeSat project directly at weekly meetings to provide updates on progress, address issues, and ensure project objectives were met."
+        resumeBullet1="Designed and engineered the application with 5 other engineers, streamlining the satellite mission operations and providing a centralized platform for orbit calculations and predictions."
+        resumeBullet2="Automated event creation, updating, and deletion using Python API calls, allowing for more efficient event scheduling and notification for satellite pass times."
+        resumeBullet3="Integrated and defined API calls for two-line element data retrieval, providing orbital information on a given satellite."
+        resumeBullet4="Communicated with shareholders on weekly basis, effectively providing updates on progress, addressing issues, and ensuring project objectives were being met."
 
         rootClassName="projectroot-class-name"
         projectImage={POSEIDON}
@@ -200,7 +201,7 @@ const Home = (props) => {
       {/* Blossom */}
       <Project
         projectName="Blossom"
-        roleTitle="Engineering Lead"
+        roleTitle="Lead Engineer"
         timeline="July 2022 - May 2023"
         tags={
           <div className="project-container3">
@@ -223,7 +224,7 @@ const Home = (props) => {
                         Cumexercitationem eveniet in omnis animi in corporis nulla."
         longDescriptionMore={
           <span>
-            As an <b>Engineering Lead</b>, I...
+            As a <b>Lead Engineer</b>, I...
           </span>
         }
         resumeBullet1="Collaborated regularly with the creative director and 4+ designers to design and engineer puzzles that furthered the story's central themes on self-labels, image, and reconciliation for an alternative controller."
