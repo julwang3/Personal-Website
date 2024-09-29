@@ -128,20 +128,20 @@
   transition: 0.3s;
   padding-top: 12px;
   white-space: nowrap;
-  border-color: #c0a0dc;
+  border-color: #cb9af6;
   border-width: px;
   padding-left: 20px;
   border-radius: var(--dl-radius-radius-buttonradius);
   padding-right: 20px;
   padding-bottom: 12px;
   justify-content: center;
-  background-color: #c0a0dc;
+  background-color: #cb9af6;
 }
 .thq-link-button-filled:hover {
   fill: var(--dl-color-theme-secondary2);
   color: var(--dl-color-theme-secondary2);
-  border-color: var(--dl-color-theme-accent1);
-  background-color: var(--dl-color-theme-accent1);
+  border-color: #d1a1fa;
+  background-color: #d4abf7;
 }
 .thq-button-outline {
   gap: var(--dl-space-space-halfunit);
