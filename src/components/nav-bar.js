@@ -42,11 +42,11 @@ const NavBar = (props) => {
                 <span className="nav-bar-text6 thq-link">Archive</span>
               </Fragment>
             </a>
-            {/* <a href={props.resumeLink} className="nav-bar-link6 thq-link-button-filled" target="_blank" rel="noopener noreferrer">
+            <a href={props.resumeLink} className="nav-bar-link6 thq-link-button-filled" target="_blank" rel="noopener noreferrer">
               <Fragment>
                 <span className="nav-bar-text3">Resume</span>
               </Fragment>
-            </a> */}
+            </a>
           </nav>
         </div>
         <div data-thq="thq-burger-menu" className="nav-bar-burger-menu">
@@ -79,11 +79,11 @@ const NavBar = (props) => {
                 <span className="nav-bar-text6 thq-link">Archive</span>
               </Fragment>
             </a>
-            {/* <a href={props.resumeLink} className="nav-bar-link6" target="_blank" rel="noopener noreferrer">
+            <a href={props.resumeLink} className="nav-bar-link6" target="_blank" rel="noopener noreferrer">
               <Fragment>
                 <span className="nav-bar-text5 thq-link">Resume</span>
               </Fragment>
-            </a> */}
+            </a>
             </nav>
           </div>
           <div className="nav-bar-icon-group">
@@ -148,7 +148,7 @@ const NavBar = (props) => {
 NavBar.defaultProps = {
   rootClassName: '',
   archiveLink: 'https://julwang.itch.io/',
-  resumeLink: 'https://julwang.itch.io/',
+  resumeLink: 'WangJulia_Resume.pdf',
   logoSrc:
     'https://www.linkedin.com/in/julialywang/',
   logoAlt: 'logo',
