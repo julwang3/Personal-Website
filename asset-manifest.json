@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fdec5156.css",
-    "main.js": "/static/js/main.0f58fe86.js",
+    "main.js": "/static/js/main.a98dc023.js",
     "static/media/freewill.png": "/static/media/freewill.3fe132350a1c79759aca.png",
     "static/media/ict.png": "/static/media/ict.f2da09262e37c278314b.png",
     "static/media/sphere.jpg": "/static/media/sphere.eae3fc6f194f8fd66c1e.jpg",
@@ -10,10 +10,10 @@
     "static/media/poseidon.jpg": "/static/media/poseidon.3d10f04944d556008d7f.jpg",
     "index.html": "/index.html",
     "main.fdec5156.css.map": "/static/css/main.fdec5156.css.map",
-    "main.0f58fe86.js.map": "/static/js/main.0f58fe86.js.map"
+    "main.a98dc023.js.map": "/static/js/main.a98dc023.js.map"
   },
   "entrypoints": [
     "static/css/main.fdec5156.css",
-    "static/js/main.0f58fe86.js"
+    "static/js/main.a98dc023.js"
   ]
 }
