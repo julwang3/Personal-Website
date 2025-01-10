@@ -15,8 +15,7 @@ const CodeSamples = (props) => {
       </Helmet>
       
       <NavBar></NavBar>
-
-      {/* TODO */}
+      
 
       <Footer></Footer>
     </div>
