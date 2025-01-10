@@ -15,9 +15,12 @@ const CodeSamples = (props) => {
   async function handleSubmit() {
     const contents = await submitPassword(password);
     if (contents.length === 0) {
+      // Invalid password
+      setPassword("");
       setIsUnlocked(false);
     }
     else {
+      // Correct password
       setIsUnlocked(true);
     }
   }
