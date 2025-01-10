@@ -7,50 +7,50 @@ import './nav-bar.css'
 
 const NavBar = (props) => {
   return (
-    <header className={`nav-bar-container1 ${props.rootClassName} `}>
+    <header className={`nav-bar-main-container ${props.rootClassName} `}>
       <header data-thq="thq-navbar" className="nav-bar-navbar-interactive">
-        <div className="nav-bar-container2">
-          <div className="nav-bar-container3">
+        {/* Name */}
+        <div className="nav-bar-width-container">
+          <div className="nav-bar-left-container">
             <h1>
               <Fragment>
-                <h1 className="nav-bar-text4 thq-heading-1">JULIA WANG</h1>
+                <h1 className="thq-heading-1">JULIA WANG</h1>
               </Fragment>
             </h1>
           </div>
           <span>
             <Fragment>
-              <span className="nav-bar-text7 thq-body-large">
+              <span className="thq-body-large">
                 Software Engineer &amp; Game Developer
               </span>
             </Fragment>
           </span>
         </div>
+
+        {/* Desktop Menu */}
         <div data-thq="thq-navbar-nav" className="nav-bar-desktop-menu">
-          <nav className="nav-bar-links1">
-            <Link to="/" className="nav-bar-link41">
+          <nav className="nav-bar-links-desktop">
+            <Link to="/">
               <Fragment>
-                <span className="nav-bar-text5 thq-link">Work</span>
+                <span className="thq-link">Work</span>
               </Fragment>
             </Link>
-            <Link to="/about" className="nav-bar-link51">
+            <Link to="/about">
               <Fragment>
-                <span className="nav-bar-text6 thq-link">About</span>
+                <span className="thq-link">About</span>
               </Fragment>
             </Link>
-            <a href={props.archiveLink} className="nav-bar-link6" target="_blank" rel="noopener noreferrer">
+            <a href={props.archiveLink} target="_blank" rel="noopener noreferrer">
               <Fragment>
-                <span className="nav-bar-text6 thq-link">Archive</span>
+                <span className="thq-link">Archive</span>
               </Fragment>
             </a>
-            {/* <a href={props.resumeLink} className="nav-bar-link6 thq-link-button-filled" target="_blank" rel="noopener noreferrer">
-              <Fragment>
-                <span className="nav-bar-text3">Resume</span>
-              </Fragment>
-            </a> */}
           </nav>
         </div>
+
+        {/* Mobile Menu */}
         <div data-thq="thq-burger-menu" className="nav-bar-burger-menu">
-          <svg viewBox="0 0 1024 1024" className="nav-bar-icon10">
+          <svg viewBox="0 0 1024 1024" className="nav-bar-icon">
             <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
           </svg>
         </div>
@@ -58,32 +58,27 @@ const NavBar = (props) => {
           <div className="nav-bar-nav">
             <div className="nav-bar-top">
               <div data-thq="thq-close-menu" className="nav-bar-close-menu">
-                <svg viewBox="0 0 1024 1024" className="nav-bar-icon12">
+                <svg viewBox="0 0 1024 1024" className="nav-bar-icon">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
               </div>
             </div>
-            <nav className="nav-bar-links2">
-            <Link to="/" className="nav-bar-link41">
+            <nav className="nav-bar-links-mobile">
+            <Link to="/">
               <Fragment>
-                <span className="nav-bar-text6 thq-link">Work</span>
+                <span className="thq-link">Work</span>
               </Fragment>
             </Link>
-            <Link to="/about" className="nav-bar-link51">
+            <Link to="/about">
               <Fragment>
-                <span className="nav-bar-text6 thq-link">About</span>
+                <span className="thq-link">About</span>
               </Fragment>
             </Link>
-            <a href={props.archiveLink} className="nav-bar-link6" target="_blank" rel="noopener noreferrer">
+            <a href={props.archiveLink} target="_blank" rel="noopener noreferrer">
               <Fragment>
-                <span className="nav-bar-text6 thq-link">Archive</span>
+                <span className="thq-link">Archive</span>
               </Fragment>
             </a>
-            {/* <a href={props.resumeLink} className="nav-bar-link6" target="_blank" rel="noopener noreferrer">
-              <Fragment>
-                <span className="nav-bar-text5 thq-link">Resume</span>
-              </Fragment>
-            </a> */}
             </nav>
           </div>
           <div className="nav-bar-icon-group">
@@ -104,7 +99,7 @@ const NavBar = (props) => {
               href="https://www.linkedin.com/in/julialywang/"
               target="_blank"
               rel="noreferrer noopener"
-              className="footer-link2"
+              className="footer-link"
             >
               <svg
                 width="24"
@@ -122,7 +117,7 @@ const NavBar = (props) => {
               href="https://github.com/jlwang03"
               target="_blank"
               rel="noreferrer noopener"
-              className="footer-link3"
+              className="footer-link"
             >
               <svg
                 width="24"
@@ -148,7 +143,6 @@ const NavBar = (props) => {
 NavBar.defaultProps = {
   rootClassName: '',
   archiveLink: 'https://julwang.itch.io/',
-  resumeLink: 'WangJulia_Resume.pdf',
   logoSrc:
     'https://www.linkedin.com/in/julialywang/',
   logoAlt: 'logo',

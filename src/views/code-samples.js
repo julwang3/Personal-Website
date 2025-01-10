@@ -4,18 +4,18 @@ import { Helmet } from 'react-helmet'
 
 import NavBar from '../components/nav-bar'
 import Footer from '../components/footer'
-import './code-samples.css'
+import './view.css'
 
 const CodeSamples = (props) => {
   return (
-    <div className="about-container">
+    <div className="view-container">
       <Helmet>
-        <title>Julia Wang</title>
+        <title>Code Samples | Julia Wang</title>
         <meta property="og:title" content="Julia Wang" />
       </Helmet>
       
       <NavBar></NavBar>
-      
+
 
       <Footer></Footer>
     </div>

@@ -16,7 +16,7 @@ const NotFound = (props) => {
       </div>
       <div className="not-found-container3">
         <h2 className="not-found-text3">
-          WE ARE SORRY, BUT THE PAGE YOU REQUESTED WAS NOT FOUND
+          THE PAGE YOU REQUESTED WAS NOT FOUND.
         </h2>
       </div>
     </div>
