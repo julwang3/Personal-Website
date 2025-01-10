@@ -8,7 +8,7 @@ import portrait from '../images/portrait.jpg'
 const AboutMe = (props) => {
   return (
     <div
-      className={`layout thq-section-padding ${props.rootClassName} `}
+      className={`container thq-section-padding ${props.rootClassName} `}
     >
       <div className="about-me-max-width thq-section-max-width">
         <div className="about-me-content">
@@ -70,7 +70,6 @@ const AboutMe = (props) => {
 AboutMe.defaultProps = {
   rootClassName: '',
   feature1ImageSrc: portrait,
-    // 'https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&ixlib=rb-4.0.3&w=1400',
   feature1ImageAlt: 'Image',
 }
 

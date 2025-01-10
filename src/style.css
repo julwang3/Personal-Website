@@ -542,6 +542,14 @@
   text-transform: none;
   text-decoration: none;
 }
+.container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
 @media(max-width: 991px) {
   .thq-grid-4 {
