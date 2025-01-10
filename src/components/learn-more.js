@@ -6,6 +6,7 @@ import './learn-more.css'
 
 const LearnMore = (props) => {
   const [faq1Visibile, setFaq1Visibile] = useState(false)
+  
   return (
     <div
       className={`learn-more-main-container ${props.rootClassName} `}
@@ -43,7 +44,7 @@ const LearnMore = (props) => {
           {/* Relevant Links */}
           <div className="learn-more-relevant-links">
             { props.relevantLinks && props.relevantLinks.map((link) => (
-              <a href={link.url} className="learn-more-button-filled" target="_blank" rel="noopener noreferrer">
+              <a href={link.url} className="learn-more-button-filled thq-button-filled" target="_blank" rel="noopener noreferrer">
                 <Fragment>
                   <span className="learn-more-label-text thq-body-large">{link.name}</span>
                 </Fragment>

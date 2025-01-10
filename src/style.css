@@ -27,6 +27,7 @@
   --dl-space-space-fourunits: 64px;
   --dl-color-theme-secondary1: #ffffff;
   --dl-color-theme-secondary2: #fff3ed;
+  --dl-color-theme-transparent: #ffffff00;
   --dl-space-space-threeunits: 48px;
   --dl-color-theme-neutral-dark: #434375;
   --dl-radius-radius-cardradius: 8px;
@@ -82,16 +83,16 @@
   color: var(--dl-color-theme-neutral-dark);
   cursor: auto;
   outline: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1.5rem;
   align-self: stretch;
-  background: var(--dl-gradient-theme-neutral-light);
+  background: var( --dl-color-theme-transparent);
   text-align: center;
   border-color: var(--dl-color-theme-neutral-dark);
-  border-width: 1px;
+  border-width: 1.5px;
   border-radius: var(--dl-radius-radius-inputradius);
 }
 .thq-input:focus {
-  outline: 1px solid var(--dl-color-theme-primary1);
+  outline: 1.5px solid var(--dl-color-theme-neutral-dark);
 }
 .thq-button-filled {
   gap: var(--dl-space-space-halfunit);
