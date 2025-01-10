@@ -4,6 +4,8 @@ import { Buffer } from 'buffer';
 const token = process.env.REACT_APP_TOKEN;
 const owner = process.env.REACT_APP_OWNER;
 const repo = process.env.REACT_APP_REPO;
+const bufferFrom = process.env.REACT_APP_BUFFER_FROM;
+const bufferTo = process.env.REACT_APP_BUFFER_TO;
 const filePath = process.env.REACT_APP_FILE_PATH;
 
 const octokit = new Octokit({
@@ -34,14 +36,14 @@ async function getFileContent(path) {
 
 export async function submitPassword(password) {
     // Get files
-    const files = JSON.parse(Buffer.from(fileContent, "base64").toString("utf-8"))[password];
+    const files = JSON.parse(Buffer.from(fileContent, bufferFrom).toString(bufferTo))[password];
     // Return contents of all the files
     const passwordContents = [];
     if (files !== undefined) {
         for (let i = 0; i < files.length; i++) {
           // Decode content
           const content = await getFileContent(files[i]);
-          passwordContents[i] = Buffer.from(content, "base64").toString("utf-8");
+          passwordContents[i] = Buffer.from(content, bufferFrom).toString(bufferTo);
         }
     }
     return passwordContents;
