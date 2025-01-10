@@ -1,0 +1,34 @@
+.locked-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 30vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--dl-space-space-unit);
+}
+  
+.locked-password-text {
+    font-size: 1em;
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 1.5;
+    min-width: 25vh;
+    text-transform: uppercase;
+}
+  
+.locked-button-filled {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-radius: var(--dl-radius-radius-buttonradius);
+    background-color: var(--dl-color-theme-neutral-dark);
+}
+
+.locked-button-filled:hover {
+    fill: var(--dl-color-theme-secondary2);
+    color: var(--dl-color-theme-secondary2);
+    border-color: var(--dl-color-theme-accent3);
+    background-color: var(--dl-color-theme-accent3);
+}

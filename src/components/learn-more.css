@@ -70,23 +70,11 @@
   font-weight: 525;
 }
 .learn-more-button-filled {
-  gap: var(--dl-space-space-halfunit);
   fill: var(--dl-color-theme-secondary1);
   color: var(--dl-color-theme-secondary1);
-  cursor: pointer;
-  display: flex;
-  transition: 0.3s;
-  align-items: center;
-  font-weight: bold;
-  padding-top: var(--dl-space-space-halfunit);
-  white-space: nowrap;
   border-color: var(--dl-color-theme-primary3);
-  border-width: 1px;
   padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-buttonradius);
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-  justify-content: center;
   background-color: var(--dl-color-theme-primary3);
 }
 .learn-more-button-filled:hover {
