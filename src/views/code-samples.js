@@ -3,12 +3,24 @@ import React, { Fragment, useState } from 'react'
 import { Helmet } from 'react-helmet'
 
 import NavBar from '../components/nav-bar'
+import { submitPassword } from '../components/api'
 import Footer from '../components/footer'
 import './view.css'
 import './code-samples.css'
 
 const CodeSamples = (props) => {
   const [isUnlocked, setIsUnlocked] = useState(false)
+  const [password, setPassword] = useState("")
+
+  async function handleSubmit() {
+    const contents = await submitPassword(password);
+    if (contents.length === 0) {
+      setIsUnlocked(false);
+    }
+    else {
+      setIsUnlocked(true);
+    }
+  }
 
   return (
     <div className="container">
@@ -27,11 +39,15 @@ const CodeSamples = (props) => {
               required="true"
               placeholder="Enter Password"
               className="locked-password-text thq-input"
+              value={password}
+              onChange={(entry) =>
+                setPassword(entry.target.value)
+              }
             />
           </div>
         
           <div
-            // onClick={() => setFaq1Visibile(!faq1Visibile)}
+            onClick={handleSubmit}
             className="locked-button-filled thq-button-filled"
           >
             <p>
