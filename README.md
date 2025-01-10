@@ -4,6 +4,7 @@ My personal website built and deployed using:
 - [React.js](https://react.dev/)
 - [Vercel](https://vercel.com/)
 - [GitHub Pages](https://pages.github.com/) (previously)
+  - [Deploying React App](https://github.com/gitname/react-gh-pages)
 
 <br>
 
