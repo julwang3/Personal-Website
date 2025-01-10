@@ -231,6 +231,9 @@
   font-weight: 400;
   line-height: 1.5;
 }
+.thq-white-space {
+  white-space: pre-wrap;
+}
 .thq-team-image-round {
   width: 80px;
   height: 80px;
@@ -243,6 +246,10 @@
   position: relative;
   align-items: center;
   flex-direction: column;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .thq-section-max-width {
   width: 100%;
@@ -543,7 +550,8 @@
 }
 @media(max-width: 767px) {
   .thq-section-padding {
-    padding: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
   }
   .thq-flex-column {
     gap: var(--dl-space-space-oneandhalfunits);

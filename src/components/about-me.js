@@ -8,7 +8,7 @@ import portrait from '../images/portrait.jpg'
 const AboutMe = (props) => {
   return (
     <div
-      className={`about-me-layout thq-section-padding ${props.rootClassName} `}
+      className={`layout thq-section-padding ${props.rootClassName} `}
     >
       <div className="about-me-max-width thq-section-max-width">
         <div className="about-me-content">

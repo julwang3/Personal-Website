@@ -8,7 +8,7 @@ const LearnMore = (props) => {
   const [faq1Visibile, setFaq1Visibile] = useState(false)
   return (
     <div
-      className={`learn-more-faq8 thq-section-padding ${props.rootClassName} `}
+      className={`learn-more-faq8 ${props.rootClassName} `}
     >
       <div className="learn-more-faq1">
         <div className="learn-more-buttons">

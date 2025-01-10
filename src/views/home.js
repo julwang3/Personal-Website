@@ -29,24 +29,7 @@ const Home = () => {
         projectName="Madison Square Garden Sphere Entertainment Co."
         roleTitle="Software Engineering Student Associate"
         timeline="May 2024 – August 2024"
-        tags={
-          <div className="project-container3">
-            <label>
-              <Fragment>
-                <label className="project-swe label">
-                  Software Engineering
-                </label>
-              </Fragment>
-            </label>
-            <label>
-              <Fragment>
-                <label className="project-gd label">
-                  Game Development
-                </label>
-              </Fragment>
-            </label>
-          </div>
-        }
+        tags={["swe", "gd"]}
 
         shortDescription="Live entertainment and media company creating immersive entertainment experiences and advancing visual, audio, and interactive technologies at cutting-edge venues like the Sphere in Las Vegas."
         toolsUsed="C#, Git, Unity 3D, Jira, Confluence, Bitbucket, Oculus Quest 2"
@@ -75,24 +58,7 @@ const Home = () => {
         projectName="USC Institute for Creative Technologies"
         roleTitle="Game Engineer"
         timeline="February 2023 – May 2024"
-        tags={
-          <div className="project-container3">
-            <label>
-              <Fragment>
-                <label className="project-swe label">
-                  Software Engineering
-                </label>
-              </Fragment>
-            </label>
-            <label>
-              <Fragment>
-                <label className="project-gd label">
-                  Game Development
-                </label>
-              </Fragment>
-            </label>
-          </div>
-        }
+        tags={["swe", "gd"]}
 
         shortDescription="Research institution conducting award-winning R&D in many fields including Artificial Intelligence, Simulation & Gaming, and Mixed Reality."
         toolsUsed="C#, Git, Unity 3D"
@@ -122,17 +88,7 @@ const Home = () => {
         projectName="POSEIDON Mission Control"
         roleTitle="Backend Software Engineer"
         timeline="January 2024 – May 2024"
-        tags={
-          <div className="project-container3">
-            <label>
-              <Fragment>
-                <label className="project-swe label">
-                Software Engineering
-                </label>
-              </Fragment>
-            </label>
-          </div>
-        }
+        tags={["swe"]}
 
         shortDescription="Portable mission control and planning software designed to streamline satellite mission operations and provide a centralized platform for orbit calculations, predictions, and automatic event scheduling."
         toolsUsed="Python, Git, Jira, Confluence"
@@ -160,17 +116,7 @@ const Home = () => {
         projectName="Free Will"
         roleTitle="Gameplay Engineer"
         timeline="August 2023 - July 2024"
-        tags={
-          <div className="project-container3">
-            <label>
-              <Fragment>
-                <label className="project-gd label">
-                Game Development
-                </label>
-              </Fragment>
-            </label>
-          </div>
-        }
+        tags={["gd"]}
 
         shortDescription="2D psychological puzzle RPG where you control a young boy named Will and cleanse corruption by solving meta-puzzles, tweaking system files, and battling reality-warping monsters."
         toolsUsed="C#, Perforce, Unity 2D"
@@ -203,17 +149,7 @@ const Home = () => {
         projectName="Blossom"
         roleTitle="Lead Engineer"
         timeline="July 2022 - May 2023"
-        tags={
-          <div className="project-container3">
-            <label>
-              <Fragment>
-                <label className="project-gd label">
-                Game Development
-                </label>
-              </Fragment>
-            </label>
-          </div>
-        }
+        tags={["swe"]}
 
         shortDescription="Interactive novel brought to life with a pop-up book controller telling the coming-of-age story of a Chinese-American girl named Aspen as she navigates her self of identity amidst the weight of external pressures, labels, and expectations. Featured at the Game Developer's Conference 2023."
         toolsUsed="C#, C, Git, Unity 2D, Arduino"
