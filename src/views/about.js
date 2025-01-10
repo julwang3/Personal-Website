@@ -9,7 +9,7 @@ import './view.css'
 
 const About = (props) => {
   return (
-    <div className="view-container">
+    <div className="container">
       <Helmet>
         <title>About | Julia Wang</title>
         <meta property="og:title" content="Julia Wang" />

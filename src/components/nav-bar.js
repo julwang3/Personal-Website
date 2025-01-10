@@ -7,7 +7,7 @@ import './nav-bar.css'
 
 const NavBar = (props) => {
   return (
-    <header className={`nav-bar-main-container ${props.rootClassName} `}>
+    <header className={`nav-bar-main-container`}>
       <header data-thq="thq-navbar" className="nav-bar-navbar-interactive">
         {/* Name */}
         <div className="nav-bar-width-container">

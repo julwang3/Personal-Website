@@ -8,9 +8,10 @@ const LearnMore = (props) => {
   const [faq1Visibile, setFaq1Visibile] = useState(false)
   return (
     <div
-      className={`learn-more-faq8 ${props.rootClassName} `}
+      className={`learn-more-main-container ${props.rootClassName} `}
     >
-      <div className="learn-more-faq1">
+      <div className="learn-more-container">
+        {/* Buttons */}
         <div className="learn-more-buttons">
           {/* Learn More */}
           <div
@@ -19,20 +20,20 @@ const LearnMore = (props) => {
           >
             <p>
               <Fragment>
-                <p className="learn-more-text5 thq-body-large">Learn More</p>
+                <p className="learn-more-label-text thq-body-large">Learn More</p>
               </Fragment>
             </p>
             <div className="learn-more-icons-container">
               {!faq1Visibile && (
                 <div>
-                  <svg viewBox="0 0 1024 1024" className="learn-more-icon1">
+                  <svg viewBox="0 0 1024 1024" className="learn-more-icons">
                     <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
                   </svg>
                 </div>
               )}
               {faq1Visibile && (
                 <div>
-                  <svg viewBox="0 0 1024 1024" className="learn-more-icon3">
+                  <svg viewBox="0 0 1024 1024" className="learn-more-icons">
                     <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
                   </svg>
                 </div>
@@ -44,46 +45,31 @@ const LearnMore = (props) => {
             { props.relevantLinks && props.relevantLinks.map((link) => (
               <a href={link.url} className="learn-more-button-filled" target="_blank" rel="noopener noreferrer">
                 <Fragment>
-                  <span className="learn-more-text6 thq-body-large">{link.name}</span>
+                  <span className="learn-more-label-text thq-body-large">{link.name}</span>
                 </Fragment>
               </a>
             ))}
           </div>
         </div>
         {faq1Visibile && (
-          <div className="learn-more-container3">
-            {/* <span className="thq-body-large">
-              {props.longDescription ??
-                "Lorem ipsum dolor sit amet. Est eaque sint ut blanditiis sunt aut" +
-                "deleniti illum non repudiandae voluptatem. Aut praesentium" +
-                "doloribus qui distinctio neque ut unde temporibus. Cum" +
-                "exercitationem eveniet in omnis animi in corporis nulla."
-              }
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span> */}
-            <div className="learn-more-container4">
-              <span className="thq-body-large">
-                {props.longDescriptionMore ?? "Lorem ipsum dolor sit amet..."}
-              </span>
-              <ul className="list">
-                {props.resumeBullet1 != '' && <li className="thq-body-large list-item">
-                  {props.resumeBullet1 ?? "Text"}
-                </li>}
-                {props.resumeBullet2 != '' && <li className="thq-body-large list-item">
-                  {props.resumeBullet2 ?? "Text"}
-                </li>}
-                {props.resumeBullet3 != '' && <li className="thq-body-large list-item">
-                  {props.resumeBullet3 ?? "Text"}
-                </li>}
-                {props.resumeBullet4 != '' && <li className="thq-body-large list-item">
-                  {props.resumeBullet4 ?? "Text"}
-                </li>}
-              </ul>
-            </div>
+          <div className="learn-more-dropdown-container">
+            <span className="thq-body-large">
+              {props.longDescriptionMore ?? "Lorem ipsum dolor sit amet..."}
+            </span>
+            <ul className="list">
+              {props.resumeBullet1 != '' && <li className="thq-body-large list-item">
+                {props.resumeBullet1 ?? "Text"}
+              </li>}
+              {props.resumeBullet2 != '' && <li className="thq-body-large list-item">
+                {props.resumeBullet2 ?? "Text"}
+              </li>}
+              {props.resumeBullet3 != '' && <li className="thq-body-large list-item">
+                {props.resumeBullet3 ?? "Text"}
+              </li>}
+              {props.resumeBullet4 != '' && <li className="thq-body-large list-item">
+                {props.resumeBullet4 ?? "Text"}
+              </li>}
+            </ul>
           </div>
         )}
       </div>

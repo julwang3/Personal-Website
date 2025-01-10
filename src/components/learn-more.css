@@ -1,5 +1,5 @@
-.learn-more-faq8 {
-  width: 100%;
+.learn-more-main-container {
+  width: 170%;
   height: auto;
   display: flex;
   overflow: hidden;
@@ -9,7 +9,7 @@
   flex-direction: column;
   box-sizing: border-box;
 }
-.learn-more-faq1 {
+.learn-more-container {
   width: 100%;
   display: flex;
   align-items: center;
@@ -41,19 +41,16 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.learn-more-icon1 {
+.learn-more-icons {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.learn-more-icon3 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
-.learn-more-container3 {
-  gap: var(--dl-space-space-unit);
+.learn-more-dropdown-container {
+  gap: var(--dl-space-space-halfunit);
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
   padding-bottom: 0;
   align-self: stretch;
   align-items: flex-start;
@@ -66,24 +63,11 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.learn-more-container4 {
-  gap: var(--dl-space-space-halfunit);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.learn-more-text5 {
+.learn-more-label-text {
   display: inline-block;
   font-style: normal;
   text-align: center;
-  font-weight: 600;
-}
-.learn-more-text6 {
-  display: inline-block;
-  font-style: normal;
-  text-align: center;
-  font-weight: 600;
+  font-weight: 525;
 }
 .learn-more-button-filled {
   gap: var(--dl-space-space-halfunit);
@@ -110,10 +94,4 @@
   color: var(--dl-color-theme-secondary2);
   border-color: var(--dl-color-theme-primary1);
   background-color: var(--dl-color-theme-primary1);
-}
-
-@media(max-width: 767px) {
-  .learn-more-faq8 {
-    padding: 0;
-  }
 }
