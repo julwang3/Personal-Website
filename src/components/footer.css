@@ -27,13 +27,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.footer-link1 {
-  display: contents;
-}
-.footer-link2 {
-  display: contents;
-}
-.footer-link3 {
+.footer-link {
   display: contents;
 }
 .footer-text {

@@ -19,6 +19,7 @@
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
   --dl-space-space-twounits: 32px;
+  --dl-space-space-oneandhalfunits: 24px;
   --dl-radius-radius-radius2: 2px;
   --dl-radius-radius-radius4: 4px;
   --dl-radius-radius-radius8: 8px;
@@ -32,7 +33,6 @@
   --dl-radius-radius-imageradius: 8px;
   --dl-radius-radius-inputradius: 24px;
   --dl-radius-radius-buttonradius: 24px;
-  --dl-space-space-oneandhalfunits: 24px;
   --dl-gradient-theme-neutral-light: linear-gradient(180deg, #fff3ed 0.00%,#cce1ff 99.00%);
 }
 .button {

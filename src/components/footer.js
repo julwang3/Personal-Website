@@ -30,7 +30,7 @@ const Footer = (props) => {
               href="https://www.linkedin.com/in/julialywang/"
               target="_blank"
               rel="noreferrer noopener"
-              className="footer-link2"
+              className="footer-link"
             >
               <svg
                 width="24"
@@ -48,7 +48,7 @@ const Footer = (props) => {
               href="https://github.com/julwang3"
               target="_blank"
               rel="noreferrer noopener"
-              className="footer-link3"
+              className="footer-link"
             >
               <svg
                 width="24"

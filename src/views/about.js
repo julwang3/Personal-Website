@@ -4,15 +4,14 @@ import { Helmet } from 'react-helmet'
 
 import NavBar from '../components/nav-bar'
 import AboutMe from '../components/about-me'
-// import Skills from '../components/skills'
 import Footer from '../components/footer'
-import './about.css'
+import './view.css'
 
 const About = (props) => {
   return (
-    <div className="about-container">
+    <div className="view-container">
       <Helmet>
-        <title>Julia Wang</title>
+        <title>About | Julia Wang</title>
         <meta property="og:title" content="Julia Wang" />
       </Helmet>
       

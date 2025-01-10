@@ -8,18 +8,18 @@ import portrait from '../images/portrait.jpg'
 const AboutMe = (props) => {
   return (
     <div
-      className={`about-me-layout349 thq-section-padding ${props.rootClassName} `}
+      className={`about-me-layout thq-section-padding ${props.rootClassName} `}
     >
       <div className="about-me-max-width thq-section-max-width">
         <div className="about-me-content">
           <h2>
             <Fragment>
-              <h2 className="about-me-text11 thq-heading-2">ABOUT ME</h2>
+              <h2 className="thq-heading-2">ABOUT ME</h2>
             </Fragment>
           </h2>
           <p>
             <Fragment>
-              <p className="about-me-text12 thq-body-large thq-section-max-width">
+              <p className="thq-body-large thq-section-max-width">
                 <span>
                   Hi there! I’m <b>Julia</b>, a software engineer and game developer currently pursuing
                   a B.S. in <b>Computer Science</b> with a minor in <b>Immersive Media</b> at 

@@ -1,4 +1,4 @@
-.about-me-layout349 {
+.about-me-layout {
   overflow: hidden;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-fiveunits);
@@ -29,56 +29,10 @@
 .about-me-text12 {
   display: inline-block;
 }
-.about-me-text14 {
-  font-weight: 700;
-}
-.about-me-text16 {
-  font-weight: 700;
-}
-.about-me-text18 {
-  font-weight: 700;
-}
-.about-me-text23 {
-  font-weight: 700;
-}
-.about-me-text25 {
-  font-weight: 700;
-}
-.about-me-text27 {
-  font-weight: 700;
-}
-.about-me-text29 {
-  font-weight: 700;
-}
-.about-me-text31 {
-  font-weight: 700;
-}
-.about-me-text36 {
-  font-weight: 700;
-}
-.about-me-text38 {
-  font-weight: 700;
-}
-.about-me-text40 {
-  font-weight: 700;
-}
-.about-me-text42 {
-  font-weight: 700;
-}
-
 
 @media(max-width: 1200px) {
   .about-me-image-container {
     flex: 1;
-  }
-  .about-me-text14 {
-    font-weight: 700;
-  }
-  .about-me-text16 {
-    font-weight: 700;
-  }
-  .about-me-text18 {
-    font-weight: 700;
   }
 }
 @media(max-width: 991px) {
@@ -90,7 +44,7 @@
   }
 }
 @media(max-width: 767px) {
-  .about-me-layout349 {
+  .about-me-layout {
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }

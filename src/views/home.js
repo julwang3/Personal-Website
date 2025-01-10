@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet'
 import NavBar from '../components/nav-bar'
 import Project from '../components/project'
 import Footer from '../components/footer'
-import './home.css'
+import './view.css'
 
 import MSGSphere from '../images/sphere.jpg'
 import ICT from '../images/ict.png'
@@ -14,9 +14,9 @@ import FreeWill from '../images/freewill.png'
 import Blossom from '../images/blossom.jpg'
 
 
-const Home = (props) => {
+const Home = () => {
   return (
-    <div className="home-container">
+    <div className="view-container">
       <Helmet>
         <title>Julia Wang</title>
         <meta property="og:title" content="Julia Wang" />
