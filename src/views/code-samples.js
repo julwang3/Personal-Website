@@ -41,7 +41,7 @@ const CodeSamples = (props) => {
               className="locked-password-text thq-input"
               value={password}
               onChange={(entry) =>
-                setPassword(entry.target.value)
+                setPassword(entry.target.value.toLowerCase())
               }
             />
           </div>
