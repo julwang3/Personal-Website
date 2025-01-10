@@ -3,9 +3,6 @@
 /.pnp
 .pnp.js
 
-# src
-/src/code-samples
-
 # production
 /build
 
