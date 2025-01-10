@@ -10,6 +10,7 @@ import {
 import './style.css'
 import Home from './views/home'
 import About from './views/about'
+import CodeSamples from './views/code-samples'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Switch>
         <Route component={Home} exact path="/" />
         <Route component={About} exact path="/about" />
+        <Route component={CodeSamples} exact path="/code-samples" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
