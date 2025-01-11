@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet'
 import NavBar from '../components/nav-bar'
 import Footer from '../components/footer'
 import { submitPassword } from '../components/api'
-import { CodeBlock, dracula } from 'react-code-blocks'
+import { CodeBlock, monokaiSublime } from 'react-code-blocks'
 import './view.css'
 import './code-samples.css'
 
@@ -13,6 +13,7 @@ const CodeSamples = (props) => {
   const [isUnlocked, setIsUnlocked] = useState(false)
   const [password, setPassword] = useState("")
   const [contents, setContents] = useState([[]])
+  const theme = monokaiSublime
 
   async function handleSubmit() {
     const passwordContents = await submitPassword(password);
@@ -68,7 +69,7 @@ const CodeSamples = (props) => {
       {/* Unlocked */}
       {isUnlocked && (
         <div
-          className={`container thq-section-padding ${props.rootClassName} `}
+          className={`thq-section-padding ${props.rootClassName} `}
         >
           <div className="unlocked-max-width thq-section-max-width">
             <div className="unlocked-content">
@@ -86,10 +87,11 @@ const CodeSamples = (props) => {
 
               {/* Code Samples */}
               { contents.length !== 0 && contents.map(([text, language], index) => (
-                <CodeBlock key={index}
+                <CodeBlock
+                  key={index}
                   text={text}
                   language={language}
-                  theme={dracula}
+                  theme={theme}
                 />
               ))}
             </div>

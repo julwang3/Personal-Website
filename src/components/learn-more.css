@@ -83,3 +83,10 @@
   border-color: var(--dl-color-theme-primary1);
   background-color: var(--dl-color-theme-primary1);
 }
+
+
+@media(max-width: 1200px) {
+  .learn-more-main-container {
+    width: 100%;
+  }
+}
