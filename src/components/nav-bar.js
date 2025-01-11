@@ -21,7 +21,7 @@ const NavBar = (props) => {
           <span>
             <Fragment>
               <span className="thq-body-large">
-                Software Engineer &amp; Game Developer
+                Computer Science + Interactive &amp; Immersive Media Enthusiast
               </span>
             </Fragment>
           </span>
