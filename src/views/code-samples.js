@@ -3,15 +3,16 @@ import React, { Fragment, useState } from 'react'
 import { Helmet } from 'react-helmet'
 
 import NavBar from '../components/nav-bar'
-import { submitPassword } from '../components/api'
 import Footer from '../components/footer'
+import { submitPassword } from '../components/api'
+import { CodeBlock, dracula } from 'react-code-blocks'
 import './view.css'
 import './code-samples.css'
 
 const CodeSamples = (props) => {
-  const [isUnlocked, setIsUnlocked] = useState(true)
+  const [isUnlocked, setIsUnlocked] = useState(false)
   const [password, setPassword] = useState("")
-  const [contents, setContents] = useState([])
+  const [contents, setContents] = useState([[]])
 
   async function handleSubmit() {
     const passwordContents = await submitPassword(password);
@@ -84,7 +85,13 @@ const CodeSamples = (props) => {
               </p>
 
               {/* Code Samples */}
-              {/* TODO */}
+              { contents.length !== 0 && contents.map(([text, language], index) => (
+                <CodeBlock key={index}
+                  text={text}
+                  language={language}
+                  theme={dracula}
+                />
+              ))}
             </div>
           </div>
         </div>
