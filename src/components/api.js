@@ -38,12 +38,13 @@ export async function submitPassword(password) {
     // Get files
     const files = JSON.parse(Buffer.from(fileContent, bufferFrom).toString(bufferTo))[password];
     // Return contents of all the files
-    const passwordContents = [];
+    const passwordContents = Array(files.length).fill().map(() => Array(2).fill(""));
     if (files !== undefined) {
         for (let i = 0; i < files.length; i++) {
           // Decode content
-          const content = await getFileContent(files[i]);
-          passwordContents[i] = Buffer.from(content, bufferFrom).toString(bufferTo);
+          const content = await getFileContent(files[i][0]);
+          passwordContents[i][0] = Buffer.from(content, bufferFrom).toString(bufferTo);
+          passwordContents[i][1] = files[i][1];
         }
     }
     return passwordContents;
