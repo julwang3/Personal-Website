@@ -87,11 +87,22 @@ const CodeSamples = (props) => {
 
               {/* Code Samples */}
               { contents.length !== 0 && contents.map(([text, language], index) => (
-                <CodeBlock
+                <CodeBlock 
                   key={index}
                   text={text}
                   language={language}
                   theme={theme}
+                  customStyle={{
+                    fontFamily: "'Fira Code', monospace",
+                    fontSize: "0.85em",
+                    fontStyle: "normal",
+                    lineHeight: "1.5",
+                    padding: "10px",
+                    width: "100%",
+                    maxWidth: "1050px",
+                    margin: "0 auto",
+                    overflowX: "auto",
+                  }}
                 />
               ))}
             </div>
