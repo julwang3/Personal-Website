@@ -9,18 +9,20 @@ import './view.css'
 import './code-samples.css'
 
 const CodeSamples = (props) => {
-  const [isUnlocked, setIsUnlocked] = useState(false)
+  const [isUnlocked, setIsUnlocked] = useState(true)
   const [password, setPassword] = useState("")
+  const [contents, setContents] = useState([])
 
   async function handleSubmit() {
-    const contents = await submitPassword(password);
-    if (contents.length === 0) {
+    const passwordContents = await submitPassword(password);
+    if (passwordContents.length === 0) {
       // Invalid password
       setPassword("");
       setIsUnlocked(false);
     }
     else {
       // Correct password
+      setContents(passwordContents);
       setIsUnlocked(true);
     }
   }
@@ -64,9 +66,27 @@ const CodeSamples = (props) => {
 
       {/* Unlocked */}
       {isUnlocked && (
-        // TODO
-        <div className="locked-container">
-          <p>Unlocked</p>
+        <div
+          className={`container thq-section-padding ${props.rootClassName} `}
+        >
+          <div className="unlocked-max-width thq-section-max-width">
+            <div className="unlocked-content">
+              {/* Header */}
+              <h2>
+                <Fragment>
+                  <h2 className="thq-heading-2">Code Samples</h2>
+                </Fragment>
+              </h2>
+              <p className="unlocked-subtitle-text unlocked-max-width">
+                <span>
+                  Below  are code snippets from a few of the scripts I've worked on for personal and/or academic projects!
+                </span>
+              </p>
+
+              {/* Code Samples */}
+              {/* TODO */}
+            </div>
+          </div>
         </div>
       )}
 

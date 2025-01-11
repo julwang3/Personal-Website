@@ -1,3 +1,4 @@
+/* Locked */
 .locked-container {
     width: 100%;
     display: flex;
@@ -31,4 +32,37 @@
     color: var(--dl-color-theme-secondary2);
     border-color: var(--dl-color-theme-accent3);
     background-color: var(--dl-color-theme-accent3);
+}
+
+/* Unlocked */
+.unlocked-container {
+    gap: var(--dl-space-space-oneandhalfunits);
+    flex: 2.25;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.unlocked-max-width {
+    gap: var(--dl-space-space-threeunits);
+    display: flex;
+    align-items: left;
+}
+
+.unlocked-content {
+    gap: var(--dl-space-space-unit);
+    flex: 2.25;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.unlocked-subtitle-text {
+  font-size: 0.85em;
+  align-self: center;
+  font-style: normal;
+  font-family: "Poppins";
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
 }
