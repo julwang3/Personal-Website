@@ -1,11 +1,11 @@
 .project-max-width {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
 }
 .project-content {
   gap: var(--dl-space-space-oneandhalfunits);
-  flex: 1.5;
+  flex: 1.25;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -45,7 +45,7 @@
   justify-content: flex-end;
 }
 .project-placeholder-image {
-  width: 90%;
+  width: 100%;
   align-items: flex-start;
 }
 .project-tools-text {
