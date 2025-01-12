@@ -50,7 +50,7 @@
 }
 .project-tools-text {
   display: inline-block;
-  padding-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
 }
 .project-description-text {
   display: inline-block;
@@ -75,6 +75,10 @@
   }
   .project-placeholder-image {
     width: 100%;
+  }
+  .project-tools-text {
+    display: inline-block;
+    padding-bottom: 0;
   }
 }
 @media(max-width: 991px) {
