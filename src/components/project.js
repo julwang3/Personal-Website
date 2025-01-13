@@ -15,9 +15,9 @@ const Project = (props) => {
           <div className="project-main-container">
             <h2>
               <Fragment>
-                <h2 className="thq-heading-2">
+                <span className="thq-heading-2">
                   {props.projectName}
-                </h2>
+                </span>
               </Fragment>
             </h2>
             <div className="project-role-date-container">
@@ -61,14 +61,14 @@ const Project = (props) => {
               </p>
             </Fragment>
           </p>
-          <p>
+          {/* <p>
             <Fragment>
               <p className="project-tools-text thq-body-large"><b>
                 <span >Tools: </span>
                 <span>{props.toolsUsed}</span>
               </b></p>
             </Fragment>
-          </p>
+          </p> */}
           <LearnMore
             longDescription={props.longDescription}
             longDescriptionMore={props.longDescriptionMore}
@@ -85,7 +85,7 @@ const Project = (props) => {
             <img
               alt={props.projectImageAlt}
               src={props.projectImage}
-              className="thq-img-ratio-16-9"
+              className="thq-img-ratio-16-6"
             />
           </a>}
           {/* Project Image Not Linked */}
@@ -93,7 +93,7 @@ const Project = (props) => {
             <img
               alt={props.projectImageAlt}
               src={props.projectImage}
-              className="project-placeholder-image thq-img-ratio-16-9"
+              className="project-placeholder-image thq-img-ratio-16-6"
             />
           }
         </div>
