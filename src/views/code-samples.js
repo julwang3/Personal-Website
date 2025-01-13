@@ -69,7 +69,7 @@ const CodeSamples = (props) => {
       {/* Unlocked */}
       {isUnlocked && (
         <div
-          className={`thq-section-padding ${props.rootClassName} `}
+          className={`thq-section-padding`}
         >
           <div className="unlocked-max-width thq-section-max-width">
             <div className="unlocked-content">
