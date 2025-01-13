@@ -1,5 +1,5 @@
 .learn-more-main-container {
-  width: 170%;
+  width: 190%;
   height: auto;
   display: flex;
   overflow: hidden;
@@ -50,7 +50,7 @@
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
-  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-top: var(--dl-space-space-unit);
   padding-bottom: 0;
   align-self: stretch;
   align-items: flex-start;

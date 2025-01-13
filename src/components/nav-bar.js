@@ -20,9 +20,9 @@ const NavBar = (props) => {
           </div>
           <span>
             <Fragment>
-              <span className="thq-body-large">
-                Computer Science + Interactive &amp; Immersive Media Enthusiast
-              </span>
+              <pre className="thq-body-large">
+                Computer Science  +  Interactive &amp; Immersive Media
+              </pre>
             </Fragment>
           </span>
         </div>

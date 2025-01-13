@@ -1,11 +1,11 @@
 .project-max-width {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: flex-start;
 }
 .project-content {
   gap: var(--dl-space-space-oneandhalfunits);
-  flex: 1.5;
+  flex: 1.25;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
