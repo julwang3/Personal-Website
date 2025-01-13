@@ -8,7 +8,7 @@ const Footer = (props) => {
   return (
     <footer
       id={props.footerId}
-      className={`footer-container thq-section-padding ${props.rootClassName} `}
+      className={`footer-container thq-section-padding`}
     >
       <div className="footer-max-width thq-section-max-width">
         <div className="footer-credits">
@@ -80,12 +80,10 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   footerId: '',
-  rootClassName: '',
 }
 
 Footer.propTypes = {
   footerId: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default Footer

@@ -34,11 +34,7 @@ const Home = () => {
         shortDescription="Live entertainment and media company creating immersive entertainment experiences and advancing visual, audio, and interactive technologies at cutting-edge venues like the Sphere in Las Vegas."
         toolsUsed="C#, Git, Unity 3D, Jira, Confluence, Bitbucket, Oculus Quest 2"
 
-        longDescription="Lorem ipsum dolor sit amet. Est eaque sint ut blanditiis 
-                        sunt autdelenitsdfsadfi illum non repudiandae voluptatem. Aut 
-                        praesentiumdoloribus qui distinctio neque ut unde temporibus. 
-                        Cumexercitationem eveniet in omnis animi in corporis nulla."
-        longDescriptionMore={
+        longDescription={
           <span>
             I was a software engineer on the <b>Simulation and Visualizations (SimVis)</b> team, a team developing software products used internally for content production at Sphere as well as other Madison Square Garden properties. As a <b>Software Engineering Student Associate</b> for SimVis, I...
           </span>
@@ -48,7 +44,6 @@ const Home = () => {
         resumeBullet3="Communicated closely with the engineering team to design architecture solution, create detailed technical specification for, and prototype moveable panels using Agile methodologies."
         resumeBullet4="Tackled and resolved a critical bug in the in-built debug panel used by developers when debugging and testing builds and further developed the feature so that logs can be cleared and saved across all platforms."
 
-        rootClassName="projectroot-class-name"
         projectImageLink='https://www.thesphere.com/'
         projectImage={MSGSphere}
       ></Project>
@@ -63,11 +58,7 @@ const Home = () => {
         shortDescription="Research institution conducting award-winning R&D in many fields including Artificial Intelligence, Simulation & Gaming, and Mixed Reality."
         toolsUsed="C#, Git, Unity 3D"
 
-        longDescription="Lorem ipsum dolor sit amet. Est eaque sint ut blanditiis 
-                        sunt autdelenitsdfsadfi illum non repudiandae voluptatem. Aut 
-                        praesentiumdoloribus qui distinctio neque ut unde temporibus. 
-                        Cumexercitationem eveniet in omnis animi in corporis nulla."
-        longDescriptionMore={
+        longDescription={
           <div>
           <span>
             As a <b>Game Engineer</b> at the USC Institute for Creative Technologies, I worked on the development of interactive experiences centered around <b>Artificial Intelligence education</b> under Dr. Ning Wang. More specifically, I…
@@ -78,7 +69,6 @@ const Home = () => {
         resumeBullet2="Integrated face landmark detection and swap through MediaPipe Solutions API that is part of Virtual Human Exhibit at Berkeley’s Lawrence Hall of Science with 100+ visitors a day."
         resumeBullet3="Delivered and conceptualized prototypes featuring 3D gameplay interactions and sequences demonstrating how Artificial Intelligence education is achieved through gameplay experience and interactive narratives."
 
-        rootClassName="projectroot-class-name"
         projectImageLink='https://ict.usc.edu/'
         projectImage={ICT}
       ></Project>
@@ -93,11 +83,7 @@ const Home = () => {
         shortDescription="Portable mission control and planning software designed to streamline satellite mission operations and provide a centralized platform for orbit calculations, predictions, and automatic event scheduling."
         toolsUsed="Python, Git, Jira, Confluence"
 
-        longDescription="Lorem ipsum dolor sit amet. Est eaque sint ut blanditiis 
-                        sunt autdelenitsdfsadfi illum non repudiandae voluptatem. Aut 
-                        praesentiumdoloribus qui distinctio neque ut unde temporibus. 
-                        Cumexercitationem eveniet in omnis animi in corporis nulla."
-        longDescriptionMore={
+        longDescription={
           <span>
             POSEIDON Mission Control was developed for the the MAVERIC CubeSat project led by Professor David Barnhart at the USC Information Sciences Institute. As a <b>Backend Software Engineer</b>, I...
           </span>
@@ -107,7 +93,6 @@ const Home = () => {
         resumeBullet3="Integrated and defined API calls for two-line element data retrieval, providing orbital information on a given satellite."
         resumeBullet4="Communicated with shareholders on weekly basis, effectively providing updates on progress, addressing issues, and ensuring project objectives were being met."
 
-        rootClassName="projectroot-class-name"
         projectImage={POSEIDON}
       ></Project>
 
@@ -121,11 +106,7 @@ const Home = () => {
         shortDescription="2D psychological puzzle RPG where you control a young boy named Will and cleanse corruption by solving meta-puzzles, tweaking system files, and battling reality-warping monsters."
         toolsUsed="C#, Perforce, Unity 2D"
 
-        longDescription="Lorem ipsum dolor sit amet. Est eaque sint ut blanditiis 
-                        sunt autdelenitsdfsadfi illum non repudiandae voluptatem. Aut 
-                        praesentiumdoloribus qui distinctio neque ut unde temporibus. 
-                        Cumexercitationem eveniet in omnis animi in corporis nulla."
-        longDescriptionMore={
+        longDescription={
           <span>
             As a <b>Gameplay Engineer</b>, I...
           </span>
@@ -139,7 +120,6 @@ const Home = () => {
           { name: 'Steam', url: 'https://store.steampowered.com/app/2571880/Free_Will/' },
         ]}
 
-        rootClassName="projectroot-class-name"
         projectImageLink='https://www.freewillgame.com/'
         projectImage={FreeWill}
       ></Project>
@@ -154,11 +134,7 @@ const Home = () => {
         shortDescription="Interactive novel brought to life with a pop-up book controller telling the coming-of-age story of a Chinese-American girl named Aspen as she navigates her self of identity amidst the weight of external pressures, labels, and expectations. Featured at the Game Developer's Conference 2023."
         toolsUsed="C#, C, Git, Unity 2D, Arduino"
 
-        longDescription="Lorem ipsum dolor sit amet. Est eaque sint ut blanditiis 
-                        sunt autdelenitsdfsadfi illum non repudiandae voluptatem. Aut 
-                        praesentiumdoloribus qui distinctio neque ut unde temporibus. 
-                        Cumexercitationem eveniet in omnis animi in corporis nulla."
-        longDescriptionMore={
+        longDescription={
           <span>
             As a <b>Lead Engineer</b>, I...
           </span>
@@ -171,7 +147,6 @@ const Home = () => {
           { name: 'alt.ctrl.GDC 2023', url: 'https://gdconf.com/news/here-are-outstanding-games-coming-altctrlgdc-gdc-2023' },
         ]}
 
-        rootClassName="projectroot-class-name"
         projectImageLink='https://blossom-901ae0.webflow.io/'
         projectImage={Blossom}
       ></Project>

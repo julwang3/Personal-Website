@@ -8,7 +8,7 @@ import portrait from '../images/portrait.jpg'
 const AboutMe = (props) => {
   return (
     <div
-      className={`thq-section-padding ${props.rootClassName} `}
+      className={`thq-section-padding`}
     >
       <div className="about-me-max-width thq-section-max-width">
         <div className="about-me-content">
@@ -67,14 +67,12 @@ const AboutMe = (props) => {
 }
 
 AboutMe.defaultProps = {
-  rootClassName: '',
   feature1ImageSrc: portrait,
   feature1ImageAlt: 'Image',
 }
 
 AboutMe.propTypes = {
   feature1Title: PropTypes.element,
-  rootClassName: PropTypes.string,
   feature1ImageSrc: PropTypes.string,
   feature1ImageAlt: PropTypes.string,
 }

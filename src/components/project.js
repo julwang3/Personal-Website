@@ -8,7 +8,7 @@ import './project.css'
 const Project = (props) => {
   return (
     <div
-      className={`thq-section-padding ${props.rootClassName} `}
+      className={`thq-section-padding`}
     >
       <div className="project-max-width thq-section-max-width">
         <div className="project-content project-section-title">
@@ -71,7 +71,6 @@ const Project = (props) => {
           </p> */}
           <LearnMore
             longDescription={props.longDescription}
-            longDescriptionMore={props.longDescriptionMore}
             resumeBullet1={props.resumeBullet1}
             resumeBullet2={props.resumeBullet2}
             resumeBullet3={props.resumeBullet3}
@@ -103,7 +102,6 @@ const Project = (props) => {
 }
 
 Project.defaultProps = {
-  rootClassName: '',
   projectName: '',
   roleTitle: '',
   timeline: '',
@@ -111,7 +109,6 @@ Project.defaultProps = {
   shortDescription: '',
   toolsUsed: '',
   longDescription: undefined,
-  longDescriptionMore: undefined,
   resumeBullet1: '',
   resumeBullet2: '',
   resumeBullet3: '',
@@ -123,7 +120,6 @@ Project.defaultProps = {
 }
 
 Project.propTypes = {
-  rootClassName: PropTypes.string,
   projectName: PropTypes.string,
   roleTitle: PropTypes.string,
   timeline: PropTypes.string,
@@ -131,7 +127,6 @@ Project.propTypes = {
   shortDescription: PropTypes.string,
   toolsUsed: PropTypes.string,
   longDescription: PropTypes.element,
-  longDescriptionMore: PropTypes.element,
   resumeBullet1: PropTypes.string,
   resumeBullet2: PropTypes.string,
   resumeBullet3: PropTypes.string,

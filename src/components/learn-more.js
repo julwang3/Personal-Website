@@ -9,7 +9,7 @@ const LearnMore = (props) => {
   
   return (
     <div
-      className={`learn-more-main-container ${props.rootClassName} `}
+      className={`learn-more-main-container`}
     >
       <div className="learn-more-container">
         {/* Buttons */}
@@ -55,7 +55,7 @@ const LearnMore = (props) => {
         {faq1Visibile && (
           <div className="learn-more-dropdown-container">
             <span className="thq-body-large">
-              {props.longDescriptionMore ?? "Lorem ipsum dolor sit amet..."}
+              {props.longDescription ?? ""}
             </span>
             <ul className="list">
               {props.resumeBullet1 != '' && <li className="thq-body-large list-item">
@@ -79,9 +79,7 @@ const LearnMore = (props) => {
 }
 
 LearnMore.defaultProps = {
-  rootClassName: '',
   longDescription: '',
-  longDescriptionMore: '',
   resumeBullet1: '',
   resumeBullet2: '',
   resumeBullet3: '',
@@ -90,9 +88,7 @@ LearnMore.defaultProps = {
 }
 
 LearnMore.propTypes = {
-  rootClassName: PropTypes.string,
   longDescription: PropTypes.string,
-  longDescriptionMore: PropTypes.string,
   resumeBullet1: PropTypes.string,
   resumeBullet2: PropTypes.string,
   resumeBullet3: PropTypes.string,

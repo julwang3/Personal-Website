@@ -141,7 +141,6 @@ const NavBar = (props) => {
 }
 
 NavBar.defaultProps = {
-  rootClassName: '',
   archiveLink: 'https://julwang.itch.io/',
   logoSrc:
     'https://www.linkedin.com/in/julialywang/',
@@ -149,7 +148,6 @@ NavBar.defaultProps = {
 }
 
 NavBar.propTypes = {
-  rootClassName: PropTypes.string,
   archiveLink: PropTypes.string,
   resumeLink: PropTypes.string,
   logoSrc: PropTypes.string,
