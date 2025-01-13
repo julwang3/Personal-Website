@@ -1,0 +1,21 @@
+{
+    "projectName": "USC Institute for Creative Technologies",
+    "roleTitle": "Gameplay & Software Engineer",
+    "timeline": "February 2023 – May 2024",
+    "tools": [
+        "C#",
+        "Git",
+        "Unity 3D",
+        "WebGL"
+    ],
+    "shortDescription": "Research institution conducting award-winning R&D in many fields including Artificial Intelligence, Simulation & Gaming, and Mixed Reality.",
+    "longDescription": "As a <b>Gameplay &amp; Software Engineer</b> at the USC Institute for Creative Technologies, I worked on the development of interactive experiences centered around <b>Artificial Intelligence education</b> under Dr. Ning Wang. More specifically, I…",
+    "resumeBullets": [
+        "Collaborated with 5 researchers and engineers to design and develop a 3D first-person game aiming to help the general public learn more about foundational concepts, ethics, and applications of Artificial Intelligence in an engaging manner.",
+        "Integrated face landmark detection and swap through MediaPipe Solutions API that is part of Virtual Human Exhibit at Berkeley’s Lawrence Hall of Science with 100+ visitors a day.",
+        "Delivered and conceptualized prototypes featuring 3D gameplay interactions and sequences demonstrating how Artificial Intelligence education is achieved through gameplay experience and interactive narratives."
+    ],
+    "relevantLinks": [],
+    "projectImageLink": "https://www.k12aied.org/projects/#h.87i3zh3ca89h",
+    "projectImage": "../images/ict.png"
+}
