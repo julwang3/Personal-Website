@@ -1,0 +1,24 @@
+{
+    "projectName": "POSEIDON Mission Control",
+    "roleTitle": "Full-Stack Software Engineer",
+    "timeline": "January 2024 – May 2024",
+    "tools": [
+        "Python",
+        "JavaScript",
+        "Git",
+        "API Development"
+    ],
+    "shortDescription": "Portable mission control and planning software designed to streamline satellite mission operations and provide a centralized platform for orbit calculations, predictions, and automatic event scheduling.",
+    "longDescription": "POSEIDON Mission Control was developed for the the MAVERIC CubeSat project led by Professor David Barnhart at the USC Information Sciences Institute. As a <b>Full-Stack Software Engineer</b>, I...",
+    "resumeBullets": [
+        "Designed and engineered the application with 5 other engineers, streamlining the satellite mission operations and providing a centralized platform for orbit calculations and predictions.",
+        "Automated event creation, updating, and deletion using Python API calls, allowing for more efficient event scheduling and notification for satellite pass times.",
+        "Integrated and defined API calls for two-line element data retrieval, providing orbital information on a given satellite.",
+        "Communicated with shareholders on weekly basis, effectively providing updates on progress, addressing issues, and ensuring project objectives were being met."
+    ],
+    "relevantLinks": [
+        
+    ],
+    "projectImageLink": "",
+    "projectImage": "../images/poseidon.jpg"
+}

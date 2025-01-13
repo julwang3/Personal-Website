@@ -6,6 +6,7 @@ import LearnMore from './learn-more'
 import './project.css'
 
 const Project = (props) => {
+
   return (
     <div
       className={`thq-section-padding`}
@@ -29,20 +30,13 @@ const Project = (props) => {
                 </Fragment>
               </span>
             </div>
-            {props.tags && (
+            {props.tools && (
               <div className="project-label-container">
-                {props.tags.map((tag, index) => (
+                {props.tools.map((tool, index) => (
                   <Fragment key={index}>
-                    {tag === "swe" && (
-                      <label className="project-swe label">
-                        Software Engineering
-                      </label>
-                    )}
-                    {tag === "gd" && (
-                      <label className="project-gd label">
-                        Game Development
-                      </label>
-                    )}
+                    <label className="project-swe label">
+                      {tool}
+                    </label>
                   </Fragment>
                 ))}
               </div>
@@ -61,20 +55,9 @@ const Project = (props) => {
               </p>
             </Fragment>
           </p>
-          {/* <p>
-            <Fragment>
-              <p className="project-tools-text thq-body-large"><b>
-                <span >Tools: </span>
-                <span>{props.toolsUsed}</span>
-              </b></p>
-            </Fragment>
-          </p> */}
           <LearnMore
             longDescription={props.longDescription}
-            resumeBullet1={props.resumeBullet1}
-            resumeBullet2={props.resumeBullet2}
-            resumeBullet3={props.resumeBullet3}
-            resumeBullet4={props.resumeBullet4}
+            resumeBullets={props.resumeBullets}
             relevantLinks={props.relevantLinks}
           ></LearnMore>
         </div>
@@ -105,13 +88,11 @@ Project.defaultProps = {
   projectName: '',
   roleTitle: '',
   timeline: '',
-  tags: [],
+  tools: [],
   shortDescription: '',
   toolsUsed: '',
-  longDescription: undefined,
-  resumeBullet1: '',
-  resumeBullet2: '',
-  resumeBullet3: '',
+  longDescription: '',
+  resumeBullets: '',
   relevantLinks: [],
   projectImageLink: '',
   projectImage:
@@ -123,13 +104,10 @@ Project.propTypes = {
   projectName: PropTypes.string,
   roleTitle: PropTypes.string,
   timeline: PropTypes.string,
-  tags: PropTypes.element,
+  tools: PropTypes.array,
   shortDescription: PropTypes.string,
-  toolsUsed: PropTypes.string,
   longDescription: PropTypes.element,
-  resumeBullet1: PropTypes.string,
-  resumeBullet2: PropTypes.string,
-  resumeBullet3: PropTypes.string,
+  resumeBullets: PropTypes.array,
   relevantLinks: PropTypes.array,
   projectImageLink: PropTypes.string,
   projectImage: PropTypes.string,

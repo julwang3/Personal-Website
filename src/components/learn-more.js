@@ -55,21 +55,14 @@ const LearnMore = (props) => {
         {faq1Visibile && (
           <div className="learn-more-dropdown-container">
             <span className="thq-body-large">
-              {props.longDescription ?? ""}
+              <div dangerouslySetInnerHTML={{ __html: props.longDescription }} />
             </span>
             <ul className="list">
-              {props.resumeBullet1 != '' && <li className="thq-body-large list-item">
-                {props.resumeBullet1 ?? "Text"}
-              </li>}
-              {props.resumeBullet2 != '' && <li className="thq-body-large list-item">
-                {props.resumeBullet2 ?? "Text"}
-              </li>}
-              {props.resumeBullet3 != '' && <li className="thq-body-large list-item">
-                {props.resumeBullet3 ?? "Text"}
-              </li>}
-              {props.resumeBullet4 != '' && <li className="thq-body-large list-item">
-                {props.resumeBullet4 ?? "Text"}
-              </li>}
+              { props.resumeBullets && props.resumeBullets.map((bullet) => (
+                <li className="thq-body-large list-item">
+                  {bullet}
+                </li>
+              ))}
             </ul>
           </div>
         )}
@@ -80,19 +73,13 @@ const LearnMore = (props) => {
 
 LearnMore.defaultProps = {
   longDescription: '',
-  resumeBullet1: '',
-  resumeBullet2: '',
-  resumeBullet3: '',
-  resumeBullet4: '',
+  resumeBullets: [],
   relevantLinks: [], // [ { name: 'Link-Name', url: 'URL-Link' }, ... ]
 }
 
 LearnMore.propTypes = {
   longDescription: PropTypes.string,
-  resumeBullet1: PropTypes.string,
-  resumeBullet2: PropTypes.string,
-  resumeBullet3: PropTypes.string,
-  resumeBullet4: PropTypes.string,
+  resumeBullets: PropTypes.array,
   relevantLinks: PropTypes.array
 }
 
