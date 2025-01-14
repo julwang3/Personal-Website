@@ -6,7 +6,6 @@ import LearnMore from './learn-more'
 import './project.css'
 
 const Project = (props) => {
-
   return (
     <div
       className={`thq-section-padding`}
