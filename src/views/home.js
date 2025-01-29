@@ -23,15 +23,20 @@ import Blossom from '../images/blossom.jpg'
 
 // UPDATE WHEN ADDING NEW PROJECTS/JSONS
 // START
-const projectJSONs = [ 
+const workJSONs = [ 
   MSGSphereJSON,
   ICTJSON,
+]
+const projectJSONs = [
   POSEIDONJSON,
   FreeWillJSON,
   PortalJSON,
   BlossomJSON,
 ]
-const projectImages = {
+const upcomingProjectJSONs = [
+  // TODO : Closure, Wind & Wisp
+]
+const projectImageMap = {
   '../images/sphere.jpg' : MSGSphere,
   '../images/ict.png' : ICT,
   '../images/poseidon.jpg' : POSEIDON,
@@ -41,7 +46,9 @@ const projectImages = {
 }
 // END
 
+const work = await jsonify(workJSONs)
 const projects = await jsonify(projectJSONs)
+const upcomingProjects = await jsonify(upcomingProjectJSONs)
 
 async function jsonify(files) {
   const data = []
@@ -62,6 +69,42 @@ const Home = () => {
 
       <NavBar></NavBar>
 
+      {/* Work Experience */}
+
+      <div className={`home-heading-padding`}>
+        <h2><Fragment>
+            <span className="home-heading">
+              Work Experience
+            </span>
+        </Fragment></h2>
+        <hr />
+      </div>
+      { work && work.map((project) => (
+        <Project
+          projectName={project.projectName}
+          roleTitle={project.roleTitle}
+          timeline={project.timeline}
+          tools={project.tools}
+          shortDescription={project.shortDescription}
+          longDescription={project.longDescription}
+          resumeBullets={project.resumeBullets}
+          relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
+          projectImageLink={project.projectImageLink}
+          projectImage={projectImageMap[project.projectImage]}
+        />
+      ))}
+
+      {/* Projects */}
+
+      <div className={`home-heading-padding`}>
+        <h2><Fragment>
+            <span className="home-heading">
+              Projects
+            </span>
+        </Fragment></h2>
+        <hr />
+      </div>
+
       { projects && projects.map((project) => (
         <Project
           projectName={project.projectName}
@@ -73,7 +116,33 @@ const Home = () => {
           resumeBullets={project.resumeBullets}
           relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
           projectImageLink={project.projectImageLink}
-          projectImage={projectImages[project.projectImage]}
+          projectImage={projectImageMap[project.projectImage]}
+        />
+      ))}
+
+      {/* Upcoming Projects */}
+
+      {/* <div className={`home-heading-padding`}>
+        <h2><Fragment>
+            <span className="home-heading">
+              Upcoming Projects
+            </span>
+        </Fragment></h2>
+        <hr />
+      </div> */}
+
+      { upcomingProjects && upcomingProjects.map((project) => (
+        <Project
+          projectName={project.projectName}
+          roleTitle={project.roleTitle}
+          timeline={project.timeline}
+          tools={project.tools}
+          shortDescription={project.shortDescription}
+          longDescription={project.longDescription}
+          resumeBullets={project.resumeBullets}
+          relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
+          projectImageLink={project.projectImageLink}
+          projectImage={projectImageMap[project.projectImage]}
         />
       ))}
 
