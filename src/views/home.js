@@ -13,6 +13,8 @@ import POSEIDONJSON from '../projects/poseidon.json'
 import FreeWillJSON from '../projects/freewill.json'
 import PortalJSON from '../projects/portal.json'
 import BlossomJSON from '../projects/blossom.json'
+import WatWJSON from '../projects/watw.json'
+import ClosureJSON from '../projects/closure.json'
 
 import MSGSphere from '../images/sphere.gif'
 import ICT from '../images/ict.gif'
@@ -20,6 +22,8 @@ import POSEIDON from '../images/poseidon.jpg'
 import FreeWill from '../images/freewill.gif'
 import Portal from '../images/portal.png'
 import Blossom from '../images/blossom.jpg'
+import WatW from '../images/watw.jpg'
+import Closure from '../images/closure.jpg'
 
 // UPDATE WHEN ADDING NEW PROJECTS/JSONS
 // START
@@ -34,7 +38,8 @@ const projectJSONs = [
   BlossomJSON,
 ]
 const upcomingProjectJSONs = [
-  // TODO : Closure, Wind & Wisp
+  WatWJSON,
+  ClosureJSON
 ]
 const projectImageMap = {
   'Madison Square Garden Sphere Entertainment Co.' : MSGSphere,
@@ -43,6 +48,8 @@ const projectImageMap = {
   'Free Will' : FreeWill,
   'Portal (Remake)' : Portal,
   'Blossom' : Blossom,
+  'The Wind and the Wisp' : WatW,
+  'Closure' : Closure,
 }
 // END
 
@@ -122,14 +129,14 @@ const Home = () => {
 
       {/* Upcoming Projects */}
 
-      {/* <div className={`home-heading-padding`}>
+      <div className={`view-heading-padding`}>
         <h2><Fragment>
-            <span className="home-heading">
+            <span className="view-heading">
               Upcoming Projects
             </span>
         </Fragment></h2>
         <hr />
-      </div> */}
+      </div>
 
       { upcomingProjects && upcomingProjects.map((project) => (
         <Project

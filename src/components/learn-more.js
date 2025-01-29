@@ -15,7 +15,7 @@ const LearnMore = (props) => {
         {/* Buttons */}
         <div className="learn-more-buttons">
           {/* Learn More */}
-          <div
+          {props.resumeBullets.length > 0 && <div
             onClick={() => setFaq1Visibile(!faq1Visibile)}
             className="learn-more-trigger thq-button-filled"
           >
@@ -40,7 +40,7 @@ const LearnMore = (props) => {
                 </div>
               )}
             </div>
-          </div>
+          </div>}
           {/* Relevant Links */}
           <div className="learn-more-relevant-links">
             { props.relevantLinks && props.relevantLinks.map((link) => (
