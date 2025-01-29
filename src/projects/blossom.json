@@ -19,6 +19,5 @@
         { "name": "Website", "url": "https://blossom-901ae0.webflow.io/" },
         { "name": "alt.ctrl.GDC 2023", "url": "https://gdconf.com/news/here-are-outstanding-games-coming-altctrlgdc-gdc-2023" }
     ],
-    "projectImageLink": "https://blossom-901ae0.webflow.io/",
-    "projectImage": "../images/blossom.jpg"
+    "projectImageLink": "https://blossom-901ae0.webflow.io/"
 }

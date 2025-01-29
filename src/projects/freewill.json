@@ -19,6 +19,5 @@
         { "name": "Website", "url": "https://www.freewillgame.com/" },
         { "name": "Steam", "url": "https://store.steampowered.com/app/2571880/Free_Will/" }
     ],
-    "projectImageLink": "ttps://www.freewillgame.com/",
-    "projectImage": "../images/freewill.png"
+    "projectImageLink": "https://www.freewillgame.com/"
 }
