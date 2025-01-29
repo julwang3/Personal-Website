@@ -7,9 +7,9 @@ import Footer from '../components/footer'
 import { submitPassword } from '../components/api'
 import { CodeBlock, monokaiSublime } from 'react-code-blocks'
 import './view.css'
-import './code-samples.css'
+import './work-samples.css'
 
-const CodeSamples = (props) => {
+const WorkSamples = (props) => {
   const [isUnlocked, setIsUnlocked] = useState(false)
   const [password, setPassword] = useState("")
   const [contents, setContents] = useState([[]])
@@ -68,23 +68,27 @@ const CodeSamples = (props) => {
 
       {/* Unlocked */}
       {isUnlocked && (
+        <div className={`view-heading-padding`}>
+          <h2><Fragment>
+            <span className="view-heading">
+              Work Samples
+            </span>
+          </Fragment></h2>
+          <br /><hr />
+          <p className="unlocked-subtitle-text unlocked-max-width">
+            <span>
+              Below  are code snippets from a few of the scripts I've worked on for personal and/or academic projects!
+            </span>
+          </p>
+          <hr />
+        </div>
+      )}
+      {isUnlocked && (
         <div
           className={`thq-section-padding`}
         >
           <div className="unlocked-max-width thq-section-max-width">
             <div className="unlocked-content">
-              {/* Header */}
-              <h2>
-                <Fragment>
-                  <h2 className="thq-heading-2">Code Samples</h2>
-                </Fragment>
-              </h2>
-              <p className="unlocked-subtitle-text unlocked-max-width">
-                <span>
-                  Below  are code snippets from a few of the scripts I've worked on for personal and/or academic projects!
-                </span>
-              </p>
-
               {/* Code Samples */}
               { contents.length !== 0 && contents.map(([text, language], index) => (
                 <CodeBlock 
@@ -115,4 +119,4 @@ const CodeSamples = (props) => {
   )
 }
 
-export default CodeSamples
+export default WorkSamples

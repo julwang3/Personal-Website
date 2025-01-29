@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: flex-start;
 }
-.home-heading-padding {
+.view-heading-padding {
     width: 100%;
     display: flex;
     position: relative;
@@ -16,7 +16,7 @@
     padding-left: var(--dl-space-space-fiveunits);
     padding-right: var(--dl-space-space-fiveunits);
 }
-.home-heading {
+.view-heading {
     font-size: 0.9em;
     font-style: normal;
     font-family: "Poppins";

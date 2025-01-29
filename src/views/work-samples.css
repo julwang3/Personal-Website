@@ -46,7 +46,7 @@
 .unlocked-max-width {
     gap: var(--dl-space-space-threeunits);
     display: flex;
-    align-items: left;
+    align-items: center;
 }
 
 .unlocked-content {

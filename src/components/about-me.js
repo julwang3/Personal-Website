@@ -12,11 +12,6 @@ const AboutMe = (props) => {
     >
       <div className="about-me-max-width thq-section-max-width">
         <div className="about-me-content">
-          <h2>
-            <Fragment>
-              <h2 className="thq-heading-2">ABOUT ME</h2>
-            </Fragment>
-          </h2>
           <p>
             <Fragment>
               <p className="thq-body-large thq-section-max-width">

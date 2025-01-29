@@ -53,8 +53,8 @@
   display: none;
 }
 .nav-bar-icon {
-  width: var(--dl-space-space-oneandhalfunits);
-  height: var(--dl-space-space-oneandhalfunits);
+  width: var(--dl-space-space-twounits);
+  height: var(--dl-space-space-twounits);
 }
 .nav-bar-mobile-menu {
   top: 0px;

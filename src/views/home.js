@@ -71,9 +71,9 @@ const Home = () => {
 
       {/* Work Experience */}
 
-      <div className={`home-heading-padding`}>
+      <div className={`view-heading-padding`}>
         <h2><Fragment>
-            <span className="home-heading">
+            <span className="view-heading">
               Work Experience
             </span>
         </Fragment></h2>
@@ -96,9 +96,9 @@ const Home = () => {
 
       {/* Projects */}
 
-      <div className={`home-heading-padding`}>
+      <div className={`view-heading-padding`}>
         <h2><Fragment>
-            <span className="home-heading">
+            <span className="view-heading">
               Projects
             </span>
         </Fragment></h2>

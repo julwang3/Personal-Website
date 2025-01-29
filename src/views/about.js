@@ -17,6 +17,15 @@ const About = (props) => {
       
       <NavBar></NavBar>
 
+      <div className={`view-heading-padding`}>
+        <h2><Fragment>
+            <span className="view-heading">
+              About Me
+            </span>
+        </Fragment></h2>
+        <hr />
+      </div>
+
       <AboutMe></AboutMe>
       {/* <Skills></Skills> */}
 
