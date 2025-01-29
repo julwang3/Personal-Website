@@ -17,10 +17,10 @@
     padding-right: var(--dl-space-space-fiveunits);
 }
 .view-heading {
-    font-size: 0.9em;
+    font-size: 0.85em;
     font-style: normal;
     font-family: "Poppins";
-    font-weight: 700;
+    font-weight: 725;
     line-height: 1.5;
     text-transform: uppercase;
     padding-top: var(--dl-space-space-quarterunit);
@@ -30,4 +30,5 @@
     text-decoration-line: underline;
     text-decoration-style: double;
     text-underline-offset: var(--dl-space-space-halfunit);
+    
 }
