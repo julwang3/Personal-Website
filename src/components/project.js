@@ -24,7 +24,7 @@ const Project = (props) => {
               <span>
                 <Fragment>
                   <span className="thq-body-large thq-white-space">
-                    {props.roleTitle}  •  {props.timeline}
+                    <span className="project-text-bold">{props.roleTitle}</span>  •  {props.timeline}
                   </span>
                 </Fragment>
               </span>
@@ -33,7 +33,7 @@ const Project = (props) => {
               <div className="project-label-container">
                 {props.tools.map((tool, index) => (
                   <Fragment key={index}>
-                    <label className="project-swe label">
+                    <label className="project-tool label">
                       {tool}
                     </label>
                   </Fragment>
@@ -44,13 +44,7 @@ const Project = (props) => {
           <p>
             <Fragment>
               <p className="project-description-text thq-body-large">
-                {props.shortDescription ?? 
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit." + 
-                "Suspendisse varius enim in eros elementum tristique. Duis" + 
-                "cursus, mi quis viverra ornare, eros dolor interdum nulla," + 
-                "ut commodo diam libero vitae erat. Suspendisse varius enim" + 
-                "in eros elementum tristique. Duis cursus, mi quis viverra" + 
-                "ornare, eros dolor interdum nulla."}
+                <div dangerouslySetInnerHTML={{ __html: props.shortDescription }} />
               </p>
             </Fragment>
           </p>

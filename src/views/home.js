@@ -11,12 +11,14 @@ import MSGSphereJSON from '../projects/msg.json'
 import ICTJSON from '../projects/ict.json'
 import POSEIDONJSON from '../projects/poseidon.json'
 import FreeWillJSON from '../projects/freewill.json'
+import PortalJSON from '../projects/portal.json'
 import BlossomJSON from '../projects/blossom.json'
 
 import MSGSphere from '../images/sphere.jpg'
 import ICT from '../images/ict.png'
 import POSEIDON from '../images/poseidon.jpg'
 import FreeWill from '../images/freewill.png'
+import Portal from '../images/portal.jpg'
 import Blossom from '../images/blossom.jpg'
 
 // UPDATE WHEN ADDING NEW PROJECTS/JSONS
@@ -26,6 +28,7 @@ const projectJSONs = [
   ICTJSON,
   POSEIDONJSON,
   FreeWillJSON,
+  PortalJSON,
   BlossomJSON,
 ]
 const projectImages = {
@@ -33,6 +36,7 @@ const projectImages = {
   '../images/ict.png' : ICT,
   '../images/poseidon.jpg' : POSEIDON,
   '../images/freewill.png' : FreeWill,
+  '../images/portal.jpg' : Portal,
   '../images/blossom.jpg' : Blossom,
 }
 // END

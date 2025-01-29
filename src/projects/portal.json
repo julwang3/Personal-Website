@@ -1,0 +1,22 @@
+{
+    "projectName": "Portal (Remake)",
+    "roleTitle": "Gameplay Engineer",
+    "timeline": "March 2023 – April 2023",
+    "tools": [
+        "C++",
+        "Git",
+        "SDL Library"
+    ],
+    "shortDescription": "Remake of <i>Portal</i> (2007), a classic puzzle-platform game, for the Video Game Programming course at the University of Southern California.",
+    "longDescription": "For this remake of <i>Portal</i> (2007), I...",
+    "resumeBullets": [
+        "Programmed force-based first-person player movement, strafing, and axis-aligned bounding boxes (AABB) collision detection in 3D space.",
+        "Calculated portal positions, orientations, and teleportation logic using vectors, matrices, and quaternions.",
+        "Engineered sentry turret Artificial Intelligence controlled by a finite state machine to idle, search, prime, and fire at detected targets."
+    ],
+    "relevantLinks": [
+        
+    ],
+    "projectImageLink": "",
+    "projectImage": "../images/portal.jpg"
+}
