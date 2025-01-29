@@ -8,13 +8,12 @@
         "Unity 3D",
         "Oculus Quest 2"
     ],
-    "shortDescription": "Live entertainment and media company creating immersive entertainment experiences and advancing visual, audio, and interactive technologies at cutting-edge venues like the Sphere in Las Vegas.",
-    "longDescription": "I was a software engineer on the <b>Simulation and Visualizations (SimVis)</b> team, a team developing software products used internally for content production at Sphere as well as other Madison Square Garden properties. As a <b>Software Engineering Student Associate</b> for SimVis, I...",
+    "shortDescription": "Live entertainment and media company creating immersive and interactive experiences for the Sphere in Las Vegas.",
+    "longDescription": "I was a Software Engineering Student Associate on the <b>Simulation and Visualizations (SimVis)</b> team, where I worked on software products and tools used internally for content production at the Sphere and other Madison Square Garden properties. As a <b>Software Engineering Student Associate</b>, I...",
     "resumeBullets": [
-        "Worked on a multiuser Virtual Reality and Desktop application used by creatives at the Sphere for simulataneous media playback and reviewing.",
-        "Implemented moveable user interface panels in 2D and 3D space, optimizing user experience and productivity.",
-        "Communicated closely with the engineering team to design architecture solution, create detailed technical specification for, and prototype moveable panels using Agile methodologies.",
-        "Tackled and resolved a critical bug in the in-built debug panel used by developers when debugging and testing builds and further developed the feature so that logs can be cleared and saved across all platforms."
+        "Worked on a multiuser Virtual Reality and Desktop application used by creatives at Sphere Entertainment for venue simulation and simulataneous media playback and reviewing.",
+        "Designed and developed a new user feature that enabled moveable user interface panels using a modular architecture solution, using Agile methodologies.",
+        "Enhanced an in-built debug panel used by developers, tackling and resolving bugs and optimizing the build testing pipeline."
     ],
     "relevantLinks": [],
     "projectImageLink": "https://www.thesphere.com/",
