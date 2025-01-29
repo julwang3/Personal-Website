@@ -14,14 +14,14 @@ const NavBar = (props) => {
           <div className="nav-bar-left-container">
             <h1>
               <Fragment>
-                <h1 className="thq-heading-1">JULIA WANG</h1>
+                <h1 className="thq-heading-1">Julia Wang</h1>
               </Fragment>
             </h1>
           </div>
           <span>
             <Fragment>
               <pre className="thq-body-large">
-                Computer Science  +  Interactive &amp; Immersive Media
+                Computer Science + Interactive &amp; Immersive Media
               </pre>
             </Fragment>
           </span>
