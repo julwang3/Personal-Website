@@ -1,0 +1,20 @@
+{
+    "projectName": "Closure",
+    "roleTitle": "Software Engineer (Alternative Control)",
+    "timeline": "June 2024 - Present",
+    "tools": [
+        "C#",
+        "Perforce",
+        "Unity 3D",
+        "Computer Vision"
+    ],
+    "shortDescription": "Immersive first-person narrative-driven game experienced through opening and closing your eyes.",
+    "longDescription": "",
+    "resumeBullets": [
+        
+    ],
+    "relevantLinks": [
+        { "name": "Website", "url": "https://closure-website.vercel.app/" }
+    ],
+    "projectImageLink": ""
+}
