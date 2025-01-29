@@ -67,6 +67,14 @@
   border-color: var(--dl-color-theme-accent3);
   display: inline-block;
 }
+.project-tool {
+  background-color: #9D83D2;
+  border-color: #9D83D2;
+  display: inline-block;
+}
+.project-text-bold {
+  font-weight: 550;
+}
 
 @media(max-width: 1200px) {
   .project-technologies-used {
