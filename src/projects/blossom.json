@@ -9,11 +9,11 @@
         "Unity 2D",
         "Arduino"
     ],
-    "shortDescription": "Interactive novel brought to life with a pop-up book controller telling the coming-of-age story of a Chinese-American girl named Aspen as she navigates her self of identity amidst the weight of external pressures, labels, and expectations. Featured in alt.ctrl.GDC at the Game Developer's Conference 2023.",
+    "shortDescription": "Interactive novel brought to life with a pop-up book controller telling the coming-of-age story of Aspen, a Chinese-American girl. Featured at alt.ctrl.GDC in 2023.",
     "longDescription": "As a <b>Lead Engineer</b>, I...",
     "resumeBullets": [
-        "Collaborated regularly with the creative director and 4+ designers to design and engineer puzzles that furthered the story's central themes on self-labels, image, and reconciliation for an alternative controller.",
-        "Innovated tactile puzzle mechanics in C and C# that received external sensor input detecting physical interactions including touch, dial turns, and item placement."
+        "Collaborated with a cross-functional team to design and engineer puzzles that furthered the story's central themes on self-labels, image, and reconciliation using an alternative controller.",
+        "Innovated tactile puzzle mechanics that received external sensor input detecting physical interactions including touch, dial turns, and item placement through the Arduino."
     ],
     "relevantLinks": [
         { "name": "Website", "url": "https://blossom-901ae0.webflow.io/" },

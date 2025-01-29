@@ -8,12 +8,12 @@
         "Unity 2D",
         ".NET Framework"
     ],
-    "shortDescription": "2D psychological puzzle RPG where you control a young boy named Will and cleanse corruption by solving meta-puzzles, tweaking system files, and battling reality-warping monsters.",
+    "shortDescription": "2D psychological puzzle RPG with meta-puzzles that break the fourth wall and interface with files outside of the game.",
     "longDescription": "As a <b>Gameplay Engineer</b>, I...",
     "resumeBullets": [
-        "Experimented with designing and developing metapuzzles utilizing .NET Win32 APIs that break the fourth wall to explore the concept of free will in and outside the game.",
-        "Programmed wrapper for Steamworks API in Unity, enabling further user engagement through Steam Achievements.",
-        "Animated in-game cutscenes with Unity’s animator and timeline to convey a sense of fear and helplessness."
+        "Communicated with the creative director and engineers to design, experiment, and iterate on meta-narrative puzzles using the .NET Framework to break the fourth wall and further player immersion.",
+        "Implemented a Steamworks API wrapper in Unity, enabling further player engagement through Steam Achievements.",
+        "Animated and sequenced in-game cutscenes that drove the narrative forward and conveyed a sense of fear and helplessness central to the game's theme."
     ],
     "relevantLinks": [
         { "name": "Website", "url": "https://www.freewillgame.com/" },
