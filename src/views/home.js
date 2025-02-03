@@ -61,7 +61,6 @@ async function jsonify(files) {
   const data = []
   for (let i = 0; i < files.length; i++) {
     data[i] = JSON.parse(JSON.stringify(files[i]));
-    console.log(data[i]);
   }
   return data;
 }
