@@ -92,7 +92,6 @@ const WorkSamples = (props) => {
               {/* Code Samples */}
               { contents.length !== 0 && contents.map(([text, language], index) => {
                 if (language == "video") {
-                  console.log("text: " + text);
                   return (
                     <iframe
                       src={text}
