@@ -77,7 +77,7 @@ const WorkSamples = (props) => {
           <br /><hr />
           <p className="unlocked-subtitle-text unlocked-max-width">
             <span>
-              Below  are code snippets from a few of the scripts I've worked on for personal and/or academic projects!
+              Below are some samples of my work from personal and/or academic projects!
             </span>
           </p>
           <hr />
@@ -90,25 +90,41 @@ const WorkSamples = (props) => {
           <div className="unlocked-max-width thq-section-max-width">
             <div className="unlocked-content">
               {/* Code Samples */}
-              { contents.length !== 0 && contents.map(([text, language], index) => (
-                <CodeBlock 
-                  key={index}
-                  text={text}
-                  language={language}
-                  theme={theme}
-                  customStyle={{
-                    fontFamily: "'Fira Code', monospace",
-                    fontSize: "0.85em",
-                    fontStyle: "normal",
-                    lineHeight: "1.5",
-                    padding: "10px",
-                    width: "100%",
-                    maxWidth: "1050px",
-                    margin: "0 auto",
-                    overflowX: "auto",
-                  }}
-                />
-              ))}
+              { contents.length !== 0 && contents.map(([text, language], index) => {
+                if (language == "video") {
+                  console.log("text: " + text);
+                  return (
+                    <iframe
+                      src={text}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      style={{
+                        width: 640,
+                        height: 360
+                      }}
+                    ></iframe>
+                  )
+                }
+                return (
+                  <CodeBlock 
+                    key={index}
+                    text={text}
+                    language={language}
+                    theme={theme}
+                    customStyle={{
+                      fontFamily: "'Fira Code', monospace",
+                      fontSize: "0.85em",
+                      fontStyle: "normal",
+                      lineHeight: "1.5",
+                      padding: "10px",
+                      width: "100%",
+                      maxWidth: "1050px",
+                      margin: "0 auto",
+                      overflowX: "auto",
+                    }}
+                  />
+                )
+              })}
             </div>
           </div>
         </div>
