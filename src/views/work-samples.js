@@ -32,7 +32,7 @@ const WorkSamples = (props) => {
   return (
     <div className="container">
       <Helmet>
-        <title>Code Samples | Julia Wang</title>
+        <title>Work Samples | Julia Wang</title>
         <meta property="og:title" content="Julia Wang" />
       </Helmet>
       
