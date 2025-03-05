@@ -7,10 +7,13 @@
         "C",
         "Git",
         "Unity 2D",
-        "Arduino"
+        "Arduino",
+        "IoT"
     ],
     "shortDescription": "Interactive novel brought to life with a pop-up book controller telling the coming-of-age story of Aspen, a Chinese-American girl. Featured at alt.ctrl.GDC in 2023.",
-    "longDescription": "As a <b>Lead Engineer</b>, I...",
+    "longDescription": [
+        "As the <b>Lead Engineer</b> on Blossom, I..."
+    ],
     "resumeBullets": [
         "Collaborated with a cross-functional team to design and engineer puzzles that furthered the story's central themes on self-labels, image, and reconciliation using an alternative controller.",
         "Innovated tactile puzzle mechanics that received external sensor input detecting physical interactions including touch, dial turns, and item placement through the Arduino."

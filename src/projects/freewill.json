@@ -6,10 +6,13 @@
         "C#",
         "Perforce",
         "Unity 2D",
-        ".NET Framework"
+        ".NET Framework",
+        "Steamworks API"
     ],
-    "shortDescription": "2D psychological puzzle RPG with meta-puzzles that break the fourth wall and interface with files outside of the game.",
-    "longDescription": "As a <b>Gameplay Engineer</b>, I...",
+    "shortDescription": "2D psychological puzzle RPG with meta-puzzles that interface with files outside of the game. Featured at the Tokyo Indie Games Summit 2025",
+    "longDescription": [
+        "As a <b>Gameplay Engineer</b>, I..."
+    ],
     "resumeBullets": [
         "Communicated with the creative director and engineers to design, experiment, and iterate on meta-narrative puzzles using the .NET Framework to break the fourth wall and further player immersion.",
         "Implemented a Steamworks API wrapper in Unity, enabling further player engagement through Steam Achievements.",

@@ -6,10 +6,14 @@
         "Python",
         "JavaScript",
         "Git",
+        "Jira",
+        "Confluence",
         "API Development"
     ],
     "shortDescription": "Portable mission control and planning software that provides a centralized and streamlined platform for orbit calculations, predictions, and event scheduling.",
-    "longDescription": "POSEIDON Mission Control was a software I collaborated with five other software engineers to develop for the the <b>MAVERIC CubeSat</b> project led by Dr. David Barnhart at the USC Information Sciences Institute. As a <b>Full-Stack Software Engineer</b>, I...",
+    "longDescription": [
+        "POSEIDON Mission Control was a software I collaborated with five other software engineers to develop for the the <b>MAVERIC CubeSat</b> project led by Dr. David Barnhart at the USC Information Sciences Institute. As a <b>Full-Stack Software Engineer</b>, I..."
+    ],
     "resumeBullets": [
         "Automated event creation, updating, and deletion in the backend using Python API calls, allowing for more efficient event scheduling and notification for satellite pass times.",
         "Integrated and defined API calls for two-line element data retrieval, providing orbital information on a given satellite crucial for performing orbit calculations and predictions.",

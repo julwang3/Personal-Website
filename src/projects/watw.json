@@ -1,22 +1,26 @@
 {
     "projectName": "The Wind and the Wisp",
-    "roleTitle": "Software Engineer (Alternative Control)",
+    "roleTitle": "Software Engineer R&D",
     "timeline": "June 2024 - Present",
     "tools": [
         "C#",
         "Python",
         "Git",
         "Unity 3D",
+        "NuGet Packages",
         "Digital Signal Processing"
     ],
-    "shortDescription": "Alternative controller 3D adventure game where even a blow can change the world in the game.",
-    "longDescription": "",
+    "shortDescription": "Alternative controller 3D adventure game about loss, connection, and grief where a blow can create change in the world.",
+    "longDescription": [
+        "One of the core player interactions in <i>The Wind and the Wisp</i> is the ability to <b>blow into your microphone</b>—creating wind in the game world and interactacting with the Wisp through. As a <b>Software Engineer R&D</b> on <i>The Wind and the Wisp</i>, my primary responsibility is to architect and build a custom blow detection solution and controller that is <b>modular</b>, <b>portable</b>, and easy to use.<br /><br />",
+        "My development process has included a lot of <b>research</b>, <b>experimentation</b>, and <b>iteration</b>. Studying the Digital Signal Processing fundamentals, I read published papers on blow detection, noise filteration, and speech detection and sought out guidance from engineers with more experience in and knowledge of signal processing to develop blow detection solutions. Most of my early prototyping was in <b><u><a href='https://github.com/julwang3/blow-detection' target=‘_blank’ rel=‘noopener noreferrer’>Python</a></u></b> where I used the numpy, scipy, and matplotlib libraries to filter and visualize data signals. I then ported the solution to C# in Unity using the <b><u><a href='https://github.com/ar1st0crat/NWaves' target=‘_blank’ rel=‘noopener noreferrer’>NWaves .NET DSP Library</a></u></b> and have been consistently iterating on it since based on user feedback from playtests and UX researchers.<br /><br />",
+        "To ensure the algorithm performs consistently across microphones and devices, I <b>collaborated</b> closely with a UI designer to design and implement the <b>front- and back-end</b> of an in-game blow calibration sequence. As a result, I've been able to develop a solution that enables precise blow detection and filters out noise and speech, reducing false positives and resulting in significant increases in blow detection accuracy."
+    ],
     "resumeBullets": [
         
     ],
     "relevantLinks": [
-        { "name": "Linktree", "url": "https://linktr.ee/windandthewisp"},
-        { "name": "Code Sample", "url": "https://github.com/julwang3/Blow-Detection" }
     ],
-    "projectImageLink": ""
+    "projectImageLink": "",
+    "inProgress": true
 }

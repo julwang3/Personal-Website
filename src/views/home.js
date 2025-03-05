@@ -97,6 +97,7 @@ const Home = () => {
           relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
           projectImageLink={project.projectImageLink}
           projectImage={projectImageMap[project.projectName]}
+          inProgress={project.inProgress}
         />
       ))}
 
@@ -106,32 +107,6 @@ const Home = () => {
         <h2><Fragment>
             <span className="view-heading">
               Projects
-            </span>
-        </Fragment></h2>
-        <hr />
-      </div>
-
-      { projects && projects.map((project) => (
-        <Project
-          projectName={project.projectName}
-          roleTitle={project.roleTitle}
-          timeline={project.timeline}
-          tools={project.tools}
-          shortDescription={project.shortDescription}
-          longDescription={project.longDescription}
-          resumeBullets={project.resumeBullets}
-          relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
-          projectImageLink={project.projectImageLink}
-          projectImage={projectImageMap[project.projectName]}
-        />
-      ))}
-
-      {/* Upcoming Projects */}
-
-      <div className={`view-heading-padding`}>
-        <h2><Fragment>
-            <span className="view-heading">
-              Upcoming Projects
             </span>
         </Fragment></h2>
         <hr />
@@ -149,6 +124,23 @@ const Home = () => {
           relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
           projectImageLink={project.projectImageLink}
           projectImage={projectImageMap[project.projectName]}
+          inProgress={project.inProgress}
+        />
+      ))}
+
+      { projects && projects.map((project) => (
+        <Project
+          projectName={project.projectName}
+          roleTitle={project.roleTitle}
+          timeline={project.timeline}
+          tools={project.tools}
+          shortDescription={project.shortDescription}
+          longDescription={project.longDescription}
+          resumeBullets={project.resumeBullets}
+          relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
+          projectImageLink={project.projectImageLink}
+          projectImage={projectImageMap[project.projectName]}
+          inProgress={project.inProgresss}
         />
       ))}
 

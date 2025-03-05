@@ -15,7 +15,7 @@ const LearnMore = (props) => {
         {/* Buttons */}
         <div className="learn-more-buttons">
           {/* Learn More */}
-          {props.resumeBullets.length > 0 && <div
+          {props.longDescription.length > 0 && <div
             onClick={() => setFaq1Visibile(!faq1Visibile)}
             className="learn-more-trigger thq-button-filled"
           >
@@ -55,7 +55,9 @@ const LearnMore = (props) => {
         {faq1Visibile && (
           <div className="learn-more-dropdown-container">
             <span className="thq-body-large">
-              <div dangerouslySetInnerHTML={{ __html: props.longDescription }} />
+              { props.longDescription && props.longDescription.map((description) =>
+                <div dangerouslySetInnerHTML={{ __html: description }} />
+              )}
             </span>
             <ul className="list">
               { props.resumeBullets && props.resumeBullets.map((bullet) => (
@@ -72,13 +74,13 @@ const LearnMore = (props) => {
 }
 
 LearnMore.defaultProps = {
-  longDescription: '',
+  longDescription: [],
   resumeBullets: [],
   relevantLinks: [], // [ { name: 'Link-Name', url: 'URL-Link' }, ... ]
 }
 
 LearnMore.propTypes = {
-  longDescription: PropTypes.string,
+  longDescription: PropTypes.array,
   resumeBullets: PropTypes.array,
   relevantLinks: PropTypes.array
 }

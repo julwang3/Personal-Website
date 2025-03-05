@@ -11,6 +11,11 @@
   align-items: flex-start;
   flex-direction: row;
 }
+.project-header {
+  display: flex; 
+  align-items: center;
+  gap: var(--dl-space-space-threequartersunit);
+}
 .project-image-container {
   flex: 1;
   width: 100%;
@@ -72,6 +77,24 @@
   background-color: #9D83D2;
   border-color: #9D83D2;
   display: inline-block;
+}
+.project-in-progress {
+  background-color: var(--dl-color-theme-primary2);
+  border-color: var(--dl-color-theme-primary2);
+  display: inline-block;
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  font-size: 0.75em;
+  font-weight: 600;
+  text-transform: uppercase;
+  align-items: center;
+  padding-top: var(--dl-space-space-quarterunit);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-thirdunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-thirdunit);
+  padding-bottom: var(--dl-space-space-quarterunit);
+  justify-content: center;
 }
 .project-text-bold {
   font-weight: 550;
