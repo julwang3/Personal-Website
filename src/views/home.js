@@ -11,7 +11,7 @@ import MSGSphereJSON from '../projects/msg.json'
 import ICTJSON from '../projects/ict.json'
 import POSEIDONJSON from '../projects/poseidon.json'
 import FreeWillJSON from '../projects/freewill.json'
-import PortalJSON from '../projects/portal.json'
+// import PortalJSON from '../projects/portal.json'
 import BlossomJSON from '../projects/blossom.json'
 import WatWJSON from '../projects/watw.json'
 import ClosureJSON from '../projects/closure.json'
@@ -20,10 +20,10 @@ import MSGSphere from '../images/sphere.gif'
 import ICT from '../images/ict.gif'
 import POSEIDON from '../images/poseidon.jpg'
 import FreeWill from '../images/freewill.gif'
-import Portal from '../images/portal.png'
-import Blossom from '../images/blossom.jpg'
-import WatW from '../images/watw.jpg'
-import Closure from '../images/closure.jpg'
+// import Portal from '../images/portal.png'
+import Blossom from '../images/blossom.gif'
+import WatW from '../images/watw.gif'
+import Closure from '../images/closure.gif'
 
 // UPDATE WHEN ADDING NEW PROJECTS/JSONS
 // START
@@ -34,7 +34,7 @@ const workJSONs = [
 const projectJSONs = [
   POSEIDONJSON,
   FreeWillJSON,
-  PortalJSON,
+  // PortalJSON,
   BlossomJSON,
 ]
 const upcomingProjectJSONs = [
@@ -46,7 +46,7 @@ const projectImageMap = {
   'USC Institute for Creative Technologies' : ICT,
   'POSEIDON Mission Control' : POSEIDON,
   'Free Will' : FreeWill,
-  'Portal (Remake)' : Portal,
+  // 'Portal (Remake)' : Portal,
   'Blossom' : Blossom,
   'The Wind and the Wisp' : WatW,
   'Closure' : Closure,
