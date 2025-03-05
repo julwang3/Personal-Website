@@ -62,7 +62,7 @@ const LearnMore = (props) => {
             <ul className="list">
               { props.resumeBullets && props.resumeBullets.map((bullet) => (
                 <li className="thq-body-large list-item">
-                  {bullet}
+                  <div dangerouslySetInnerHTML={{ __html: bullet }} />
                 </li>
               ))}
             </ul>

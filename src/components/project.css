@@ -4,8 +4,8 @@
   align-items: flex-start;
 }
 .project-content {
-  gap: var(--dl-space-space-oneandhalfunits);
-  flex: 1.10;
+  gap: var(--dl-space-space-unit);
+  flex: 0.9;
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -51,7 +51,7 @@
   flex-direction: row;
 }
 .project-placeholder-image {
-  width: 90%;
+  width: 95%;
   align-items: flex-start;
 }
 .project-tools-text {

@@ -13,12 +13,14 @@
     ],
     "shortDescription": "Live entertainment and media company creating immersive and interactive experiences for the Sphere in Las Vegas.",
     "longDescription": [
-        "I was a Software Engineer Intern on the <b>Simulation and Visualizations (SimVis)</b> team, where I worked on software products and tools used internally for content production at the Sphere and other Madison Square Garden properties. As a <b>Software Engineer Intern</b>, I..."
+        "I was a Software Engineer Intern on the <b>Simulation and Visualizations</b> team, which develops a suite of software products and tools used internally for content production at the Sphere and other Madison Square Garden properties. I worked on a <b>multiuser Virtual Reality and Desktop application</b> that is used by creative, design, and capture teams at Sphere Entertainment for venue simulation and simulataneous media playback and reviewing.<br /><br />",
+        "As a <b>Software Engineer Intern</b> on SimVis, I documented and implemented a new user feature that enabled user interface panels to be moveable on both the Oculus Quest 2 and Desktop platforms. The feature provided users with greater flexibility in where panels are placed and <b>increased users' experience</b> when navigating the tool overall. When implementing this feature, I..."
     ],
     "resumeBullets": [
-        "Worked on a multiuser Virtual Reality and Desktop application used by creatives at Sphere Entertainment for venue simulation and simulataneous media playback and reviewing.",
-        "Designed and developed a new user feature that enabled moveable user interface panels using a modular architecture solution, using Agile methodologies.",
-        "Enhanced an in-built debug panel used by developers, tackling and resolving bugs and optimizing the build testing pipeline."
+        "Designed and wrote a <b>modular architecture</b> solution and detailed technical specification based on provided user requirements.",
+        "Enhanced an in-built debug panel used by developers, tackling and resolving feature-breaking bugs and implementing additional features that <b>optimized</b> the build testing pipeline.",
+        "<b>Communicated remotely</b> with engineers to discuss and debug technical challenges faced during implementation.",
+        "Participated in daily lightning and biweekly burndown meetings."
     ],
     "relevantLinks": [],
     "projectImageLink": "https://www.thesphere.com/"

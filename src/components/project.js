@@ -65,7 +65,7 @@ const Project = (props) => {
             <img
               alt={props.projectImageAlt}
               src={props.projectImage}
-              className="thq-img-ratio-18-6"
+              className="thq-img-ratio-24-6"
             />
           </a>}
           {/* Project Image Not Linked */}
@@ -73,7 +73,7 @@ const Project = (props) => {
             <img
               alt={props.projectImageAlt}
               src={props.projectImage}
-              className="project-placeholder-image thq-img-ratio-18-6"
+              className="project-placeholder-image thq-img-ratio-24-6"
             />
           }
         </div>
