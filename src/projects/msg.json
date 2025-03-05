@@ -1,15 +1,20 @@
 {
     "projectName": "Madison Square Garden Sphere Entertainment Co.",
-    "roleTitle": "Software Engineering Student Associate",
+    "roleTitle": "Software Engineer Intern",
     "timeline": "May 2024 – August 2024",
     "tools": [
         "C#",
         "Git",
         "Unity 3D",
+        "Jira",
+        "Confluence",
+        "Bitbucket",
         "Oculus Quest 2"
     ],
     "shortDescription": "Live entertainment and media company creating immersive and interactive experiences for the Sphere in Las Vegas.",
-    "longDescription": "I was a Software Engineering Student Associate on the <b>Simulation and Visualizations (SimVis)</b> team, where I worked on software products and tools used internally for content production at the Sphere and other Madison Square Garden properties. As a <b>Software Engineering Student Associate</b>, I...",
+    "longDescription": [
+        "I was a Software Engineer Intern on the <b>Simulation and Visualizations (SimVis)</b> team, where I worked on software products and tools used internally for content production at the Sphere and other Madison Square Garden properties. As a <b>Software Engineer Intern</b>, I..."
+    ],
     "resumeBullets": [
         "Worked on a multiuser Virtual Reality and Desktop application used by creatives at Sphere Entertainment for venue simulation and simulataneous media playback and reviewing.",
         "Designed and developed a new user feature that enabled moveable user interface panels using a modular architecture solution, using Agile methodologies.",

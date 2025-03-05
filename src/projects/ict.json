@@ -6,11 +6,13 @@
         "C#",
         "Git",
         "Unity 3D",
-        "WebGL",
-        "Computer Vision"
+        "Computer Vision",
+        "WebGL"
     ],
     "shortDescription": "Research institution conducting R&D in numerous fields including Artificial Intelligence, Simulation & Gaming, Mixed Reality, and much more.",
-    "longDescription": "As a <b>Gameplay &amp; Software Engineer</b> at the USC Institute for Creative Technologies, I worked on the development of interactive experiences centered around <b>Artificial Intelligence education</b> under Dr. Ning Wang. More specifically, I…",
+    "longDescription": [
+        "As a <b>Gameplay &amp; Software Engineer</b> at the USC Institute for Creative Technologies, I worked on the development of interactive experiences centered around <b>Artificial Intelligence education</b> under Dr. Ning Wang. More specifically, I…"
+    ],
     "resumeBullets": [
         "Collaborated with a cross-functional team to design and develop a 3D first-person shooter game prototypes centered around Artificial Intelligence education.",
         "Iterated on 3D gameplay mechanics, topics, and solutions demonstrating foundational concepts, ethics, and applications of Artificial Intelligence.",

@@ -8,7 +8,9 @@
         "SDL Library"
     ],
     "shortDescription": "Remake of <i>Portal</i> (2007), a classic puzzle-platform game, for the Video Game Programming course at the University of Southern California.",
-    "longDescription": "For this remake of <i>Portal</i> (2007), I...",
+    "longDescription": [
+        "For this remake of <i>Portal</i> (2007), I..."
+    ],
     "resumeBullets": [
         "Programmed force-based first-person player movement, strafing, and axis-aligned bounding boxes (AABB) collision detection in 3D space.",
         "Calculated portal positions, orientations, and teleportation logic using vectors, matrices, and quaternions.",

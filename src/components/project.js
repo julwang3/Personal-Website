@@ -13,13 +13,18 @@ const Project = (props) => {
       <div className="project-max-width thq-section-max-width">
         <div className="project-content project-section-title">
           <div className="project-main-container">
-            <h2>
-              <Fragment>
-                <span className="thq-heading-2">
-                  {props.projectName}
-                </span>
-              </Fragment>
-            </h2>
+            <div className="project-header">
+              <h2>
+                <Fragment>
+                  <span className="thq-heading-2">
+                    {props.projectName}
+                  </span>
+                </Fragment>
+              </h2>
+              {props.inProgress && <label className="project-in-progress">
+                  In Development
+              </label>}
+            </div>
             <div className="project-role-date-container">
               <span>
                 <Fragment>
@@ -84,13 +89,14 @@ Project.defaultProps = {
   tools: [],
   shortDescription: '',
   toolsUsed: '',
-  longDescription: '',
-  resumeBullets: '',
+  longDescription: [],
+  resumeBullets: [],
   relevantLinks: [],
   projectImageLink: '',
   projectImage:
     'https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&ixlib=rb-4.0.3&w=1400',
   projectImageAlt: 'Image',
+  inProgress: false,
 }
 
 Project.propTypes = {
@@ -99,12 +105,13 @@ Project.propTypes = {
   timeline: PropTypes.string,
   tools: PropTypes.array,
   shortDescription: PropTypes.string,
-  longDescription: PropTypes.element,
+  longDescription: PropTypes.array,
   resumeBullets: PropTypes.array,
   relevantLinks: PropTypes.array,
   projectImageLink: PropTypes.string,
   projectImage: PropTypes.string,
   projectImageAlt: PropTypes.string,
+  inProgress: PropTypes.bool,
 }
 
 export default Project

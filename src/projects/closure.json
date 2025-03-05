@@ -1,20 +1,27 @@
 {
     "projectName": "Closure",
-    "roleTitle": "Software Engineer (Alternative Control)",
+    "roleTitle": "Software Engineer R&D",
     "timeline": "June 2024 - Present",
     "tools": [
         "C#",
         "Perforce",
         "Unity 3D",
+        "Jira",
+        "Confluence",
         "Computer Vision"
     ],
-    "shortDescription": "Immersive first-person narrative-driven game experienced through opening and closing your eyes.",
-    "longDescription": "",
+    "shortDescription": "Immersive and experimental narrative game experienced through the opening and closing of your eyes.",
+    "longDescription": [
+        "<i>Closure</i> is a first-person game primarily experienced with your eyes closed. The detection of when players' eyes are open or closed is crucial to the overall storytelling and gameplay experience. Working on a <b>small, multidisciplinary team</b> with 9 other game developers, my role as a <b>Software Engineer R&D</b> included developing and iterating on <b>eye opening and closing detection and calibration solutions</b> using landmark data provided by MediaPipe and implementing <b>the game menu and UI interfaces</b>. More specifically, my responsibilities include..."
+    ],
     "resumeBullets": [
-        
+        "Research, implement, and test new eye detection solutions and technologies.",
+        "Iterate on and debug the existing solution based on analyzing user data and feedback.",
+        "Develop a scalable architecture for game menus and UI interfaces.",
+        "Participate in regular code reviews, ensuring best coding practices are maintained to ensure a solid codebase architecture."
     ],
     "relevantLinks": [
-        { "name": "Website", "url": "https://closure-website.vercel.app/" }
     ],
-    "projectImageLink": ""
+    "projectImageLink": "",
+    "inProgress": true
 }
