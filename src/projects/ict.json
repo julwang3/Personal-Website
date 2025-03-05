@@ -11,12 +11,11 @@
     ],
     "shortDescription": "Research institution conducting R&D in numerous fields including Artificial Intelligence, Simulation & Gaming, Mixed Reality, and much more.",
     "longDescription": [
-        "As a <b>Gameplay &amp; Software Engineer</b> at the USC Institute for Creative Technologies, I worked on the development of interactive experiences centered around <b>Artificial Intelligence education</b> under Dr. Ning Wang. More specifically, I…"
+        "As a <b>Gameplay &amp; Software Engineer</b> at the USC Institute for Creative Technologies (ICT), I worked on the development of two interactive experiences centered around <b>Artificial Intelligence education</b> under Dr. Ning Wang.<br /><br />",
+        "One of the experiences I worked on was the <b><u><a href=https://lawrencehallofscience.org/exhibits/virtually-human/ target=‘_blank’ rel=‘noopener noreferrer’>\"Virtually Human\"</a></u></b> exhibit featured at the Lawrence Hall of Science. Joining this project fairly late in its development, I assisted in refactoring and reintegrating the face landmark detection pipeline used in the exhibit, enabling more <b>efficient real-time face detection and visualization</b>.<br /><br />",
+        "The other project I worked on at ICT was <b><u><a href='https://www.k12aied.org/projects/#h.87i3zh3ca89h' target=‘_blank’ rel=‘noopener noreferrer’>\"Becoming Fei\"</a></u></b> (formerly known as <b>\"Age of AI\"</b>) — a 3D first-person educational game aimed to help learners of all ages and backgrounds develop a basic understanding of AI competencies. Having worked on the game since the the early stages of the project where the game was just a set of design and learning goals, I participated in the <b>early ideation and prototyping</b> of what would become \"Becoming Fei\". Early ideas, designs, and rapid prototypes <b>explored</b> how different gameplay mechanics and genres could demonstrate foundational concepts, ethics, and applications of AI. In the end, we settled for a narrative-driven first-person survival game where the player must use AI-driven tools to navigate and survive a foreign terrain, which I played a major role in engineering and sequencing.<br /><br />"
     ],
     "resumeBullets": [
-        "Collaborated with a cross-functional team to design and develop a 3D first-person shooter game prototypes centered around Artificial Intelligence education.",
-        "Iterated on 3D gameplay mechanics, topics, and solutions demonstrating foundational concepts, ethics, and applications of Artificial Intelligence.",
-        "Integrated real-time face landmark detection pipeline for the \"Virtually Human\" exhibit at the Lawrence Hall of Science, engaging 100+ visitors a day."
     ],
     "relevantLinks": [],
     "projectImageLink": "https://www.k12aied.org/projects/#h.87i3zh3ca89h"
