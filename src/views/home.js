@@ -75,32 +75,6 @@ const Home = () => {
 
       <NavBar></NavBar>
 
-      {/* Work Experience */}
-
-      <div className={`view-heading-padding`}>
-        <h2><Fragment>
-            <span className="view-heading">
-              Work Experience
-            </span>
-        </Fragment></h2>
-        <hr />
-      </div>
-      { work && work.map((project) => (
-        <Project
-          projectName={project.projectName}
-          roleTitle={project.roleTitle}
-          timeline={project.timeline}
-          tools={project.tools}
-          shortDescription={project.shortDescription}
-          longDescription={project.longDescription}
-          resumeBullets={project.resumeBullets}
-          relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
-          projectImageLink={project.projectImageLink}
-          projectImage={projectImageMap[project.projectName]}
-          inProgress={project.inProgress}
-        />
-      ))}
-
       {/* Projects */}
 
       <div className={`view-heading-padding`}>
@@ -141,6 +115,32 @@ const Home = () => {
           projectImageLink={project.projectImageLink}
           projectImage={projectImageMap[project.projectName]}
           inProgress={project.inProgresss}
+        />
+      ))}
+
+      {/* Work Experience */}
+
+      <div className={`view-heading-padding`}>
+        <h2><Fragment>
+            <span className="view-heading">
+              Work Experience
+            </span>
+        </Fragment></h2>
+        <hr />
+      </div>
+      { work && work.map((project) => (
+        <Project
+          projectName={project.projectName}
+          roleTitle={project.roleTitle}
+          timeline={project.timeline}
+          tools={project.tools}
+          shortDescription={project.shortDescription}
+          longDescription={project.longDescription}
+          resumeBullets={project.resumeBullets}
+          relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
+          projectImageLink={project.projectImageLink}
+          projectImage={projectImageMap[project.projectName]}
+          inProgress={project.inProgress}
         />
       ))}
 
