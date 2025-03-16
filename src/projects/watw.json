@@ -20,7 +20,8 @@
         
     ],
     "relevantLinks": [
+        { "name": "Linktree", "url": "https://linktr.ee/windandthewisp" }
     ],
-    "projectImageLink": "",
+    "projectImageLink": "https://linktr.ee/windandthewisp",
     "inProgress": true
 }
