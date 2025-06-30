@@ -1,13 +1,12 @@
 {
     "projectName": "Closure",
-    "roleTitle": "Software Engineer R&D",
+    "roleTitle": "Software Engineer - Interaction, UI",
     "timeline": "June 2024 - Present",
     "tools": [
         "C#",
         "Perforce",
         "Unity 3D",
-        "Jira",
-        "Confluence",
+        "UI Engineering",
         "Computer Vision"
     ],
     "shortDescription": "Immersive and experimental narrative game experienced through the opening and closing of your eyes.",
@@ -21,7 +20,8 @@
         "Participate in regular code reviews, ensuring best coding practices are maintained to ensure a solid codebase architecture."
     ],
     "relevantLinks": [
+        { "name": "Website", "url": "https://www.closure-game.com/" }
     ],
-    "projectImageLink": "https://closure-website.vercel.app/",
+    "projectImageLink": "https://www.closure-game.com/",
     "inProgress": true
 }

@@ -1,13 +1,12 @@
 {
     "projectName": "POSEIDON Mission Control",
-    "roleTitle": "Full-Stack Software Engineer",
+    "roleTitle": "Software Engineer – Full-Stack",
     "timeline": "January 2024 – May 2024",
     "tools": [
         "Python",
         "JavaScript",
         "Git",
-        "Jira",
-        "Confluence",
+        "Google Cloud Platform",
         "API Development"
     ],
     "shortDescription": "Portable mission control and planning software that provides a centralized and streamlined platform for orbit calculations, predictions, and event scheduling.",

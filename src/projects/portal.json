@@ -5,6 +5,7 @@
     "tools": [
         "C++",
         "Git",
+        "Linear Algebra",
         "SDL Library"
     ],
     "shortDescription": "Remake of <i>Portal</i> (2007), a classic puzzle-platform game, for the Video Game Programming course at the University of Southern California.",

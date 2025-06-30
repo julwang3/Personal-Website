@@ -68,7 +68,7 @@ const Footer = (props) => {
           <span>
             <Fragment>
               <span className="footer-text thq-body-large">
-                © 2024 by Julia Wang
+                © 2025 by Julia Wang
               </span>
             </Fragment>
           </span>
