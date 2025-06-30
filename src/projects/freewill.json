@@ -6,10 +6,9 @@
         "C#",
         "Perforce",
         "Unity 2D",
-        ".NET Framework",
-        "Steamworks API"
+        ".NET Framework"
     ],
-    "shortDescription": "2D psychological puzzle RPG with meta-puzzles that interface with files outside of the game. Featured at the Tokyo Indie Games Summit 2025",
+    "shortDescription": "2D psychological puzzle RPG with meta-puzzles that interface with files outside of the game.",
     "longDescription": [
         "As a <b>Gameplay Engineer</b>, I..."
     ],

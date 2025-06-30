@@ -93,8 +93,7 @@ Project.defaultProps = {
   resumeBullets: [],
   relevantLinks: [],
   projectImageLink: '',
-  projectImage:
-    'https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&ixlib=rb-4.0.3&w=1400',
+  projectImage: '',
   projectImageAlt: 'Image',
   inProgress: false,
 }

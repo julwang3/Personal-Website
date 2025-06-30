@@ -1,6 +1,6 @@
 {
     "projectName": "Blossom",
-    "roleTitle": "Lead Engineer",
+    "roleTitle": "Sole Engineer",
     "timeline": "July 2022 - May 2023",
     "tools": [
         "C#",
@@ -10,7 +10,7 @@
         "Arduino",
         "IoT"
     ],
-    "shortDescription": "Interactive novel brought to life with a pop-up book controller telling the coming-of-age story of Aspen, a Chinese-American girl. Featured at alt.ctrl.GDC in 2023.",
+    "shortDescription": "Interactive novel brought to life with a pop-up book controller telling the coming-of-age story of Aspen, a Chinese-American girl.",
     "longDescription": [
         "As the <b>Lead Engineer</b> on Blossom, I..."
     ],
