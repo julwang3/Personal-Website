@@ -54,11 +54,13 @@ const LearnMore = (props) => {
         </div>
         {faq1Visibile && (
           <div className="learn-more-dropdown-container">
+            {/* Long Description */}
             <span className="thq-body-large">
               { props.longDescription && props.longDescription.map((description) =>
                 <div dangerouslySetInnerHTML={{ __html: description }} />
               )}
             </span>
+            {/* Resume Bullets */}
             <ul className="list">
               { props.resumeBullets && props.resumeBullets.map((bullet) => (
                 <li className="thq-body-large list-item">
@@ -66,6 +68,12 @@ const LearnMore = (props) => {
                 </li>
               ))}
             </ul>
+            {/* Images */}
+            <div className="learn-more-image-grid">
+              {props.images && props.images.map((src, index) => (
+                <img key={index} src={src} className="thq-img-ratio-4-3"/>
+              ))}
+            </div>
           </div>
         )}
       </div>
@@ -76,13 +84,15 @@ const LearnMore = (props) => {
 LearnMore.defaultProps = {
   longDescription: [],
   resumeBullets: [],
-  relevantLinks: [], // [ { name: 'Link-Name', url: 'URL-Link' }, ... ]
+  relevantLinks: [], // [ { name: 'Link-Name', url: 'URL-Link' }, ... ],
+  images: [],
 }
 
 LearnMore.propTypes = {
   longDescription: PropTypes.array,
   resumeBullets: PropTypes.array,
-  relevantLinks: PropTypes.array
+  relevantLinks: PropTypes.array,
+  images: PropTypes.array,
 }
 
 export default LearnMore
