@@ -21,5 +21,8 @@
         { "name": "Website", "url": "https://www.freewillgame.com/" },
         { "name": "Steam", "url": "https://store.steampowered.com/app/2571880/Free_Will/" }
     ],
-    "projectImageLink": "https://www.freewillgame.com/"
+    "projectImageLink": "https://www.freewillgame.com/",
+    "awards": [
+        { "name": "BAFTA Student Awards for Games 2025", "url": "https://www.bafta.org/programmes/bafta-student-awards/meet-our-winners/" }
+    ]
 }

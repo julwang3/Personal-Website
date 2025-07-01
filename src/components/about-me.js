@@ -16,8 +16,8 @@ const AboutMe = (props) => {
             <Fragment>
               <p className="thq-body-large thq-section-max-width">
                 <span>
-                  Hi there! I’m <b>Julia</b>, a fourth-year student pursuing a B.S. in <b>Computer Science</b> with a
-                  minor in <b>Immersive Media</b> at the University of Southern California.
+                  Hi there! I’m <b>Julia</b>, an engineer with a B.S. in <b>Computer Science</b> and minor in <b>Immersive Media</b> from the University of Southern California (USC). 
+                  I'm currently pursuing my Master's in Computer Science at USC and expect to graduate in 2026.
                 </span>
                 <br></br>
                 <br></br>
