@@ -42,7 +42,7 @@ const NavBar = (props) => {
             </Link>
             <a href={props.archiveLink} target="_blank" rel="noopener noreferrer">
               <Fragment>
-                <span className="thq-link">Archive</span>
+                <span className="thq-link">Contact</span>
               </Fragment>
             </a>
           </nav>
@@ -76,7 +76,7 @@ const NavBar = (props) => {
             </Link>
             <a href={props.archiveLink} target="_blank" rel="noopener noreferrer">
               <Fragment>
-                <span className="thq-link">Archive</span>
+                <span className="thq-link">Contact</span>
               </Fragment>
             </a>
             </nav>
@@ -141,7 +141,7 @@ const NavBar = (props) => {
 }
 
 NavBar.defaultProps = {
-  archiveLink: 'https://julwang.itch.io/',
+  archiveLink: 'mailto:jlwang98@gmail.com?subject=',
   logoSrc:
     'https://www.linkedin.com/in/julialywang/',
   logoAlt: 'logo',

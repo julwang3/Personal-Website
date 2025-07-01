@@ -383,8 +383,8 @@
 }
 .thq-button-icon {
   color: var(--dl-color-theme-neutral-dark);
+  fill: var(--dl-color-theme-neutral-dark);
   transition: 300ms;
-  border-radius: var(--dl-radius-radius-round);
 }
 .thq-button-icon:hover {
   color: var(--dl-color-theme-primary1);
