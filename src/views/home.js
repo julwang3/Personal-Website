@@ -99,6 +99,7 @@ const Home = () => {
           projectImageLink={project.projectImageLink}
           projectImage={projectImageMap[project.projectName]}
           inProgress={project.inProgress}
+          awards={JSON.parse(JSON.stringify(project.awards))}
         />
       ))}
 
@@ -115,6 +116,7 @@ const Home = () => {
           projectImageLink={project.projectImageLink}
           projectImage={projectImageMap[project.projectName]}
           inProgress={project.inProgresss}
+          awards={JSON.parse(JSON.stringify(project.awards))}
         />
       ))}
 
@@ -141,6 +143,7 @@ const Home = () => {
           projectImageLink={project.projectImageLink}
           projectImage={projectImageMap[project.projectName]}
           inProgress={project.inProgress}
+          awards={JSON.parse(JSON.stringify(project.awards))}
         />
       ))}
 

@@ -19,8 +19,10 @@
         "Innovated tactile puzzle mechanics that received external sensor input detecting physical interactions including touch, dial turns, and item placement through the Arduino."
     ],
     "relevantLinks": [
-        { "name": "Trailer", "url": "https://youtu.be/SeUIPJojg9Q?si=2kmukM3idBYFN7eU" },
-        { "name": "alt.ctrl.GDC 2023", "url": "https://www.gamedeveloper.com/marketing/-blossom-explores-childhood-memories-with-a-pop-up-book-controller" }
+        { "name": "Trailer", "url": "https://youtu.be/SeUIPJojg9Q?si=2kmukM3idBYFN7eU" }
     ],
-    "projectImageLink": "https://youtu.be/SeUIPJojg9Q?si=2kmukM3idBYFN7eU"
+    "projectImageLink": "https://youtu.be/SeUIPJojg9Q?si=2kmukM3idBYFN7eU",
+    "awards": [
+        { "name": "alt.ctrl.GDC 2023", "url": "https://www.gamedeveloper.com/marketing/-blossom-explores-childhood-memories-with-a-pop-up-book-controller" }
+    ]
 }

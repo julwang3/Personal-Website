@@ -24,5 +24,7 @@
         { "name": "Steam", "url": "https://store.steampowered.com/app/3729770/The_Wind_and_the_Wisp/" }
     ],
     "projectImageLink": "https://www.thewindandthewisp.com/",
-    "inProgress": true
+    "inProgress": true,
+    "awards": [
+    ]
 }

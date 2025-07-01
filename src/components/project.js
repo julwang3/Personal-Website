@@ -50,6 +50,18 @@ const Project = (props) => {
             <Fragment>
               <p className="project-description-text thq-body-large">
                 <div dangerouslySetInnerHTML={{ __html: props.shortDescription }} />
+                {props.awards && props.awards.map((awards, index) => (
+                  <Fragment key={index}>
+                    <br />
+                    {awards.url ? (
+                      <a href={awards.url} className="" target="_blank" rel="noopener noreferrer">
+                        <b>🏅 <u>{awards.name}</u></b>
+                      </a>
+                    ) : (
+                      <b>🏅 {awards.name}</b>
+                    )}
+                  </Fragment>
+                ))}
               </p>
             </Fragment>
           </p>
@@ -96,6 +108,7 @@ Project.defaultProps = {
   projectImage: '',
   projectImageAlt: 'Image',
   inProgress: false,
+  awards: [],
 }
 
 Project.propTypes = {
@@ -111,6 +124,7 @@ Project.propTypes = {
   projectImage: PropTypes.string,
   projectImageAlt: PropTypes.string,
   inProgress: PropTypes.bool,
+  awards: PropTypes.array,
 }
 
 export default Project

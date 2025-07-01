@@ -23,5 +23,7 @@
         { "name": "Website", "url": "https://www.closure-game.com/" }
     ],
     "projectImageLink": "https://www.closure-game.com/",
-    "inProgress": true
+    "inProgress": true,
+    "awards": [
+    ]
 }
