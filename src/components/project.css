@@ -50,9 +50,13 @@
   padding-top: var(--dl-space-space-halfunit);
   flex-direction: row;
 }
-.project-placeholder-image {
+.project-placeholder-image img {
   width: 95%;
   align-items: flex-start;
+  transition: transform 0.3s ease;
+}
+.project-placeholder-image img:hover {
+  transform: scale(1.04);
 }
 .project-tools-text {
   display: inline-block;

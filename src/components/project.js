@@ -69,13 +69,17 @@ const Project = (props) => {
             longDescription={props.longDescription}
             resumeBullets={props.resumeBullets}
             relevantLinks={props.relevantLinks}
+            images={[
+              "https://picsum.photos/seed/1/600/400",
+              "https://picsum.photos/seed/2/600/400",
+              "https://picsum.photos/seed/3/600/400",
+            ]}
           ></LearnMore>
         </div>
         <div className="project-image-container">
           {/* Project Image Linked */}
           { props.projectImageLink && <a href={props.projectImageLink} className="project-placeholder-image" target="_blank" rel="noopener noreferrer">
             <img
-              alt={props.projectImageAlt}
               src={props.projectImage}
               className="thq-img-ratio-24-6"
             />
