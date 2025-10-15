@@ -90,18 +90,26 @@ const WorkSamples = (props) => {
           <div className="unlocked-max-width thq-section-max-width">
             <div className="unlocked-content">
               {/* Code Samples */}
-              { contents.length !== 0 && contents.map(([text, language], index) => {
+              { contents.length !== 0 && contents.map(([text, language, subtitle], index) => {
                 if (language == "video") {
                   return (
-                    <iframe
-                      src={text}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      style={{
-                        width: 640,
-                        height: 360
-                      }}
-                    ></iframe>
+                    <div className={`thq-section-padding`}>
+                      <iframe
+                        src={text}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        style={{
+                          width: 640,
+                          height: 360
+                        }}
+                      ></iframe>
+                      <br></br>
+                      <p className="unlocked-max-width">
+                        <span>
+                          {subtitle}
+                        </span>
+                      </p>
+                    </div>
                   )
                 }
                 return (
