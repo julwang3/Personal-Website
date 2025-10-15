@@ -38,13 +38,14 @@ export async function submitPassword(password) {
     // Get files
     const files = JSON.parse(Buffer.from(fileContent, bufferFrom).toString(bufferTo))[password];
     // Return contents of all the files
-    const passwordContents = Array(files.length).fill().map(() => Array(2).fill(""));
+    const passwordContents = Array(files.length).fill().map(() => Array(3).fill(""));
     if (files !== undefined) {
         for (let i = 0; i < files.length; i++) {
             // Decode content
             if (files[i][1] == "video") {
                 // Video
                 passwordContents[i][0] = files[i][0];
+                passwordContents[i][2] = files[i][2];
             }
             else {
                 // Script
