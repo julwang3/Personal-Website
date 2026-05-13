@@ -32,14 +32,12 @@ const workJSONs = [
   ICTJSON,
 ]
 const projectJSONs = [
+  WatWJSON,
+  ClosureJSON,
   POSEIDONJSON,
   FreeWillJSON,
   // PortalJSON,
   BlossomJSON,
-]
-const upcomingProjectJSONs = [
-  WatWJSON,
-  ClosureJSON
 ]
 const projectImageMap = {
   'Madison Square Garden Sphere Entertainment Co.' : MSGSphere,
@@ -49,13 +47,12 @@ const projectImageMap = {
   // 'Portal (Remake)' : Portal,
   'Blossom' : Blossom,
   'The Wind and the Wisp' : WatW,
-  'Closure' : Closure,
+  'Before Closure' : Closure,
 }
 // END
 
 const work = await jsonify(workJSONs)
 const projects = await jsonify(projectJSONs)
-const upcomingProjects = await jsonify(upcomingProjectJSONs)
 
 async function jsonify(files) {
   const data = []
@@ -85,23 +82,6 @@ const Home = () => {
         </Fragment></h2>
         <hr />
       </div>
-
-      { upcomingProjects && upcomingProjects.map((project) => (
-        <Project
-          projectName={project.projectName}
-          roleTitle={project.roleTitle}
-          timeline={project.timeline}
-          tools={project.tools}
-          shortDescription={project.shortDescription}
-          longDescription={project.longDescription}
-          resumeBullets={project.resumeBullets}
-          relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
-          projectImageLink={project.projectImageLink}
-          projectImage={projectImageMap[project.projectName]}
-          inProgress={project.inProgress}
-          awards={JSON.parse(JSON.stringify(project.awards))}
-        />
-      ))}
 
       { projects && projects.map((project) => (
         <Project
