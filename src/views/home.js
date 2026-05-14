@@ -25,34 +25,47 @@ import Blossom from '../images/blossom.gif'
 import WatW from '../images/watw.gif'
 import Closure from '../images/closure.gif'
 
-// UPDATE WHEN ADDING NEW PROJECTS/JSONS
-// START
-const workJSONs = [ 
-  MSGSphereJSON,
-  ICTJSON,
-]
-const projectJSONs = [
-  WatWJSON,
-  ClosureJSON,
-  POSEIDONJSON,
-  FreeWillJSON,
-  // PortalJSON,
-  BlossomJSON,
-]
-const projectImageMap = {
-  'Madison Square Garden Sphere Entertainment Co.' : MSGSphere,
-  'USC Institute for Creative Technologies' : ICT,
-  'POSEIDON Mission Control' : POSEIDON,
-  'Free Will' : FreeWill,
-  // 'Portal (Remake)' : Portal,
-  'Blossom' : Blossom,
-  'The Wind and the Wisp' : WatW,
-  'Before Closure' : Closure,
+const projectsData = {
+  work: [
+    {
+      json: MSGSphereJSON,
+      image: MSGSphere
+    },
+    {
+      json: ICTJSON,
+      image: ICT
+    }
+  ],
+  projects: [
+    {
+      json: WatWJSON,
+      image: WatW
+    },
+    {
+      json: ClosureJSON,
+      image: Closure
+    },
+    {
+      json: POSEIDONJSON,
+      image: POSEIDON
+    },
+    {
+      json: FreeWillJSON,
+      image: FreeWill
+    },
+    // {
+    //   json: PortalJSON,
+    //   image: Portal
+    // },
+    {
+      json: BlossomJSON,
+      image: Blossom
+    }
+  ]
 }
-// END
 
-const work = await jsonify(workJSONs)
-const projects = await jsonify(projectJSONs)
+const work = await jsonify(projectsData.work.map(p => p.json))
+const projects = await jsonify(projectsData.projects.map(p => p.json))
 
 async function jsonify(files) {
   const data = []
@@ -83,7 +96,7 @@ const Home = () => {
         <hr />
       </div>
 
-      { projects && projects.map((project) => (
+      { projects && projects.map((project, index) => (
         <Project
           projectName={project.projectName}
           roleTitle={project.roleTitle}
@@ -94,7 +107,7 @@ const Home = () => {
           resumeBullets={project.resumeBullets}
           relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
           projectImageLink={project.projectImageLink}
-          projectImage={projectImageMap[project.projectName]}
+          projectImage={projectsData.projects[index].image}
           inProgress={project.inProgresss}
           awards={JSON.parse(JSON.stringify(project.awards))}
         />
@@ -110,7 +123,7 @@ const Home = () => {
         </Fragment></h2>
         <hr />
       </div>
-      { work && work.map((project) => (
+      { work && work.map((project, index) => (
         <Project
           projectName={project.projectName}
           roleTitle={project.roleTitle}
@@ -121,7 +134,7 @@ const Home = () => {
           resumeBullets={project.resumeBullets}
           relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
           projectImageLink={project.projectImageLink}
-          projectImage={projectImageMap[project.projectName]}
+          projectImage={projectsData.work[index].image}
           inProgress={project.inProgress}
           awards={JSON.parse(JSON.stringify(project.awards))}
         />
