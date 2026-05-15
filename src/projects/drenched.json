@@ -1,0 +1,22 @@
+{
+    "projectName": "Drenched",
+    "roleTitle": "Co-Engineering Lead",
+    "timeline": "January 2026 - Present",
+    "tools": [
+        "C#",
+        "Git",
+        "Unity 3D"
+    ],
+    "shortDescription": "3D exploration adventure where you play as a young girl and fish, navigating two mirrored worlds and uncovering the story of a burned-out artist as she regains her creative spark.",
+    "longDescription": [
+    ],
+    "resumeBullets": [
+    ],
+    "relevantLinks": [
+        { "name": "Steam", "url": "https://store.steampowered.com/app/4597820/DRENCHED/" }
+    ],
+    "projectImageLink": "https://store.steampowered.com/app/4597820/DRENCHED/",
+    "inProgress": true,
+    "awards": [
+    ]
+}
