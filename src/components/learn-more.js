@@ -55,9 +55,20 @@ const LearnMore = (props) => {
         {faq1Visibile && (
           <div className="learn-more-dropdown-container">
             <span className="thq-body-large">
-              { props.longDescription && props.longDescription.map((description) =>
-                <div dangerouslySetInnerHTML={{ __html: description }} />
-              )}
+              {props.longDescription &&
+                props.longDescription.map((description, index) => (
+                  <div
+                    key={index}
+                    dangerouslySetInnerHTML={{
+                      __html:
+                        description +
+                        (index < props.longDescription.length - 1
+                          ? "<br /><br />"
+                          : ""),
+                    }}
+                  />
+                ))
+              }
             </span>
             <ul className="list">
               { props.resumeBullets && props.resumeBullets.map((bullet) => (

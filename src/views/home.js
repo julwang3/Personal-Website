@@ -32,22 +32,22 @@ const projectsData = {
       image: MSGSphere
     },
     {
+      json: POSEIDONJSON,
+      image: POSEIDON
+    },
+    {
       json: ICTJSON,
       image: ICT
     }
   ],
   projects: [
     {
-      json: WatWJSON,
-      image: WatW
-    },
-    {
       json: ClosureJSON,
       image: Closure
     },
     {
-      json: POSEIDONJSON,
-      image: POSEIDON
+      json: WatWJSON,
+      image: WatW
     },
     {
       json: FreeWillJSON,
