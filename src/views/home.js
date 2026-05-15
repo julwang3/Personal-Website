@@ -15,6 +15,7 @@ import FreeWillJSON from '../projects/freewill.json'
 import BlossomJSON from '../projects/blossom.json'
 import WatWJSON from '../projects/watw.json'
 import ClosureJSON from '../projects/closure.json'
+import DrenchedJSON from '../projects/drenched.json'
 
 import MSGSphere from '../images/sphere.gif'
 import ICT from '../images/ict.gif'
@@ -24,6 +25,7 @@ import FreeWill from '../images/freewill.gif'
 import Blossom from '../images/blossom.gif'
 import WatW from '../images/watw.gif'
 import Closure from '../images/closure.gif'
+import Drenched from '../images/drenched.gif'
 
 const projectsData = {
   work: [
@@ -41,6 +43,10 @@ const projectsData = {
     }
   ],
   projects: [
+    {
+      json: DrenchedJSON,
+      image: Drenched
+    },
     {
       json: ClosureJSON,
       image: Closure
@@ -108,7 +114,7 @@ const Home = () => {
           relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
           projectImageLink={project.projectImageLink}
           projectImage={projectsData.projects[index].image}
-          inProgress={project.inProgresss}
+          inProgress={project.inProgress}
           awards={JSON.parse(JSON.stringify(project.awards))}
         />
       ))}
