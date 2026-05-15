@@ -72,6 +72,13 @@ const Footer = (props) => {
               </span>
             </Fragment>
           </span>
+          <span>
+            <Fragment>
+              <span className="footer-text thq-body-large">
+                Last Updated: May 14, 2026
+              </span>
+            </Fragment>
+          </span>
         </div>
       </div>
     </footer>
