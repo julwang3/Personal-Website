@@ -1,21 +1,23 @@
 {
-    "projectName": "POSEIDON Mission Control",
-    "roleTitle": "Software Engineer – Full-Stack",
+    "projectName": "USC Information Sciences Institute",
+    "roleTitle": "Software Engineer",
     "timeline": "January 2024 – May 2024",
     "tools": [
         "Python",
         "JavaScript",
         "Git",
+        "React",
         "Google Cloud Platform",
         "API Development"
     ],
-    "shortDescription": "Portable mission control and planning software that provides a centralized and streamlined platform for orbit calculations, predictions, and event scheduling.",
+    "shortDescription": "Portable mission control software for centralized and streamlined orbit calculations, predictions, and event scheduling. Developed for the <b>Space Engineering Research Center</b>.",
     "longDescription": [
-        "POSEIDON Mission Control was a software I collaborated with five other software engineers to develop for the the <b>MAVERIC CubeSat</b> project led by Dr. David Barnhart at the USC Information Sciences Institute. As a <b>Full-Stack Software Engineer</b>, I..."
+        "As a <b>Full-Stack Software Engineer</b> at the USC Information Sciences Institute (ISI), I collaborated with five software engineers to develop the <b>POSEIDON Mission Control</b> software for the MAVERIC CubeSat project led by Dr. David Barnhart.\n",
+        "<b>POSEIDON Mission Control</b> functions as a software backbone for the USC ground station, facilitating communication between satellites in orbit, the USC control station, and ISI. Some of my responsibilities included..."
     ],
     "resumeBullets": [
         "Automated event creation, updating, and deletion in the backend using Python API calls, allowing for more efficient event scheduling and notification for satellite pass times.",
-        "Integrated and defined API calls for two-line element data retrieval, providing orbital information on a given satellite crucial for performing orbit calculations and predictions.",
+        "Integrated backend API calls to query and update satellite data using Cloud Firestore.",
         "Communicated with non-technical shareholders on a weekly basis, providing updates on progress, addressing issues, and ensuring the project objectives were being met."
     ],
     "relevantLinks": [
