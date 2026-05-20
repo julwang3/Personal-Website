@@ -6,6 +6,7 @@ import {
   Switch,
   Redirect,
 } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 
 import './style.css'
 import Home from './views/home'
@@ -28,4 +29,10 @@ const App = () => {
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(
+  <>
+    <App />
+    <Analytics />
+  </>,
+  document.getElementById('app')
+)
