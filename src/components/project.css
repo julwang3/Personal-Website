@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .project-image-container:hover {
@@ -60,7 +60,6 @@
   align-items: flex-start;
   transition: transform 0.2s ease-in-out;
 }
-
 .project-image-container:hover .project-placeholder-image {
   transform: scale(1.01);
 }

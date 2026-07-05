@@ -7,65 +7,74 @@ import Project from '../components/project'
 import Footer from '../components/footer'
 import './view.css'
 
-import MSGSphereJSON from '../projects/msg.json'
-import ICTJSON from '../projects/ict.json'
-import POSEIDONJSON from '../projects/poseidon.json'
-import FreeWillJSON from '../projects/freewill.json'
-// import PortalJSON from '../projects/portal.json'
-import BlossomJSON from '../projects/blossom.json'
-import WatWJSON from '../projects/watw.json'
-import ClosureJSON from '../projects/closure.json'
-import DrenchedJSON from '../projects/drenched.json'
+import MSGSphereJSON from '../assets/projects/msg.json'
+import ICTJSON from '../assets/projects/ict.json'
+import POSEIDONJSON from '../assets/projects/poseidon.json'
+import FreeWillJSON from '../assets/projects/freewill.json'
+// import PortalJSON from '../assets/projects/portal.json'
+import BlossomJSON from '../assets/projects/blossom.json'
+import WatWJSON from '../assets/projects/watw.json'
+import ClosureJSON from '../assets/projects/closure.json'
+import DrenchedJSON from '../assets/projects/drenched.json'
 
-import MSGSphere from '../images/sphere.gif'
-import ICT from '../images/ict.gif'
-import POSEIDON from '../images/poseidon.jpg'
-import FreeWill from '../images/freewill.gif'
+import MSGSphere from '../assets/videos/sphere.mp4'
+import ICT from '../assets/videos/ict.mp4'
+import POSEIDON from '../assets/images/poseidon.jpg'
+import FreeWill from '../assets/videos/freewill.mp4'
 // import Portal from '../images/portal.png'
-import Blossom from '../images/blossom.gif'
-import WatW from '../images/watw.gif'
-import Closure from '../images/closure.gif'
-import Drenched from '../images/drenched.gif'
+import Blossom from '../assets/videos/blossom.mp4'
+import WatW from '../assets/videos/watw.mp4'
+import Closure from '../assets/videos/closure.mp4'
+import Drenched from '../assets/videos/drenched.mp4'
 
 const projectsData = {
   work: [
     {
       json: MSGSphereJSON,
-      image: MSGSphere
+      media: MSGSphere,
+      mediaType: "video"
     },
     {
       json: POSEIDONJSON,
-      image: POSEIDON
+      media: POSEIDON,
+      mediaType: "image"
     },
     {
       json: ICTJSON,
-      image: ICT
+      media: ICT,
+      mediaType: "video"
     }
   ],
   projects: [
     {
       json: DrenchedJSON,
-      image: Drenched
+      media: Drenched,
+      mediaType: "video"
     },
     {
       json: ClosureJSON,
-      image: Closure
+      media: Closure,
+      mediaType: "video"
     },
     {
       json: WatWJSON,
-      image: WatW
+      media: WatW,
+      mediaType: "video"
     },
     {
       json: FreeWillJSON,
-      image: FreeWill
+      media: FreeWill,
+      mediaType: "video"
     },
     // {
     //   json: PortalJSON,
-    //   image: Portal
+    //   media: Portal,
+      // mediaType: "image"
     // },
     {
       json: BlossomJSON,
-      image: Blossom
+      media: Blossom,
+      mediaType: "video"
     }
   ]
 }
@@ -112,8 +121,9 @@ const Home = () => {
           longDescription={project.longDescription}
           resumeBullets={project.resumeBullets}
           relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
-          projectImageLink={project.projectImageLink}
-          projectImage={projectsData.projects[index].image}
+          projectMediaLink={project.projectMediaLink}
+          projectMedia={projectsData.projects[index].media}
+          projectMediaType={projectsData.projects[index].mediaType}
           inProgress={project.inProgress}
           awards={JSON.parse(JSON.stringify(project.awards))}
         />
@@ -139,8 +149,9 @@ const Home = () => {
           longDescription={project.longDescription}
           resumeBullets={project.resumeBullets}
           relevantLinks={JSON.parse(JSON.stringify(project.relevantLinks))}
-          projectImageLink={project.projectImageLink}
-          projectImage={projectsData.work[index].image}
+          projectMediaLink={project.projectMediaLink}
+          projectMedia={projectsData.work[index].media}
+          projectMediaType={projectsData.work[index].mediaType}
           inProgress={project.inProgress}
           awards={JSON.parse(JSON.stringify(project.awards))}
         />

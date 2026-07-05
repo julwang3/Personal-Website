@@ -1,0 +1,30 @@
+{
+    "projectName": "USC Information Sciences Institute",
+    "roleTitle": "Software Engineer",
+    "timeline": "January 2024 – May 2024",
+    "tools": [
+        "Python",
+        "JavaScript",
+        "Git",
+        "React",
+        "Google Cloud Platform",
+        "API Development"
+    ],
+    "shortDescription": "Portable mission control software for centralized and streamlined orbit calculations, predictions, and event scheduling. Developed for the <b>Space Engineering Research Center</b>.",
+    "longDescription": [
+        "As a <b>Full-Stack Software Engineer</b> at the USC Information Sciences Institute (ISI), I collaborated with five software engineers to develop the <b>POSEIDON Mission Control</b> software for the MAVERIC CubeSat project led by Dr. David Barnhart.\n",
+        "<b>POSEIDON Mission Control</b> functions as a software backbone for the USC ground station, facilitating communication between satellites in orbit, the USC control station, and ISI. Some of my responsibilities included..."
+    ],
+    "resumeBullets": [
+        "Automated event creation, updating, and deletion in the backend using Python API calls, allowing for more efficient event scheduling and notification for satellite pass times.",
+        "Integrated backend API calls to query and update satellite data using Cloud Firestore.",
+        "Communicated with non-technical shareholders on a weekly basis, providing updates on progress, addressing issues, and ensuring the project objectives were being met."
+    ],
+    "relevantLinks": [
+        
+    ],
+    "projectMediaLink": "",
+    "awards": [
+        
+    ]
+}

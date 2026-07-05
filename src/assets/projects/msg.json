@@ -1,0 +1,29 @@
+{
+    "projectName": "Madison Square Garden Sphere Entertainment Co.",
+    "roleTitle": "Software Engineer Intern",
+    "timeline": "May 2024 – August 2024",
+    "tools": [
+        "C#",
+        "Git",
+        "Unity 3D",
+        "MVVM Pattern",
+        "Tool Development",
+        "Oculus Quest 2"
+    ],
+    "shortDescription": "Live entertainment and media company creating immersive and interactive experiences for the Sphere in Las Vegas.",
+    "longDescription": [
+        "I was a Software Engineer Intern on the <b>Simulation and Visualizations</b> team, which develops a suite of software products and tools used internally for content production at the Sphere and other Madison Square Garden properties. I worked on a <b>multiuser Virtual Reality and Desktop application</b> that is used by creative, design, and capture teams at Sphere Entertainment for venue simulation and simulataneous media playback and reviewing.",
+        "As a <b>Software Engineer Intern</b> on SimVis, I documented and implemented a new user feature that enabled user interface panels to be moveable on both the Oculus Quest 2 and Desktop platforms. The feature provided users with greater flexibility in where panels are placed and <b>increased users' experience</b> when navigating the tool overall. When implementing this feature, I..."
+    ],
+    "resumeBullets": [
+        "Designed and wrote a <b>modular architecture</b> solution and detailed technical specification based on provided user requirements.",
+        "Enhanced an in-built debug panel used by developers, tackling and resolving feature-breaking bugs and implementing additional features that <b>optimized</b> the build testing pipeline.",
+        "<b>Communicated remotely</b> with engineers to discuss and debug technical challenges faced during implementation.",
+        "Participated in daily lightning and biweekly burndown meetings."
+    ],
+    "relevantLinks": [],
+    "projectMediaLink": "https://www.thesphere.com/",
+    "awards": [
+        
+    ]
+}

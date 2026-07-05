@@ -75,7 +75,7 @@ const Footer = (props) => {
           <span>
             <Fragment>
               <span className="footer-text thq-body-large">
-                Last Updated: July 4, 2026
+                Last Updated: July 5, 2026
               </span>
             </Fragment>
           </span>

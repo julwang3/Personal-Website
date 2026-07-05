@@ -72,22 +72,53 @@ const Project = (props) => {
           ></LearnMore>
         </div>
         <div className="project-image-container">
-          {/* Project Image Linked */}
-          { props.projectImageLink && <a href={props.projectImageLink} className="project-placeholder-image" target="_blank" rel="noopener noreferrer">
-            <img
-              alt={props.projectImageAlt}
-              src={props.projectImage}
-              className="thq-img-ratio-24-6"
-            />
-          </a>}
-          {/* Project Image Not Linked */}
-          { !props.projectImageLink &&
-            <img
-              alt={props.projectImageAlt}
-              src={props.projectImage}
-              className="project-placeholder-image thq-img-ratio-24-6"
-            />
-          }
+          {props.projectMediaType === "video" ? (
+            <>
+            {/* Video */}
+              { props.projectMediaLink && <a href={props.projectMediaLink} className="project-placeholder-image" target="_blank" rel="noopener noreferrer">
+                <a href={props.projectMediaLink} className="project-placeholder-image" target="_blank" rel="noopener noreferrer">
+                  <video
+                    className="thq-img-ratio-24-6"
+                    src={props.projectMedia}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    preload="metadata"
+                  />
+                </a>
+              </a>}
+              { !props.projectMediaLink &&
+                <video
+                  className="thq-img-ratio-24-6"
+                  src={props.projectMedia}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  preload="metadata"
+                />
+              }
+            </>
+          ) : (
+            <>
+            {/* Image */}
+              { props.projectMediaLink && <a href={props.projectMediaLink} className="project-placeholder-image" target="_blank" rel="noopener noreferrer">
+                <img
+                  alt={props.projectMediaAlt}
+                  src={props.projectMedia}
+                  className="thq-img-ratio-24-6"
+                />
+              </a>}
+              { !props.projectMediaLink &&
+                <img
+                  alt={props.projectMediaAlt}
+                  src={props.projectMedia}
+                  className="project-placeholder-image thq-img-ratio-24-6"
+                />
+              }
+            </>
+          )}
         </div>
       </div>
     </div>
@@ -104,9 +135,8 @@ Project.defaultProps = {
   longDescription: [],
   resumeBullets: [],
   relevantLinks: [],
-  projectImageLink: '',
-  projectImage: '',
-  projectImageAlt: 'Image',
+  projectMediaLink: '',
+  projectMedia: '',
   inProgress: false,
   awards: [],
 }
@@ -120,9 +150,9 @@ Project.propTypes = {
   longDescription: PropTypes.array,
   resumeBullets: PropTypes.array,
   relevantLinks: PropTypes.array,
-  projectImageLink: PropTypes.string,
-  projectImage: PropTypes.string,
-  projectImageAlt: PropTypes.string,
+  projectMediaLink: PropTypes.string,
+  projectMedia: PropTypes.string,
+  projectMediaType: PropTypes.string,
   inProgress: PropTypes.bool,
   awards: PropTypes.array,
 }

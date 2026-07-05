@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 
 import NavBar from '../components/nav-bar'
 import Footer from '../components/footer'
-import { submitPassword } from '../components/api'
+import { submitPassword } from '../services/api'
 import { CodeBlock, monokaiSublime } from 'react-code-blocks'
 import './view.css'
 import './work-samples.css'
