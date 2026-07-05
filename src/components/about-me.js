@@ -16,7 +16,8 @@ const AboutMe = (props) => {
             <Fragment>
               <p className="thq-body-large thq-section-max-width">
                 <span>
-                  Hi there! I’m <b>Julia Wang</b>, an engineer passionate about developing (TODO) that express (TODO) and evoke.
+                  Hi there! I’m <b>Julia Wang</b>, an engineer passionate about developing interactive technologies
+                  and experiences that inspire <b>creativity, exploration, and connection</b>.
                 </span>
                 <br></br>
                 <br></br>
@@ -30,11 +31,10 @@ const AboutMe = (props) => {
                 <br></br>
                 <br></br>
                 <span>
-                  As a <b>Creative Technologist</b>, I’m fascinated by how interactive experiences 
-                  and experimental mediums are capable of connecting and <b>bringing people together</b>. 
-                  I love exploring new and innovative ways to use technology and <b>push the boundaries</b> 
-                  of media — whether it’s through tinkering with sensors, alternative controllers, virtual reality, 
-                  or other cutting-edge mediums!
+                  As a <b>Creative Technologist</b>, I’m fascinated by how interactive and immersive experiences 
+                  are capable of evoking <b>curiosity, empathy, and reflection</b>. I love exploring new and innovative ways 
+                  to use technology and <b>push the boundaries</b> of media — whether it’s through experimenting with 
+                  sensors, alternative controllers, virtual reality, or other cutting-edge mediums!
                 </span>
                 <br></br>
                 <br></br>
