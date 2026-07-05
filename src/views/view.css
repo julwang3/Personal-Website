@@ -1,22 +1,31 @@
+html {
+    overflow-y: scroll;
+}
+
 .container {
     width: 100%;
     display: flex;
     min-height: 100vh;
-    align-items: flex-start;
+    align-items: stretch;
     flex-direction: column;
     justify-content: flex-start;
+    box-sizing: border-box;
 }
 .view-heading-padding {
     width: 100%;
+    box-sizing: border-box;
     display: flex;
     position: relative;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     padding-top: var(--dl-space-space-halfunit);
     padding-left: var(--dl-space-space-fiveunits);
     padding-right: var(--dl-space-space-fiveunits);
 }
 .view-heading {
+    display: inline-block;
+    margin: 0 auto;
     font-size: 0.85em;
     font-style: normal;
     font-family: "Poppins";
@@ -30,5 +39,5 @@
     text-decoration-line: underline;
     text-decoration-style: double;
     text-underline-offset: var(--dl-space-space-halfunit);
-    
+    text-align: center;
 }
