@@ -27,13 +27,13 @@ import WatW from '../assets/videos/watw.mp4'
 import Closure from '../assets/videos/closure.mp4'
 import Drenched from '../assets/videos/drenched.mp4'
 
-import MSGSpherePoster from '../assets/videos/sphere.mp4'
-import ICTPoster from '../assets/videos/ict.mp4'
-import FreeWillPoster from '../assets/videos/freewill.mp4'
-import BlossomPoster from '../assets/videos/blossom.mp4'
-import WatWPoster from '../assets/videos/watw.mp4'
-import ClosurePoster from '../assets/videos/closure.mp4'
-import DrenchedPoster from '../assets/videos/drenched.mp4'
+import MSGSpherePoster from '../assets/images/sphere-poster.jpg'
+import ICTPoster from '../assets/images/ict-poster.jpg'
+import FreeWillPoster from '../assets/images/freewill-poster.jpg'
+import BlossomPoster from '../assets/images/blossom-poster.jpg'
+import WatWPoster from '../assets/images/watw-poster.jpg'
+import ClosurePoster from '../assets/images/closure-poster.jpg'
+import DrenchedPoster from '../assets/images/drenched-poster.jpg'
 
 const projectsData = {
   work: [
