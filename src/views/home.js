@@ -27,12 +27,21 @@ import WatW from '../assets/videos/watw.mp4'
 import Closure from '../assets/videos/closure.mp4'
 import Drenched from '../assets/videos/drenched.mp4'
 
+import MSGSpherePoster from '../assets/videos/sphere.mp4'
+import ICTPoster from '../assets/videos/ict.mp4'
+import FreeWillPoster from '../assets/videos/freewill.mp4'
+import BlossomPoster from '../assets/videos/blossom.mp4'
+import WatWPoster from '../assets/videos/watw.mp4'
+import ClosurePoster from '../assets/videos/closure.mp4'
+import DrenchedPoster from '../assets/videos/drenched.mp4'
+
 const projectsData = {
   work: [
     {
       json: MSGSphereJSON,
       media: MSGSphere,
-      mediaType: "video"
+      mediaType: "video",
+      mediaPoster: MSGSpherePoster
     },
     {
       json: POSEIDONJSON,
@@ -42,29 +51,34 @@ const projectsData = {
     {
       json: ICTJSON,
       media: ICT,
-      mediaType: "video"
+      mediaType: "video",
+      mediaPoster: ICTPoster
     }
   ],
   projects: [
     {
       json: DrenchedJSON,
       media: Drenched,
-      mediaType: "video"
+      mediaType: "video",
+      mediaPoster: DrenchedPoster
     },
     {
       json: ClosureJSON,
       media: Closure,
-      mediaType: "video"
+      mediaType: "video",
+      mediaPoster: ClosurePoster
     },
     {
       json: WatWJSON,
       media: WatW,
-      mediaType: "video"
+      mediaType: "video",
+      mediaPoster: WatWPoster
     },
     {
       json: FreeWillJSON,
       media: FreeWill,
-      mediaType: "video"
+      mediaType: "video",
+      mediaPoster: FreeWillPoster
     },
     // {
     //   json: PortalJSON,
@@ -74,7 +88,8 @@ const projectsData = {
     {
       json: BlossomJSON,
       media: Blossom,
-      mediaType: "video"
+      mediaType: "video",
+      mediaPoster: BlossomPoster
     }
   ]
 }
@@ -124,6 +139,7 @@ const Home = () => {
           projectMediaLink={project.projectMediaLink}
           projectMedia={projectsData.projects[index].media}
           projectMediaType={projectsData.projects[index].mediaType}
+          projectMediaPoster={projectsData.projects[index].mediaPoster}
           inProgress={project.inProgress}
           awards={JSON.parse(JSON.stringify(project.awards))}
         />
@@ -152,6 +168,7 @@ const Home = () => {
           projectMediaLink={project.projectMediaLink}
           projectMedia={projectsData.work[index].media}
           projectMediaType={projectsData.work[index].mediaType}
+          projectMediaPoster={projectsData.work[index].mediaPoster}
           inProgress={project.inProgress}
           awards={JSON.parse(JSON.stringify(project.awards))}
         />

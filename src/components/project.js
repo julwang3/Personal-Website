@@ -80,6 +80,7 @@ const Project = (props) => {
                   <video
                     className="thq-img-ratio-24-6"
                     src={props.projectMedia}
+                    poster={props.projectMediaPoster}
                     autoPlay
                     loop
                     muted
@@ -92,6 +93,7 @@ const Project = (props) => {
                 <video
                   className="thq-img-ratio-24-6"
                   src={props.projectMedia}
+                  poster={props.projectMediaPoster}
                   autoPlay
                   loop
                   muted
@@ -105,16 +107,18 @@ const Project = (props) => {
             {/* Image */}
               { props.projectMediaLink && <a href={props.projectMediaLink} className="project-placeholder-image" target="_blank" rel="noopener noreferrer">
                 <img
-                  alt={props.projectMediaAlt}
                   src={props.projectMedia}
                   className="thq-img-ratio-24-6"
+                  loading="lazy"
+                  decoding="async"
                 />
               </a>}
               { !props.projectMediaLink &&
                 <img
-                  alt={props.projectMediaAlt}
                   src={props.projectMedia}
                   className="project-placeholder-image thq-img-ratio-24-6"
+                  loading="lazy"
+                  decoding="async"
                 />
               }
             </>
@@ -153,6 +157,7 @@ Project.propTypes = {
   projectMediaLink: PropTypes.string,
   projectMedia: PropTypes.string,
   projectMediaType: PropTypes.string,
+  projectMediaPoster: PropTypes.string,
   inProgress: PropTypes.bool,
   awards: PropTypes.array,
 }
