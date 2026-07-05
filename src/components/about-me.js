@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import './about-me.css'
-import portrait from '../images/portrait.jpg'
+import portrait from '../images/selfportrait.jpg'
 
 const AboutMe = (props) => {
   return (
@@ -16,8 +16,7 @@ const AboutMe = (props) => {
             <Fragment>
               <p className="thq-body-large thq-section-max-width">
                 <span>
-                  Hi there! I’m <b>Julia</b>, an engineer with a B.S. in <b>Computer Science</b> and minor in <b>Immersive Media</b> from the University of Southern California (USC). 
-                  I'm currently pursuing my Master's in Computer Science at USC and expect to graduate in 2026.
+                  Hi there! I’m <b>Julia Wang</b>, an engineer passionate about developing (TODO) that express (TODO) and evoke.
                 </span>
                 <br></br>
                 <br></br>
@@ -31,10 +30,10 @@ const AboutMe = (props) => {
                 <br></br>
                 <br></br>
                 <span>
-                  As a <b>Creative Technologist</b>, I’m passionate about developing interactive and immersive 
-                  experiences that are <b>fun</b> and evoke emotions capable of connecting and <b>bringing 
-                  people together</b>. I am always eager to explore new and innovative ways to use technology and <b>push the 
-                  boundaries</b> of media — whether it’s through experimenting with alternative controllers, virtual reality, 
+                  As a <b>Creative Technologist</b>, I’m fascinated by how interactive experiences 
+                  and experimental mediums are capable of connecting and <b>bringing people together</b>. 
+                  I love exploring new and innovative ways to use technology and <b>push the boundaries</b> 
+                  of media — whether it’s through tinkering with sensors, alternative controllers, virtual reality, 
                   or other cutting-edge mediums!
                 </span>
                 <br></br>
